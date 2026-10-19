@@ -1,0 +1,3 @@
+- agent.save_interval=1
+- agent.algorithm.num_mini_batches=1
+- agent.algorithm.sequence_micro_batch_envs=8

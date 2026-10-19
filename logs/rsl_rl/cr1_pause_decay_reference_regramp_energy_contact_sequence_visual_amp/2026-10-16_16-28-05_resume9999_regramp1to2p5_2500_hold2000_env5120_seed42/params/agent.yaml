@@ -1,0 +1,91 @@
+seed: 42
+device: cuda:0
+num_steps_per_env: 24
+max_iterations: 4500
+empirical_normalization: false
+obs_groups:
+  actor:
+  - transformer_vision_current_proprio
+  - transformer_vision_proprio_history
+  - transformer_vision_depth_history
+  - oracle_contact_goal
+  critic:
+  - critic
+clip_actions: 10.0
+save_interval: 500
+experiment_name: cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp
+run_name: resume9999_regramp1to2p5_2500_hold2000_env5120_seed42
+logger: tensorboard
+neptune_project: isaaclab
+wandb_project: isaaclab
+resume: true
+load_run: .*
+load_checkpoint: /home/zhangdawei/LadderMan/logs/rsl_rl/cr1_pause_decay_reference_contact_sequence_visual_amp/2026-10-13_11-03-28_reference_pause_decay_scratch_env5120_iter10000_seed42/model_9999.pt
+class_name: OnPolicyRunner
+policy:
+  class_name: ActorCritic
+  init_noise_std: 1.0
+  noise_std_type: scalar
+  state_dependent_std: false
+  actor_obs_normalization: false
+  critic_obs_normalization: false
+  actor_hidden_dims:
+  - 512
+  - 256
+  - 128
+  critic_hidden_dims:
+  - 512
+  - 256
+  - 128
+  activation: elu
+  use_oracle_contact_goal: true
+  use_contact_task: true
+  use_contact_task_phases: true
+  use_contact_task_body_goal: true
+algorithm:
+  class_name: ladder.rsl_rl.algorithms.end_to_end_visual_amp_ppo:EndToEndVisualAMPPPO
+  num_learning_epochs: 5
+  num_mini_batches: 4
+  learning_rate: 0.0003
+  schedule: adaptive
+  gamma: 0.99
+  lam: 0.95
+  entropy_coef: 0.005
+  desired_kl: 0.01
+  max_grad_norm: 1.0
+  value_loss_coef: 1.0
+  use_clipped_value_loss: true
+  clip_param: 0.2
+  normalize_advantage_per_mini_batch: false
+  rnd_cfg: null
+  symmetry_cfg: null
+  min_learning_rate: 1.0e-05
+  max_learning_rate: 0.001
+  sequence_micro_batch_envs: 64
+  amp_task_reward_weight: 1.0
+  amp_style_reward_weight: 0.2
+  amp_reward_warmup_updates: 0
+  amp_discriminator_learning_rate: 0.0001
+  amp_discriminator_batch_size: 4096
+  amp_discriminator_updates: 4
+  amp_replay_capacity: 131072
+  amp_gradient_penalty_coeff: 10.0
+  amp_logit_regularization_coeff: 0.0
+  amp_discriminator_weight_decay: 0.0001
+  amp_discriminator_max_grad_norm: 1.0
+  amp_anchor_hold_probability: 0.2
+  amp_balance_directions: true
+  amp_num_frames: 5
+  amp_history_stride: 2
+  regulation_reward_schedule:
+    ramp_updates: 2500
+    final_multiplier: 2.5
+    base_weights:
+      action_rate_l2: -0.1
+      action_second_difference_l2_lower: -0.05
+      joint_acc_l2_upper: -2.5e-07
+      joint_acc_l2_lower: -1.0e-06
+      joint_torque_l2: -1.0e-05
+use_end_to_end_visual_ppo: true
+clip_observations: null
+use_end_to_end_visual_amp_ppo: true

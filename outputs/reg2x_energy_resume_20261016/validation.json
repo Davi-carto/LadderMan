@@ -1,0 +1,13 @@
+{
+  "resume_checkpoint": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_pause_decay_reference_contact_sequence_visual_amp/2026-10-13_11-03-28_reference_pause_decay_scratch_env5120_iter10000_seed42/model_9999.pt",
+  "start_num_updates": 10000,
+  "end_num_updates": 10002,
+  "last_checkpoint_iteration": 10001,
+  "num_envs": 8,
+  "reset_step_smoke_steps": 24,
+  "training_updates": 2,
+  "reward_compute_checks": 72,
+  "mean_power_w": 485.5643310546875,
+  "mean_power_penalty_rate": -0.024278216063976288,
+  "log_dir": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_pause_decay_reference_reg2x_energy_contact_sequence_visual_amp/2026-10-16_16-11-56_smoke_resume9999_reg2x_energy_env8_iter2"
+}

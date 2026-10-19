@@ -1,0 +1,5 @@
+- agent.save_interval=500
+- agent.algorithm.validation_num_envs=2
+- agent.algorithm.diagnostic_snapshot_interval=1
+- agent.num_steps_per_env=8
+- agent.save_interval=1

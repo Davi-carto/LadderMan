@@ -1,0 +1,181 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "World"
+{
+    def Xform "Handrail_Stairs_4Step"
+    {
+        custom bool ladderman:isStaticObstacle = 1
+        custom string ladderman:assetType = "handrail_stairs"
+        custom string ladderman:coordinateHint = "Stairs ascend along +X, width is along Y, Z is up. Handrail is on +Y side."
+
+        def Cube "step_01" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            double size = 2
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.520, 0.540, 0.560)]
+            double3 xformOp:translate = (0.20000000, 0.00000000, 0.10000000)
+            quatf xformOp:orient = (1.00000000, 0.00000000, 0.00000000, 0.00000000)
+            double3 xformOp:scale = (0.20000000, 0.60000000, 0.10000000)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Cube "step_02" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            double size = 2
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.560, 0.580, 0.600)]
+            double3 xformOp:translate = (0.60000000, 0.00000000, 0.20000000)
+            quatf xformOp:orient = (1.00000000, 0.00000000, 0.00000000, 0.00000000)
+            double3 xformOp:scale = (0.20000000, 0.60000000, 0.20000000)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Cube "step_03" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            double size = 2
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.520, 0.540, 0.560)]
+            double3 xformOp:translate = (1.00000000, 0.00000000, 0.30000000)
+            quatf xformOp:orient = (1.00000000, 0.00000000, 0.00000000, 0.00000000)
+            double3 xformOp:scale = (0.20000000, 0.60000000, 0.30000000)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Cube "step_04" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            double size = 2
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.560, 0.580, 0.600)]
+            double3 xformOp:translate = (1.70000000, 0.00000000, 0.40000000)
+            quatf xformOp:orient = (1.00000000, 0.00000000, 0.00000000, 0.00000000)
+            double3 xformOp:scale = (0.50000000, 0.60000000, 0.40000000)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def Cylinder "post_01" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            double radius = 0.04000000
+            double height = 1.20000000
+            token axis = "Z"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.120, 0.120, 0.120)]
+            double3 xformOp:translate = (0.20000000, 0.64000000, 0.80000000)
+            quatf xformOp:orient = (1.00000000, 0.00000000, 0.00000000, 0.00000000)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+        }
+
+        def Cylinder "post_02" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            double radius = 0.04000000
+            double height = 1.20000000
+            token axis = "Z"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.120, 0.120, 0.120)]
+            double3 xformOp:translate = (0.60000000, 0.64000000, 1.00000000)
+            quatf xformOp:orient = (1.00000000, 0.00000000, 0.00000000, 0.00000000)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+        }
+
+        def Cylinder "post_03" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            double radius = 0.04000000
+            double height = 1.20000000
+            token axis = "Z"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.120, 0.120, 0.120)]
+            double3 xformOp:translate = (1.00000000, 0.64000000, 1.20000000)
+            quatf xformOp:orient = (1.00000000, 0.00000000, 0.00000000, 0.00000000)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+        }
+
+        def Cylinder "post_04" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            double radius = 0.04000000
+            double height = 1.20000000
+            token axis = "Z"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.120, 0.120, 0.120)]
+            double3 xformOp:translate = (1.40000000, 0.64000000, 1.40000000)
+            quatf xformOp:orient = (1.00000000, 0.00000000, 0.00000000, 0.00000000)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+        }
+
+        def Cylinder "top_handrail" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            double radius = 0.04000000
+            double height = 1.34164079
+            token axis = "Z"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.060, 0.060, 0.060)]
+            double3 xformOp:translate = (0.80000000, 0.64000000, 1.70000000)
+            quatf xformOp:orient = (0.85065081, 0.00000000, 0.52573111, 0.00000000)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+        }
+
+        def Cylinder "platform_post_01" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            double radius = 0.04000000
+            double height = 1.20000000
+            token axis = "Z"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.120, 0.120, 0.120)]
+            double3 xformOp:translate = (1.80000000, 0.64000000, 1.40000000)
+            quatf xformOp:orient = (1.00000000, 0.00000000, 0.00000000, 0.00000000)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+        }
+
+
+        def Cylinder "platform_post_03" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            double radius = 0.04000000
+            double height = 1.20000000
+            token axis = "Z"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.120, 0.120, 0.120)]
+            double3 xformOp:translate = (2.20000000, 0.64000000, 1.40000000)
+            quatf xformOp:orient = (1.00000000, 0.00000000, 0.00000000, 0.00000000)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+        }
+
+        def Cylinder "platform_handrail" (
+            prepend apiSchemas = ["PhysicsCollisionAPI"]
+        )
+        {
+            double radius = 0.04000000
+            double height = 0.80000000
+            token axis = "Z"
+            bool physics:collisionEnabled = 1
+            color3f[] primvars:displayColor = [(0.060, 0.060, 0.060)]
+            double3 xformOp:translate = (1.80000000, 0.64000000, 2.00000000)
+            quatf xformOp:orient = (0.70710678, 0.00000000, 0.70710678, 0.00000000)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+        }
+    }
+}

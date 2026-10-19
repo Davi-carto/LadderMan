@@ -1,0 +1,73 @@
+task: Ladder-Climb-CR1-ZDW0824-Visual-ContactTask-AMP-v0
+data_contract: cr1_end_to_end_visual_policy_only_proprio25x85_depth2x60x80_30hz_cnn16_32_64_prop128_depth128_gru256_v2_event_contact_task53_v1
+amp_contract:
+  algorithm: ssr_least_squares_amp_history_v2
+  num_frames: 5
+  history_stride: 2
+  normalization: ssr_rolling100_unbiased_var_epsilon1e-4_clip10
+  step_dt: 0.02
+  feature_layout: &id001 !!python/tuple
+  - !!python/tuple
+    - projected_gravity
+    - 3
+  - !!python/tuple
+    - anchor_linear_velocity_local
+    - 3
+  - !!python/tuple
+    - anchor_angular_velocity_local
+    - 3
+  - !!python/tuple
+    - joint_position
+    - 25
+  - !!python/tuple
+    - joint_velocity
+    - 25
+  - !!python/tuple
+    - limb_position_local
+    - 12
+  feature_dim: 71
+  task_reward_weight: 1.0
+  style_reward_weight: 0.2
+  reward_warmup_updates: 500
+  discriminator_batch_size: 32
+  discriminator_updates: 1
+  gradient_penalty_coeff: 10.0
+  logit_regularization_coeff: 0.0
+  anchor_hold_probability: 0.2
+  balance_directions: true
+motion_file: /home/zhangdawei/LadderMan/Ladder/motions/zdw0824_capture1/pitchminus3_yawminus4_xminus030/37_visual_up_down_stop_command/zdw0824_capture1_stage37_train_ready_middle_default100_zplus5mm_reset5mm_visual_up_down_stop_50hz_motion.npz
+motion_file_sha256: 0d1c09731e943f9d016f79980cca1b6936938f6883766882b1b233010666b170
+resume_checkpoint: null
+resume_checkpoint_sha256: null
+num_envs: 8
+seed: 42
+amp_style_feature_layout: *id001
+amp_expert_source: offline reference windows plus zero-velocity stable holds
+amp_task_condition: none; stable-support intent remains in actor/task reward
+reference_progression: event-driven support tasks; no reference clock
+actor_input_dim: 394
+policy_dt_s: 0.02
+depth_update_period_s: 0.03333333333333333
+source_sha256:
+  Ladder/scripts/rsl_rl/train.py: b5364846ab78e8b6fbff9450913b7408e0e4fc17ae7f0a1a4ec217ffd76f84f9
+  Ladder/source/ladder/ladder/rsl_rl/amp.py: c3bcc2fd2792c766ddc3180d2dd3ebb900051cc99eeb54e39ea7e6c017d3e19c
+  Ladder/source/ladder/ladder/utils/contact_task.py: d5d2e161e80f3e74bb6a85c090ce7e50e55bf939b9c10995d6e92e3cfb2e5812
+  Ladder/source/ladder/ladder/tasks/ladder_climb/config/cr1/contact_task_env_cfg.py: 8fa065a33dc3f09d9f635b4dae8ceb756ebf32face34abd298f57901f345762f
+  Ladder/source/ladder/ladder/rsl_rl/algorithms/end_to_end_visual_ppo.py: b97e1d829f63ad472b49ec717505dc6b877c6a144c63bfef12c363b97601c40a
+  Ladder/source/ladder/ladder/rsl_rl/algorithms/end_to_end_visual_amp_ppo.py: 69b99fe3a7e711b9cc2cf3e4c57ab9e2b173c69092db1abac09d485124c78880
+  Ladder/source/ladder/ladder/rsl_rl/modules/end_to_end_visual_actor.py: 296c01628a76529c940510b49315dffa7c62d800aa0efe27b67c0f1850304661
+  Ladder/source/ladder/ladder/rsl_rl/modules/transformer_vision.py: 0e183ebe87a4586cd040bfef4f3e7aeaed9266dd19569a5994a9fe92d38a8a2d
+  Ladder/source/ladder/ladder/rsl_rl/modules/transformer_vision_actor.py: 8fbd88413dba812ba8271cc828440c122985fc1b6c762d24f5da7d82bbe4a068
+  Ladder/source/ladder/ladder/rsl_rl/storage/transformer_vision_ppo_storage.py: 33d2d2ff85e1dec7a1d2ea152941dc027abb869319a0197de8e267b7d44e2bf1
+  Ladder/source/ladder/ladder/rsl_rl/runners/end_to_end_visual_wrapper.py: 05c7014cd51e95177654a1ef3b9a12371311108555976a8157bf09177bf496b9
+  Ladder/source/ladder/ladder/rsl_rl/runners/end_to_end_visual_amp_wrapper.py: 3ec555a2b23a6cb239b1c879df627a54515fabc2a38b41b17842bd3ca56c5618
+  Ladder/source/ladder/ladder/tasks/ladder_climb/config/cr1/wood_step_end_to_end_visual_ppo_env_cfg.py: 05531f7f3ae626735968d4de5c8bdc1c42660075f0602829753ed010d6816339
+  Ladder/source/ladder/ladder/tasks/ladder_climb/config/cr1/agents/end_to_end_visual_ppo_cfg.py: 41fd2d46aafd191637a54bf4e3f3fea862fbfa871e95eaf2d1b4f30f6d194867
+  Ladder/source/ladder/ladder/tasks/ladder_climb/mdp/__init__.py: 152aaea545a97799b1c26c396ff1ed944fd145119d80e1ee07ca766c8ff461e5
+  Ladder/source/ladder/ladder/tasks/ladder_climb/mdp/actions.py: b1b34fd620bab2142a276f21f643ef0b6d0ad5ad0b18a835fc42d6c6191589b0
+  Ladder/source/ladder/ladder/tasks/ladder_climb/mdp/commands.py: 77e5ec8dbfa77087e16b86d939f0156add784baea139c09dc07ab5cebc72c3a9
+  Ladder/source/ladder/ladder/tasks/ladder_climb/mdp/contact_task.py: 9027349ee4852cd640e401774cf4caa3c9fb5abf7b3a7d7a808aaacf4880c682
+  Ladder/source/ladder/ladder/tasks/ladder_climb/mdp/events.py: fbb77326d6aaa6bf24dd3dab5863bfc27ee14736188e7d10a179726f6fa99b33
+  Ladder/source/ladder/ladder/tasks/ladder_climb/mdp/observations.py: 37d2a0a8c4d749dcfba93bf1bb3dfa6e58be323a8cdd24fb8945f39ce0008804
+  Ladder/source/ladder/ladder/tasks/ladder_climb/mdp/rewards.py: 99b6369c759bb5ee8754cb1f6528fe285adfc0bc1664d5388ad06c3082590d22
+  Ladder/source/ladder/ladder/tasks/ladder_climb/mdp/terminations.py: 215688c3c7be83c136bb0e2989b958db3e620dcc0c3a759b13aefe0732dcbca1

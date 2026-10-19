@@ -1,0 +1,74 @@
+{
+  "checkpoint": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-30_10-41-54_contact_sequence_amp_timehistory_resetfix_8000_env5120/model_7999.pt",
+  "checkpoint_iteration": 7999,
+  "episodes": [
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 686.0,
+        "sequence_completion_fraction": 0.0,
+        "sequence_remaining_tasks": 22.0,
+        "sequence_start_task_index": 6.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 0.0,
+        "task_fall": 0.0,
+        "task_index": 6.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 150,
+      "motion_complete": false,
+      "reward": -3.0341672897338867,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 686
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 686.0,
+        "sequence_completion_fraction": 0.0,
+        "sequence_remaining_tasks": 22.0,
+        "sequence_start_task_index": 6.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 0.0,
+        "task_fall": 0.0,
+        "task_index": 6.0,
+        "task_timeout": 1.0
+      },
+      "env_id": 0,
+      "length": 275,
+      "motion_complete": false,
+      "reward": -0.7813853025436401,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 686
+    }
+  ],
+  "episodes_finished": 2,
+  "metrics": {
+    "recurrent_feature_abs": {
+      "count": 166400,
+      "max": 0.9999963045120239,
+      "mean": 0.6884822876178301,
+      "min": 6.083449989091605e-06
+    }
+  },
+  "motion_complete_episodes": 0,
+  "motion_complete_fraction": 0.0,
+  "purpose": "No-update deterministic playback of a complete TransformerVision PPO checkpoint.",
+  "sequence_complete_episodes": 0,
+  "task_success_episodes": 0,
+  "total_control_steps": 650,
+  "total_transitions": 650
+}

@@ -1,0 +1,1259 @@
+{
+  "metadata": {
+    "frames": [
+      373,
+      514,
+      686,
+      824,
+      996,
+      1142,
+      408,
+      562,
+      727,
+      873,
+      1038,
+      1195
+    ],
+    "task": "Ladder-Climb-CR1-ZDW0824-Visual-ContactSequence-Phased-BodyGoal-FootSafety-Reference-PauseDecay-AMP-v0",
+    "dt": 0.02,
+    "checkpoint": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_pause_decay_reference_contact_sequence_visual_amp/2026-10-13_11-03-28_reference_pause_decay_scratch_env5120_iter10000_seed42/model_3500.pt",
+    "checkpoint_sha256": "d5227e5e76324e4bcddf3811e7b2389d65a356e5b12447c7e16ad5bc81c9a200",
+    "scope": "six ascent anchor fixtures and six mid-swing controls; not iid success rates",
+    "seed": 42,
+    "randomization": false,
+    "steps_per_checkpoint": 600,
+    "timing": "before action + after RewardManager.compute, before auto reset; phase_after already updated",
+    "reward_names": [
+      "progress",
+      "return_progress",
+      "phase_contact_error",
+      "release_event",
+      "contact_event",
+      "support_loss",
+      "slip",
+      "wrong_contact",
+      "danger",
+      "completion",
+      "failure",
+      "action_rate_l2",
+      "joint_limit",
+      "joint_torque_l2",
+      "joint_acc_l2_upper",
+      "joint_acc_l2_lower",
+      "action_second_difference_l2_lower",
+      "body_progress",
+      "foot_front_contact",
+      "foot_underside_contact",
+      "foot_swing_pose",
+      "reference_body_lower",
+      "reference_body_upper",
+      "reference_joint_lower",
+      "reference_joint_upper",
+      "reference_swing_foot",
+      "reference_anchor_orientation"
+    ],
+    "reward_weights": [
+      4.0,
+      1.0,
+      -0.5,
+      0.2,
+      0.5,
+      -1.0,
+      -0.2,
+      -1.0,
+      -2.0,
+      5.0,
+      -2.0,
+      -0.1,
+      -10.0,
+      -1e-05,
+      -2.5e-07,
+      -1e-06,
+      -0.05,
+      0.5,
+      -3.0,
+      -3.0,
+      -1.0,
+      0.15,
+      0.15,
+      0.25,
+      0.15,
+      0.3,
+      0.1
+    ],
+    "body_names": [
+      "base_link",
+      "left_hip_x_link",
+      "left_knee_link",
+      "left_ankle_x_link",
+      "right_hip_x_link",
+      "right_knee_link",
+      "right_ankle_x_link",
+      "body",
+      "left_shoulder_x_link",
+      "left_elbow_link",
+      "left_wrist_x_link",
+      "left_sphere_hand_link",
+      "right_shoulder_x_link",
+      "right_elbow_link",
+      "right_wrist_x_link",
+      "right_sphere_hand_link"
+    ],
+    "robot_joint_names": [
+      "left_hip_y_joint",
+      "right_hip_y_joint",
+      "waist_z_joint",
+      "left_hip_x_joint",
+      "right_hip_x_joint",
+      "waist_x_joint",
+      "left_hip_z_joint",
+      "right_hip_z_joint",
+      "waist_y_joint",
+      "left_knee_joint",
+      "right_knee_joint",
+      "left_shoulder_y_joint",
+      "neck_z_joint",
+      "right_shoulder_y_joint",
+      "left_ankle_y_joint",
+      "right_ankle_y_joint",
+      "left_shoulder_x_joint",
+      "neck_y_joint",
+      "right_shoulder_x_joint",
+      "left_ankle_x_joint",
+      "right_ankle_x_joint",
+      "left_shoulder_z_joint",
+      "right_shoulder_z_joint",
+      "left_elbow_joint",
+      "right_elbow_joint"
+    ],
+    "source_files": [
+      "isaaclab/managers/reward_manager.py",
+      "isaaclab/envs/manager_based_rl_env.py",
+      "Ladder/scripts/rsl_rl/play_transformer_vision_ppo.py"
+    ],
+    "contact_threshold_n": 5.0,
+    "confirmation_steps": 4,
+    "rung_filter_paths": [
+      [
+        "/World/envs/env_.*/Ladder_step_01",
+        "/World/envs/env_.*/Ladder_step_02",
+        "/World/envs/env_.*/Ladder_step_03",
+        "/World/envs/env_.*/Ladder_step_04",
+        "/World/envs/env_.*/Ladder_step_05",
+        "/World/envs/env_.*/Ladder_step_06",
+        "/World/envs/env_.*/Ladder_step_07"
+      ],
+      [
+        "/World/envs/env_.*/Ladder_step_01",
+        "/World/envs/env_.*/Ladder_step_02",
+        "/World/envs/env_.*/Ladder_step_03",
+        "/World/envs/env_.*/Ladder_step_04",
+        "/World/envs/env_.*/Ladder_step_05",
+        "/World/envs/env_.*/Ladder_step_06",
+        "/World/envs/env_.*/Ladder_step_07"
+      ],
+      [
+        "/World/envs/env_.*/Ladder_step_01",
+        "/World/envs/env_.*/Ladder_step_02",
+        "/World/envs/env_.*/Ladder_step_03",
+        "/World/envs/env_.*/Ladder_step_04",
+        "/World/envs/env_.*/Ladder_step_05",
+        "/World/envs/env_.*/Ladder_step_06",
+        "/World/envs/env_.*/Ladder_step_07"
+      ],
+      [
+        "/World/envs/env_.*/Ladder_step_01",
+        "/World/envs/env_.*/Ladder_step_02",
+        "/World/envs/env_.*/Ladder_step_03",
+        "/World/envs/env_.*/Ladder_step_04",
+        "/World/envs/env_.*/Ladder_step_05",
+        "/World/envs/env_.*/Ladder_step_06",
+        "/World/envs/env_.*/Ladder_step_07"
+      ]
+    ],
+    "rung_sizes": [
+      [
+        0.64,
+        0.13,
+        0.03
+      ],
+      [
+        0.64,
+        0.13,
+        0.03
+      ],
+      [
+        0.64,
+        0.13,
+        0.03
+      ],
+      [
+        0.64,
+        0.13,
+        0.03
+      ],
+      [
+        0.64,
+        0.13,
+        0.03
+      ],
+      [
+        0.64,
+        0.13,
+        0.03
+      ],
+      [
+        0.64,
+        0.13,
+        0.03
+      ]
+    ],
+    "robot_asset": "/home/zhangdawei/LadderMan/assets/robots/CR1-B2-PRO-260608/CR1-B2-pro_free_wrist_fixed_spherehand.urdf",
+    "ground_world_z": -0.03
+  },
+  "checks": {
+    "steps": 600,
+    "envs": 12,
+    "finite_actions": true,
+    "finite_rewards": true,
+    "reward_sum_error_max": 9.5367431640625e-07,
+    "confirmed_airborne_still_RELEASE_samples": 0
+  },
+  "fixtures": [
+    {
+      "frame": 373,
+      "task": 2,
+      "limb": "LF",
+      "source": 0,
+      "target": 1,
+      "kind": "anchor",
+      "reset_valid_annotation": true,
+      "reset_max_penetration_m": 0.0,
+      "duration_s": 1.8,
+      "completed": false,
+      "timeout": false,
+      "fall": true,
+      "collision": false,
+      "phase_intervals": [
+        {
+          "phase": "PREPARE",
+          "start_s": 0.0,
+          "end_s": 0.24
+        },
+        {
+          "phase": "RELEASE",
+          "start_s": 0.24,
+          "end_s": 0.42
+        },
+        {
+          "phase": "MOVE",
+          "start_s": 0.42,
+          "end_s": 1.8
+        }
+      ],
+      "first_no_contact_after_settle_s": 0.38,
+      "first_MOVE_s": 0.44,
+      "first_ACQUIRE_s": null,
+      "first_target_contact_after_settle_s": null,
+      "source_contact_RELEASE_s": 0.12,
+      "source_force_during_stall_mean_N": 172.03550720214844,
+      "foot_lift_from_first_sample_max_m": 0.1299060881137848,
+      "foot_displacement_max_m": 0.3271571397781372,
+      "foot_tail_speed_mean_m_s": 0.19646400213241577,
+      "foot_tail_xyz_range_m": [
+        0.02789449691772461,
+        0.13930296897888184,
+        0.05800369381904602
+      ],
+      "goal_distance_initial_m": 0.4156273901462555,
+      "goal_distance_final_m": 0.20989550650119781,
+      "goal_distance_min_m": 0.17972156405448914,
+      "all_limb_goal_distance_tail_mean_m": [
+        0.025548221543431282,
+        0.03546725586056709,
+        0.194816455245018,
+        0.02972932904958725
+      ],
+      "all_limb_goal_distance_tail_min_m": [
+        0.022567108273506165,
+        0.0251456331461668,
+        0.17972156405448914,
+        0.029676394537091255
+      ],
+      "all_limb_goal_distance_tail_max_m": [
+        0.027683882042765617,
+        0.05272688716650009,
+        0.20989550650119781,
+        0.029818342998623848
+      ],
+      "completion_confirmation_max": 0,
+      "front_peak_N": 0.0,
+      "underside_peak_N": 0.0,
+      "first_front_over5N_s": null,
+      "first_underside_over5N_s": null,
+      "toe_up_swing_max_deg": -1.411590814590454,
+      "min_upright": 0.47032129764556885,
+      "first_fall_confirmation_active_s": 1.62,
+      "ref_clock_final": 424.0,
+      "ref_paid_rate_tail_mean": 0.5255042314529419,
+      "ref_raw_rate_tail_mean": 0.6032207012176514,
+      "final_actual_all_limbs": [
+        4,
+        5,
+        0,
+        0
+      ],
+      "final_phase_all_limbs": [
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "frame": 514,
+      "task": 4,
+      "limb": "RF",
+      "source": 0,
+      "target": 1,
+      "kind": "anchor",
+      "reset_valid_annotation": true,
+      "reset_max_penetration_m": 0.0,
+      "duration_s": 0.4,
+      "completed": false,
+      "timeout": false,
+      "fall": true,
+      "collision": false,
+      "phase_intervals": [
+        {
+          "phase": "PREPARE",
+          "start_s": 0.0,
+          "end_s": 0.34
+        },
+        {
+          "phase": "MOVE",
+          "start_s": 0.34,
+          "end_s": 0.4
+        }
+      ],
+      "first_no_contact_after_settle_s": 0.26,
+      "first_MOVE_s": 0.36,
+      "first_ACQUIRE_s": null,
+      "first_target_contact_after_settle_s": null,
+      "source_contact_RELEASE_s": 0.0,
+      "source_force_during_stall_mean_N": null,
+      "foot_lift_from_first_sample_max_m": 0.13704562187194824,
+      "foot_displacement_max_m": 0.16595210134983063,
+      "foot_tail_speed_mean_m_s": 0.7869442701339722,
+      "foot_tail_xyz_range_m": [
+        0.07531929016113281,
+        0.029298484325408936,
+        0.10375048220157623
+      ],
+      "goal_distance_initial_m": 0.41801369190216064,
+      "goal_distance_final_m": 0.2978830933570862,
+      "goal_distance_min_m": 0.29549434781074524,
+      "all_limb_goal_distance_tail_mean_m": [
+        0.06392040103673935,
+        0.07351787388324738,
+        0.0435759499669075,
+        0.3354029059410095
+      ],
+      "all_limb_goal_distance_tail_min_m": [
+        0.05968404933810234,
+        0.06704380363225937,
+        0.04351753741502762,
+        0.29549434781074524
+      ],
+      "all_limb_goal_distance_tail_max_m": [
+        0.06604300439357758,
+        0.07646775245666504,
+        0.04365847259759903,
+        0.3995136320590973
+      ],
+      "completion_confirmation_max": 0,
+      "front_peak_N": 0.0,
+      "underside_peak_N": 0.0,
+      "first_front_over5N_s": null,
+      "first_underside_over5N_s": null,
+      "toe_up_swing_max_deg": -18.266172409057617,
+      "min_upright": 0.35919541120529175,
+      "first_fall_confirmation_active_s": 0.22,
+      "ref_clock_final": 524.0,
+      "ref_paid_rate_tail_mean": 0.0,
+      "ref_raw_rate_tail_mean": 0.0,
+      "final_actual_all_limbs": [
+        5,
+        5,
+        1,
+        -1
+      ],
+      "final_phase_all_limbs": [
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "frame": 686,
+      "task": 6,
+      "limb": "LF",
+      "source": 1,
+      "target": 2,
+      "kind": "anchor",
+      "reset_valid_annotation": true,
+      "reset_max_penetration_m": 0.0,
+      "duration_s": 10.0,
+      "completed": false,
+      "timeout": true,
+      "fall": false,
+      "collision": false,
+      "phase_intervals": [
+        {
+          "phase": "PREPARE",
+          "start_s": 0.0,
+          "end_s": 0.24
+        },
+        {
+          "phase": "RELEASE",
+          "start_s": 0.24,
+          "end_s": 10.0
+        }
+      ],
+      "first_no_contact_after_settle_s": null,
+      "first_MOVE_s": null,
+      "first_ACQUIRE_s": null,
+      "first_target_contact_after_settle_s": null,
+      "source_contact_RELEASE_s": 9.74,
+      "source_force_during_stall_mean_N": 351.916015625,
+      "foot_lift_from_first_sample_max_m": 0.03466746211051941,
+      "foot_displacement_max_m": 0.044102586805820465,
+      "foot_tail_speed_mean_m_s": 0.0175000187009573,
+      "foot_tail_xyz_range_m": [
+        0.0015826225280761719,
+        0.000408172607421875,
+        0.0023963749408721924
+      ],
+      "goal_distance_initial_m": 0.28166118264198303,
+      "goal_distance_final_m": 0.2706669270992279,
+      "goal_distance_min_m": 0.25515216588974,
+      "all_limb_goal_distance_tail_mean_m": [
+        0.0413537360727787,
+        0.006439230404794216,
+        0.2716313600540161,
+        0.05696916952729225
+      ],
+      "all_limb_goal_distance_tail_min_m": [
+        0.04120030999183655,
+        0.006216742098331451,
+        0.2706259489059448,
+        0.05695253610610962
+      ],
+      "all_limb_goal_distance_tail_max_m": [
+        0.04142525792121887,
+        0.006699739955365658,
+        0.27232131361961365,
+        0.056993432343006134
+      ],
+      "completion_confirmation_max": 0,
+      "front_peak_N": 0.0,
+      "underside_peak_N": 0.0,
+      "first_front_over5N_s": null,
+      "first_underside_over5N_s": null,
+      "toe_up_swing_max_deg": 0.1423211246728897,
+      "min_upright": 0.7485671043395996,
+      "first_fall_confirmation_active_s": null,
+      "ref_clock_final": 721.0,
+      "ref_paid_rate_tail_mean": 0.0,
+      "ref_raw_rate_tail_mean": 0.5708490610122681,
+      "final_actual_all_limbs": [
+        5,
+        6,
+        1,
+        1
+      ],
+      "final_phase_all_limbs": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "frame": 824,
+      "task": 8,
+      "limb": "RF",
+      "source": 1,
+      "target": 2,
+      "kind": "anchor",
+      "reset_valid_annotation": true,
+      "reset_max_penetration_m": 0.0,
+      "duration_s": 0.46,
+      "completed": false,
+      "timeout": false,
+      "fall": true,
+      "collision": false,
+      "phase_intervals": [
+        {
+          "phase": "PREPARE",
+          "start_s": 0.0,
+          "end_s": 0.32
+        },
+        {
+          "phase": "MOVE",
+          "start_s": 0.32,
+          "end_s": 0.34
+        },
+        {
+          "phase": "ACQUIRE",
+          "start_s": 0.34,
+          "end_s": 0.46
+        }
+      ],
+      "first_no_contact_after_settle_s": 0.24,
+      "first_MOVE_s": 0.34,
+      "first_ACQUIRE_s": 0.36,
+      "first_target_contact_after_settle_s": 0.38,
+      "source_contact_RELEASE_s": 0.0,
+      "source_force_during_stall_mean_N": null,
+      "foot_lift_from_first_sample_max_m": 0.15617510676383972,
+      "foot_displacement_max_m": 0.1824546903371811,
+      "foot_tail_speed_mean_m_s": 0.670015275478363,
+      "foot_tail_xyz_range_m": [
+        0.07705366611480713,
+        0.01686573028564453,
+        0.11421120166778564
+      ],
+      "goal_distance_initial_m": 0.2866967022418976,
+      "goal_distance_final_m": 0.13826927542686462,
+      "goal_distance_min_m": 0.12785091996192932,
+      "all_limb_goal_distance_tail_mean_m": [
+        0.04152315482497215,
+        0.044693950563669205,
+        0.00948302261531353,
+        0.17010828852653503
+      ],
+      "all_limb_goal_distance_tail_min_m": [
+        0.012298447079956532,
+        0.04301372915506363,
+        0.009357080794870853,
+        0.12785091996192932
+      ],
+      "all_limb_goal_distance_tail_max_m": [
+        0.04949675872921944,
+        0.04791821911931038,
+        0.009799210354685783,
+        0.25389984250068665
+      ],
+      "completion_confirmation_max": 0,
+      "front_peak_N": 0.0,
+      "underside_peak_N": 38.558372497558594,
+      "first_front_over5N_s": null,
+      "first_underside_over5N_s": 0.38,
+      "toe_up_swing_max_deg": -19.62225341796875,
+      "min_upright": 0.09792959690093994,
+      "first_fall_confirmation_active_s": 0.28,
+      "ref_clock_final": 834.0,
+      "ref_paid_rate_tail_mean": 0.11716245114803314,
+      "ref_raw_rate_tail_mean": 0.11716245114803314,
+      "final_actual_all_limbs": [
+        6,
+        6,
+        2,
+        -1
+      ],
+      "final_phase_all_limbs": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "frame": 996,
+      "task": 10,
+      "limb": "LF",
+      "source": 2,
+      "target": 3,
+      "kind": "anchor",
+      "reset_valid_annotation": false,
+      "reset_max_penetration_m": 0.005696647334843874,
+      "duration_s": 10.0,
+      "completed": false,
+      "timeout": true,
+      "fall": false,
+      "collision": false,
+      "phase_intervals": [
+        {
+          "phase": "PREPARE",
+          "start_s": 0.0,
+          "end_s": 0.24
+        },
+        {
+          "phase": "RELEASE",
+          "start_s": 0.24,
+          "end_s": 10.0
+        }
+      ],
+      "first_no_contact_after_settle_s": null,
+      "first_MOVE_s": null,
+      "first_ACQUIRE_s": null,
+      "first_target_contact_after_settle_s": null,
+      "source_contact_RELEASE_s": 9.74,
+      "source_force_during_stall_mean_N": 347.5798034667969,
+      "foot_lift_from_first_sample_max_m": 0.0020772814750671387,
+      "foot_displacement_max_m": 0.015221950598061085,
+      "foot_tail_speed_mean_m_s": 0.020175160840153694,
+      "foot_tail_xyz_range_m": [
+        0.0007340908050537109,
+        6.386637687683105e-05,
+        0.0012199580669403076
+      ],
+      "goal_distance_initial_m": 0.2544914782047272,
+      "goal_distance_final_m": 0.2568574845790863,
+      "goal_distance_min_m": 0.2533781826496124,
+      "all_limb_goal_distance_tail_mean_m": [
+        0.03260226547718048,
+        0.018396932631731033,
+        0.25684428215026855,
+        0.010315610095858574
+      ],
+      "all_limb_goal_distance_tail_min_m": [
+        0.03191475197672844,
+        0.017594680190086365,
+        0.25645172595977783,
+        0.01030286680907011
+      ],
+      "all_limb_goal_distance_tail_max_m": [
+        0.033442381769418716,
+        0.019098268821835518,
+        0.25721219182014465,
+        0.01033464539796114
+      ],
+      "completion_confirmation_max": 0,
+      "front_peak_N": 0.0,
+      "underside_peak_N": 0.0,
+      "first_front_over5N_s": null,
+      "first_underside_over5N_s": null,
+      "toe_up_swing_max_deg": 0.013220700435340405,
+      "min_upright": 0.73641437292099,
+      "first_fall_confirmation_active_s": null,
+      "ref_clock_final": 1034.0,
+      "ref_paid_rate_tail_mean": 0.0,
+      "ref_raw_rate_tail_mean": 0.43479806184768677,
+      "final_actual_all_limbs": [
+        6,
+        7,
+        2,
+        2
+      ],
+      "final_phase_all_limbs": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "frame": 1142,
+      "task": 12,
+      "limb": "RF",
+      "source": 2,
+      "target": 3,
+      "kind": "anchor",
+      "reset_valid_annotation": false,
+      "reset_max_penetration_m": 0.008737769909203053,
+      "duration_s": 0.42,
+      "completed": false,
+      "timeout": false,
+      "fall": true,
+      "collision": false,
+      "phase_intervals": [
+        {
+          "phase": "PREPARE",
+          "start_s": 0.0,
+          "end_s": 0.32
+        },
+        {
+          "phase": "MOVE",
+          "start_s": 0.32,
+          "end_s": 0.34
+        },
+        {
+          "phase": "ACQUIRE",
+          "start_s": 0.34,
+          "end_s": 0.42
+        }
+      ],
+      "first_no_contact_after_settle_s": 0.24,
+      "first_MOVE_s": 0.34,
+      "first_ACQUIRE_s": 0.36,
+      "first_target_contact_after_settle_s": 0.36,
+      "source_contact_RELEASE_s": 0.0,
+      "source_force_during_stall_mean_N": null,
+      "foot_lift_from_first_sample_max_m": 0.14392098784446716,
+      "foot_displacement_max_m": 0.14890001714229584,
+      "foot_tail_speed_mean_m_s": 0.6685014367103577,
+      "foot_tail_xyz_range_m": [
+        0.026945829391479492,
+        0.01767587661743164,
+        0.10235321521759033
+      ],
+      "goal_distance_initial_m": 0.26125094294548035,
+      "goal_distance_final_m": 0.14688201248645782,
+      "goal_distance_min_m": 0.13097645342350006,
+      "all_limb_goal_distance_tail_mean_m": [
+        0.04677625000476837,
+        0.07250925898551941,
+        0.02912256121635437,
+        0.16513976454734802
+      ],
+      "all_limb_goal_distance_tail_min_m": [
+        0.03834277763962746,
+        0.06410382688045502,
+        0.02900988981127739,
+        0.13097645342350006
+      ],
+      "all_limb_goal_distance_tail_max_m": [
+        0.048276860266923904,
+        0.08349452912807465,
+        0.029343556612730026,
+        0.22516067326068878
+      ],
+      "completion_confirmation_max": 0,
+      "front_peak_N": 0.0,
+      "underside_peak_N": 162.32342529296875,
+      "first_front_over5N_s": null,
+      "first_underside_over5N_s": 0.36,
+      "toe_up_swing_max_deg": -13.723297119140625,
+      "min_upright": 0.04809361696243286,
+      "first_fall_confirmation_active_s": 0.24,
+      "ref_clock_final": 1149.0,
+      "ref_paid_rate_tail_mean": 0.04497300833463669,
+      "ref_raw_rate_tail_mean": 0.04497300833463669,
+      "final_actual_all_limbs": [
+        7,
+        7,
+        3,
+        -1
+      ],
+      "final_phase_all_limbs": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "frame": 408,
+      "task": 2,
+      "limb": "LF",
+      "source": 0,
+      "target": 1,
+      "kind": "mid_swing",
+      "reset_valid_annotation": true,
+      "reset_max_penetration_m": 0.0,
+      "duration_s": 0.3,
+      "completed": true,
+      "timeout": false,
+      "fall": false,
+      "collision": false,
+      "phase_intervals": [
+        {
+          "phase": "MOVE",
+          "start_s": 0.0,
+          "end_s": 0.18
+        },
+        {
+          "phase": "ACQUIRE",
+          "start_s": 0.18,
+          "end_s": 0.3
+        }
+      ],
+      "first_no_contact_after_settle_s": null,
+      "first_MOVE_s": 0.02,
+      "first_ACQUIRE_s": 0.2,
+      "first_target_contact_after_settle_s": 0.22,
+      "source_contact_RELEASE_s": 0.0,
+      "source_force_during_stall_mean_N": null,
+      "foot_lift_from_first_sample_max_m": 0.0,
+      "foot_displacement_max_m": 0.26153960824012756,
+      "foot_tail_speed_mean_m_s": 0.1476507931947708,
+      "foot_tail_xyz_range_m": [
+        0.0056803226470947266,
+        0.0012385845184326172,
+        0.0118180513381958
+      ],
+      "goal_distance_initial_m": 0.31565824151039124,
+      "goal_distance_final_m": 0.11886756867170334,
+      "goal_distance_min_m": 0.11512450128793716,
+      "all_limb_goal_distance_tail_mean_m": [
+        0.012037997134029865,
+        0.009817701764404774,
+        0.11891642957925797,
+        0.030245017260313034
+      ],
+      "all_limb_goal_distance_tail_min_m": [
+        0.008385561406612396,
+        0.008243037387728691,
+        0.11792280524969101,
+        0.030220072716474533
+      ],
+      "all_limb_goal_distance_tail_max_m": [
+        0.016637448221445084,
+        0.011794510297477245,
+        0.11937041580677032,
+        0.030303454026579857
+      ],
+      "completion_confirmation_max": 4,
+      "front_peak_N": 0.0,
+      "underside_peak_N": 0.0,
+      "first_front_over5N_s": null,
+      "first_underside_over5N_s": null,
+      "toe_up_swing_max_deg": 52.75719451904297,
+      "min_upright": 0.5583454370498657,
+      "first_fall_confirmation_active_s": null,
+      "ref_clock_final": 423.0,
+      "ref_paid_rate_tail_mean": 0.46080055832862854,
+      "ref_raw_rate_tail_mean": 0.46080055832862854,
+      "final_actual_all_limbs": [
+        4,
+        5,
+        1,
+        0
+      ],
+      "final_phase_all_limbs": [
+        0,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "frame": 562,
+      "task": 4,
+      "limb": "RF",
+      "source": 0,
+      "target": 1,
+      "kind": "mid_swing",
+      "reset_valid_annotation": true,
+      "reset_max_penetration_m": 0.0,
+      "duration_s": 0.32,
+      "completed": true,
+      "timeout": false,
+      "fall": false,
+      "collision": false,
+      "phase_intervals": [
+        {
+          "phase": "MOVE",
+          "start_s": 0.0,
+          "end_s": 0.18
+        },
+        {
+          "phase": "ACQUIRE",
+          "start_s": 0.18,
+          "end_s": 0.32
+        }
+      ],
+      "first_no_contact_after_settle_s": 0.22,
+      "first_MOVE_s": 0.02,
+      "first_ACQUIRE_s": 0.2,
+      "first_target_contact_after_settle_s": 0.24,
+      "source_contact_RELEASE_s": 0.0,
+      "source_force_during_stall_mean_N": null,
+      "foot_lift_from_first_sample_max_m": 0.0,
+      "foot_displacement_max_m": 0.21094325184822083,
+      "foot_tail_speed_mean_m_s": 0.26262548565864563,
+      "foot_tail_xyz_range_m": [
+        0.01165008544921875,
+        0.007614251226186752,
+        0.004954800009727478
+      ],
+      "goal_distance_initial_m": 0.28642264008522034,
+      "goal_distance_final_m": 0.05164565145969391,
+      "goal_distance_min_m": 0.05163957551121712,
+      "all_limb_goal_distance_tail_mean_m": [
+        0.04917806386947632,
+        0.028199074789881706,
+        0.046352505683898926,
+        0.052344173192977905
+      ],
+      "all_limb_goal_distance_tail_min_m": [
+        0.04880433902144432,
+        0.027388131245970726,
+        0.046248387545347214,
+        0.05163957551121712
+      ],
+      "all_limb_goal_distance_tail_max_m": [
+        0.049500901252031326,
+        0.02923312596976757,
+        0.04644946753978729,
+        0.05582180619239807
+      ],
+      "completion_confirmation_max": 4,
+      "front_peak_N": 0.0,
+      "underside_peak_N": 0.0,
+      "first_front_over5N_s": null,
+      "first_underside_over5N_s": null,
+      "toe_up_swing_max_deg": 23.404775619506836,
+      "min_upright": 0.615970253944397,
+      "first_fall_confirmation_active_s": null,
+      "ref_clock_final": 577.0,
+      "ref_paid_rate_tail_mean": 0.3056514263153076,
+      "ref_raw_rate_tail_mean": 0.3056514263153076,
+      "final_actual_all_limbs": [
+        5,
+        5,
+        1,
+        1
+      ],
+      "final_phase_all_limbs": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "frame": 727,
+      "task": 6,
+      "limb": "LF",
+      "source": 1,
+      "target": 2,
+      "kind": "mid_swing",
+      "reset_valid_annotation": true,
+      "reset_max_penetration_m": 0.0,
+      "duration_s": 0.82,
+      "completed": false,
+      "timeout": false,
+      "fall": false,
+      "collision": true,
+      "phase_intervals": [
+        {
+          "phase": "MOVE",
+          "start_s": 0.0,
+          "end_s": 0.18
+        },
+        {
+          "phase": "ACQUIRE",
+          "start_s": 0.18,
+          "end_s": 0.82
+        }
+      ],
+      "first_no_contact_after_settle_s": 0.3,
+      "first_MOVE_s": 0.02,
+      "first_ACQUIRE_s": 0.2,
+      "first_target_contact_after_settle_s": 0.22,
+      "source_contact_RELEASE_s": 0.0,
+      "source_force_during_stall_mean_N": null,
+      "foot_lift_from_first_sample_max_m": 0.0,
+      "foot_displacement_max_m": 0.26279228925704956,
+      "foot_tail_speed_mean_m_s": 0.35628294944763184,
+      "foot_tail_xyz_range_m": [
+        0.09928739070892334,
+        0.03311920166015625,
+        0.11688143014907837
+      ],
+      "goal_distance_initial_m": 0.20956234633922577,
+      "goal_distance_final_m": 0.19655263423919678,
+      "goal_distance_min_m": 0.1625761240720749,
+      "all_limb_goal_distance_tail_mean_m": [
+        0.043134912848472595,
+        0.02908407151699066,
+        0.1878320872783661,
+        0.047584179788827896
+      ],
+      "all_limb_goal_distance_tail_min_m": [
+        0.03480309993028641,
+        0.020791465416550636,
+        0.16985943913459778,
+        0.046872418373823166
+      ],
+      "all_limb_goal_distance_tail_max_m": [
+        0.0480312779545784,
+        0.039643727242946625,
+        0.20278018712997437,
+        0.047914572060108185
+      ],
+      "completion_confirmation_max": 0,
+      "front_peak_N": 123.98902130126953,
+      "underside_peak_N": 0.0,
+      "first_front_over5N_s": 0.22,
+      "first_underside_over5N_s": null,
+      "toe_up_swing_max_deg": 17.649965286254883,
+      "min_upright": 0.3979222774505615,
+      "first_fall_confirmation_active_s": 0.76,
+      "ref_clock_final": 745.0,
+      "ref_paid_rate_tail_mean": 0.11846194416284561,
+      "ref_raw_rate_tail_mean": 0.11846194416284561,
+      "final_actual_all_limbs": [
+        5,
+        6,
+        -1,
+        1
+      ],
+      "final_phase_all_limbs": [
+        0,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "frame": 873,
+      "task": 8,
+      "limb": "RF",
+      "source": 1,
+      "target": 2,
+      "kind": "mid_swing",
+      "reset_valid_annotation": true,
+      "reset_max_penetration_m": 0.0,
+      "duration_s": 0.26,
+      "completed": true,
+      "timeout": false,
+      "fall": false,
+      "collision": false,
+      "phase_intervals": [
+        {
+          "phase": "MOVE",
+          "start_s": 0.0,
+          "end_s": 0.18
+        },
+        {
+          "phase": "ACQUIRE",
+          "start_s": 0.18,
+          "end_s": 0.26
+        }
+      ],
+      "first_no_contact_after_settle_s": null,
+      "first_MOVE_s": 0.02,
+      "first_ACQUIRE_s": 0.2,
+      "first_target_contact_after_settle_s": 0.22,
+      "source_contact_RELEASE_s": 0.0,
+      "source_force_during_stall_mean_N": null,
+      "foot_lift_from_first_sample_max_m": 0.0,
+      "foot_displacement_max_m": 0.17339329421520233,
+      "foot_tail_speed_mean_m_s": 0.07665204256772995,
+      "foot_tail_xyz_range_m": [
+        0.002514362335205078,
+        0.0003428459167480469,
+        0.00466156005859375
+      ],
+      "goal_distance_initial_m": 0.2581765949726105,
+      "goal_distance_final_m": 0.055042847990989685,
+      "goal_distance_min_m": 0.05482490733265877,
+      "all_limb_goal_distance_tail_mean_m": [
+        0.03504951298236847,
+        0.03781440854072571,
+        0.012973926961421967,
+        0.054959047585725784
+      ],
+      "all_limb_goal_distance_tail_min_m": [
+        0.03473571315407753,
+        0.037037961184978485,
+        0.012966419570147991,
+        0.05482490733265877
+      ],
+      "all_limb_goal_distance_tail_max_m": [
+        0.035380762070417404,
+        0.038521647453308105,
+        0.012984007596969604,
+        0.055042847990989685
+      ],
+      "completion_confirmation_max": 4,
+      "front_peak_N": 0.0,
+      "underside_peak_N": 0.0,
+      "first_front_over5N_s": null,
+      "first_underside_over5N_s": null,
+      "toe_up_swing_max_deg": 24.711475372314453,
+      "min_upright": 0.6509544849395752,
+      "first_fall_confirmation_active_s": null,
+      "ref_clock_final": 885.0,
+      "ref_paid_rate_tail_mean": 0.627683162689209,
+      "ref_raw_rate_tail_mean": 0.627683162689209,
+      "final_actual_all_limbs": [
+        6,
+        6,
+        2,
+        2
+      ],
+      "final_phase_all_limbs": [
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "frame": 1038,
+      "task": 10,
+      "limb": "LF",
+      "source": 2,
+      "target": 3,
+      "kind": "mid_swing",
+      "reset_valid_annotation": true,
+      "reset_max_penetration_m": 0.0,
+      "duration_s": 0.26,
+      "completed": true,
+      "timeout": false,
+      "fall": false,
+      "collision": false,
+      "phase_intervals": [
+        {
+          "phase": "MOVE",
+          "start_s": 0.0,
+          "end_s": 0.18
+        },
+        {
+          "phase": "ACQUIRE",
+          "start_s": 0.18,
+          "end_s": 0.26
+        }
+      ],
+      "first_no_contact_after_settle_s": null,
+      "first_MOVE_s": 0.02,
+      "first_ACQUIRE_s": 0.2,
+      "first_target_contact_after_settle_s": 0.22,
+      "source_contact_RELEASE_s": 0.0,
+      "source_force_during_stall_mean_N": null,
+      "foot_lift_from_first_sample_max_m": 0.0,
+      "foot_displacement_max_m": 0.12460677325725555,
+      "foot_tail_speed_mean_m_s": 0.06962905079126358,
+      "foot_tail_xyz_range_m": [
+        0.0010237693786621094,
+        7.137656211853027e-06,
+        0.00439685583114624
+      ],
+      "goal_distance_initial_m": 0.20460329949855804,
+      "goal_distance_final_m": 0.09014876186847687,
+      "goal_distance_min_m": 0.08992286771535873,
+      "all_limb_goal_distance_tail_mean_m": [
+        0.03771565482020378,
+        0.03629542514681816,
+        0.09002891927957535,
+        0.012540261261165142
+      ],
+      "all_limb_goal_distance_tail_min_m": [
+        0.036730021238327026,
+        0.03617498278617859,
+        0.08992286771535873,
+        0.01249828189611435
+      ],
+      "all_limb_goal_distance_tail_max_m": [
+        0.03868084400892258,
+        0.036481622606515884,
+        0.09014876186847687,
+        0.012566589750349522
+      ],
+      "completion_confirmation_max": 4,
+      "front_peak_N": 0.0,
+      "underside_peak_N": 0.0,
+      "first_front_over5N_s": null,
+      "first_underside_over5N_s": null,
+      "toe_up_swing_max_deg": 23.214326858520508,
+      "min_upright": 0.7326123714447021,
+      "first_fall_confirmation_active_s": null,
+      "ref_clock_final": 1049.0,
+      "ref_paid_rate_tail_mean": 0.45576906204223633,
+      "ref_raw_rate_tail_mean": 0.45576906204223633,
+      "final_actual_all_limbs": [
+        6,
+        7,
+        3,
+        2
+      ],
+      "final_phase_all_limbs": [
+        0,
+        0,
+        3,
+        0
+      ]
+    },
+    {
+      "frame": 1195,
+      "task": 12,
+      "limb": "RF",
+      "source": 2,
+      "target": 3,
+      "kind": "mid_swing",
+      "reset_valid_annotation": false,
+      "reset_max_penetration_m": 0.008351203054189682,
+      "duration_s": 10.0,
+      "completed": false,
+      "timeout": true,
+      "fall": false,
+      "collision": false,
+      "phase_intervals": [
+        {
+          "phase": "MOVE",
+          "start_s": 0.0,
+          "end_s": 0.18
+        },
+        {
+          "phase": "ACQUIRE",
+          "start_s": 0.18,
+          "end_s": 10.0
+        }
+      ],
+      "first_no_contact_after_settle_s": null,
+      "first_MOVE_s": 0.02,
+      "first_ACQUIRE_s": 0.2,
+      "first_target_contact_after_settle_s": 0.22,
+      "source_contact_RELEASE_s": 0.0,
+      "source_force_during_stall_mean_N": null,
+      "foot_lift_from_first_sample_max_m": 0.0,
+      "foot_displacement_max_m": 0.19799306988716125,
+      "foot_tail_speed_mean_m_s": 0.021155256778001785,
+      "foot_tail_xyz_range_m": [
+        0.0007727146148681641,
+        0.0017123222351074219,
+        0.0012407302856445312
+      ],
+      "goal_distance_initial_m": 0.21777325868606567,
+      "goal_distance_final_m": 0.06217322126030922,
+      "goal_distance_min_m": 0.05553057789802551,
+      "all_limb_goal_distance_tail_mean_m": [
+        0.05879344791173935,
+        0.04904590919613838,
+        0.03361337259411812,
+        0.06217397376894951
+      ],
+      "all_limb_goal_distance_tail_min_m": [
+        0.05862445756793022,
+        0.04878096282482147,
+        0.03360980749130249,
+        0.062168221920728683
+      ],
+      "all_limb_goal_distance_tail_max_m": [
+        0.059026315808296204,
+        0.04939544200897217,
+        0.03361884132027626,
+        0.06217997521162033
+      ],
+      "completion_confirmation_max": 0,
+      "front_peak_N": 0.0,
+      "underside_peak_N": 0.0,
+      "first_front_over5N_s": null,
+      "first_underside_over5N_s": null,
+      "toe_up_swing_max_deg": 28.590482711791992,
+      "min_upright": 0.6252407431602478,
+      "first_fall_confirmation_active_s": null,
+      "ref_clock_final": 1237.0,
+      "ref_paid_rate_tail_mean": 0.0,
+      "ref_raw_rate_tail_mean": 0.6093122363090515,
+      "final_actual_all_limbs": [
+        7,
+        7,
+        3,
+        3
+      ],
+      "final_phase_all_limbs": [
+        0,
+        0,
+        0,
+        3
+      ]
+    }
+  ]
+}

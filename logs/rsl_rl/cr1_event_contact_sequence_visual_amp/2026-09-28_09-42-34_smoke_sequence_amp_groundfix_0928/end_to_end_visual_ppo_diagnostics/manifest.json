@@ -1,0 +1,33 @@
+{
+  "data_contract": "cr1_end_to_end_visual_policy_only_proprio25x85_depth2x60x80_30hz_cnn16_32_64_prop128_depth128_gru256_v2_event_contact_task53_v1",
+  "training_contract": {
+    "algorithm": "end_to_end_visual_policy_only_ppo_v2",
+    "precision": "float32",
+    "num_steps_per_env": 24,
+    "num_learning_epochs": 1,
+    "num_mini_batches": 1,
+    "clip_param": 0.2,
+    "gamma": 0.99,
+    "lam": 0.95,
+    "value_loss_coef": 1.0,
+    "entropy_coef": 0.005,
+    "min_learning_rate": 1e-05,
+    "max_learning_rate": 0.001,
+    "max_grad_norm": 1.0,
+    "use_clipped_value_loss": true,
+    "schedule": "adaptive",
+    "desired_kl": 0.01
+  },
+  "policy_network": "EndToEndVisualActor(\n  (encoder): EndToEndVisualEncoder(\n    (state_encoder): Sequential(\n      (0): Linear(in_features=2125, out_features=256, bias=True)\n      (1): ELU(alpha=1.0)\n      (2): Linear(in_features=256, out_features=128, bias=True)\n    )\n    (depth_encoder): Sequential(\n      (0): Conv2d(2, 16, kernel_size=(5, 5), stride=(2, 2), padding=(2, 2))\n      (1): ELU(alpha=1.0)\n      (2): Conv2d(16, 32, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))\n      (3): ELU(alpha=1.0)\n      (4): Conv2d(32, 64, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))\n      (5): ELU(alpha=1.0)\n    )\n    (depth_pool): AdaptiveAvgPool2d(output_size=(2, 4))\n    (depth_projection): Sequential(\n      (0): Linear(in_features=512, out_features=128, bias=True)\n      (1): ELU(alpha=1.0)\n    )\n    (gru): GRU(256, 256)\n  )\n  (action_mlp): Sequential(\n    (0): Linear(in_features=394, out_features=512, bias=True)\n    (1): ELU(alpha=1.0)\n    (2): Linear(in_features=512, out_features=256, bias=True)\n    (3): ELU(alpha=1.0)\n    (4): Linear(in_features=256, out_features=128, bias=True)\n    (5): ELU(alpha=1.0)\n    (6): Linear(in_features=128, out_features=25, bias=True)\n  )\n)",
+  "critic_network": "Sequential(\n  (0): Linear(in_features=124, out_features=512, bias=True)\n  (1): ELU(alpha=1.0)\n  (2): Linear(in_features=512, out_features=256, bias=True)\n  (3): ELU(alpha=1.0)\n  (4): Linear(in_features=256, out_features=128, bias=True)\n  (5): ELU(alpha=1.0)\n  (6): Linear(in_features=128, out_features=1, bias=True)\n)",
+  "rollout": "100% current policy; no teacher or imitation labels",
+  "actor_contains_reference": true,
+  "actor_input_layout": "current_proprio85, gru256, target12, limb_position12, limb_velocity12, actual_contact4, active4, desired4, maintain4, direction1",
+  "oracle_semantics": "next-stable target positions in the robot anchor frame plus measured, current expected, and next-stable supports; each limb support is encoded as contact, ground, and next-anchor-relative rung divided by rung count",
+  "gradient_probe": "first sequence microbatch, before updates; PPO surrogate only",
+  "snapshot": "every 500 updates, first up to 16 envs, complete rollout with before-update weights",
+  "hidden_reset": "done[t] resets before t+1; GRU every policy step; camera cached at 30 Hz",
+  "optimizer": "one Adam over the policy-only visual encoder, actor, and privileged critic",
+  "reconstruction_supervision": false,
+  "action_safety_clip": 10.0
+}

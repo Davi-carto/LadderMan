@@ -1,0 +1,2570 @@
+{
+  "checkpoint": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-49-56_allframe_raw_support_ids_amp_8000_env5120/model_7000.pt",
+  "checkpoint_iteration": 7000,
+  "episodes": [
+    {
+      "causes": {
+        "task_failure": false,
+        "task_success": true,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 3007.0,
+        "sequence_completion_fraction": 1.0,
+        "sequence_remaining_tasks": 0.0,
+        "sequence_start_task_index": 27.0,
+        "sequence_success": 1.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 27.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 5,
+      "length": 13,
+      "motion_complete": false,
+      "reward": 5.1604814529418945,
+      "single_task_episode": false,
+      "task_success": true,
+      "terminal_reference_frame": 3007
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 914.0,
+        "sequence_completion_fraction": 0.05000000074505806,
+        "sequence_remaining_tasks": 19.0,
+        "sequence_start_task_index": 8.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 9.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 7,
+      "length": 48,
+      "motion_complete": false,
+      "reward": 2.2089765071868896,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 916
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 532.0,
+        "sequence_completion_fraction": 0.0416666679084301,
+        "sequence_remaining_tasks": 23.0,
+        "sequence_start_task_index": 4.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 5.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 50,
+      "motion_complete": false,
+      "reward": 2.8566770553588867,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 607
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 470.0,
+        "sequence_completion_fraction": 0.03999999910593033,
+        "sequence_remaining_tasks": 24.0,
+        "sequence_start_task_index": 3.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 4.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 3,
+      "length": 52,
+      "motion_complete": false,
+      "reward": 2.797034502029419,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 514
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 880.0,
+        "sequence_completion_fraction": 0.05000000074505806,
+        "sequence_remaining_tasks": 19.0,
+        "sequence_start_task_index": 8.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 9.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 58,
+      "motion_complete": false,
+      "reward": 2.4202539920806885,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 916
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1126.0,
+        "sequence_completion_fraction": 0.05882352963089943,
+        "sequence_remaining_tasks": 16.0,
+        "sequence_start_task_index": 11.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 12.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 5,
+      "length": 48,
+      "motion_complete": false,
+      "reward": 2.526167631149292,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1142
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 437.0,
+        "sequence_completion_fraction": 0.03846153989434242,
+        "sequence_remaining_tasks": 25.0,
+        "sequence_start_task_index": 2.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 3.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 6,
+      "length": 64,
+      "motion_complete": false,
+      "reward": 1.7293658256530762,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 456
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2525.0,
+        "sequence_completion_fraction": 0.20000000298023224,
+        "sequence_remaining_tasks": 4.0,
+        "sequence_start_task_index": 23.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 24.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 75,
+      "motion_complete": false,
+      "reward": -1.139776349067688,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2597
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 91.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 4,
+      "length": 80,
+      "motion_complete": false,
+      "reward": 3.2785749435424805,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 273.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 37,
+      "motion_complete": false,
+      "reward": 3.030529022216797,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1547.0,
+        "sequence_completion_fraction": 0.0714285746216774,
+        "sequence_remaining_tasks": 13.0,
+        "sequence_start_task_index": 14.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 15.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 7,
+      "length": 50,
+      "motion_complete": false,
+      "reward": 3.159188985824585,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1837
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2475.0,
+        "sequence_completion_fraction": 0.1666666716337204,
+        "sequence_remaining_tasks": 5.0,
+        "sequence_start_task_index": 22.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 23.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 47,
+      "motion_complete": false,
+      "reward": 3.06571888923645,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2510
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1502.0,
+        "sequence_completion_fraction": 0.0714285746216774,
+        "sequence_remaining_tasks": 13.0,
+        "sequence_start_task_index": 14.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 15.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 5,
+      "length": 49,
+      "motion_complete": false,
+      "reward": 2.9631600379943848,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1837
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1350.0,
+        "sequence_completion_fraction": 0.06666667014360428,
+        "sequence_remaining_tasks": 14.0,
+        "sequence_start_task_index": 13.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 14.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 3,
+      "length": 60,
+      "motion_complete": false,
+      "reward": 3.458531618118286,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1500
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1608.0,
+        "sequence_completion_fraction": 0.0714285746216774,
+        "sequence_remaining_tasks": 13.0,
+        "sequence_start_task_index": 14.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 15.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 6,
+      "length": 49,
+      "motion_complete": false,
+      "reward": 3.184943437576294,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1837
+    },
+    {
+      "causes": {
+        "task_failure": false,
+        "task_success": true,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2852.0,
+        "sequence_completion_fraction": 1.0,
+        "sequence_remaining_tasks": 0.0,
+        "sequence_start_task_index": 27.0,
+        "sequence_success": 1.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 27.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 13,
+      "motion_complete": false,
+      "reward": 5.147127151489258,
+      "single_task_episode": false,
+      "task_success": true,
+      "terminal_reference_frame": 2852
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1662.0,
+        "sequence_completion_fraction": 0.0714285746216774,
+        "sequence_remaining_tasks": 13.0,
+        "sequence_start_task_index": 14.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 15.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 49,
+      "motion_complete": false,
+      "reward": 3.2956364154815674,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1837
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2643.0,
+        "sequence_completion_fraction": 0.25,
+        "sequence_remaining_tasks": 3.0,
+        "sequence_start_task_index": 24.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 25.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 7,
+      "length": 46,
+      "motion_complete": false,
+      "reward": 3.0323708057403564,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2664
+    },
+    {
+      "causes": {
+        "task_failure": false,
+        "task_success": true,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2893.0,
+        "sequence_completion_fraction": 1.0,
+        "sequence_remaining_tasks": 0.0,
+        "sequence_start_task_index": 27.0,
+        "sequence_success": 1.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 27.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 7,
+      "length": 13,
+      "motion_complete": false,
+      "reward": 5.175809383392334,
+      "single_task_episode": false,
+      "task_success": true,
+      "terminal_reference_frame": 2893
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2614.0,
+        "sequence_completion_fraction": 0.25,
+        "sequence_remaining_tasks": 3.0,
+        "sequence_start_task_index": 24.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 25.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 3,
+      "length": 49,
+      "motion_complete": false,
+      "reward": 3.3167243003845215,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2664
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 982.0,
+        "sequence_completion_fraction": 0.05263157933950424,
+        "sequence_remaining_tasks": 18.0,
+        "sequence_start_task_index": 9.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 10.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 5,
+      "length": 51,
+      "motion_complete": false,
+      "reward": 0.6657536029815674,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 996
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 852.0,
+        "sequence_completion_fraction": 0.05000000074505806,
+        "sequence_remaining_tasks": 19.0,
+        "sequence_start_task_index": 8.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 9.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 6,
+      "length": 48,
+      "motion_complete": false,
+      "reward": 2.3614115715026855,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 916
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 446.0,
+        "sequence_completion_fraction": 0.03846153989434242,
+        "sequence_remaining_tasks": 25.0,
+        "sequence_start_task_index": 2.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 3.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 92,
+      "motion_complete": false,
+      "reward": -0.9053226709365845,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 456
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2414.0,
+        "sequence_completion_fraction": 0.1428571492433548,
+        "sequence_remaining_tasks": 6.0,
+        "sequence_start_task_index": 21.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 22.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 4,
+      "length": 88,
+      "motion_complete": false,
+      "reward": 2.594205379486084,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2434
+    },
+    {
+      "causes": {
+        "task_failure": false,
+        "task_success": true,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2904.0,
+        "sequence_completion_fraction": 1.0,
+        "sequence_remaining_tasks": 0.0,
+        "sequence_start_task_index": 27.0,
+        "sequence_success": 1.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 27.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 6,
+      "length": 13,
+      "motion_complete": false,
+      "reward": 5.1628804206848145,
+      "single_task_episode": false,
+      "task_success": true,
+      "terminal_reference_frame": 2904
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1416.0,
+        "sequence_completion_fraction": 0.06666667014360428,
+        "sequence_remaining_tasks": 14.0,
+        "sequence_start_task_index": 13.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 14.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 61,
+      "motion_complete": false,
+      "reward": 3.222749948501587,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1500
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2284.0,
+        "sequence_completion_fraction": 0.1111111119389534,
+        "sequence_remaining_tasks": 8.0,
+        "sequence_start_task_index": 19.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 20.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 7,
+      "length": 51,
+      "motion_complete": false,
+      "reward": 1.8981318473815918,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2287
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1475.0,
+        "sequence_completion_fraction": 0.06666667014360428,
+        "sequence_remaining_tasks": 14.0,
+        "sequence_start_task_index": 13.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 14.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 3,
+      "length": 50,
+      "motion_complete": false,
+      "reward": 3.0402703285217285,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1500
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 23.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 76,
+      "motion_complete": false,
+      "reward": 3.122298240661621,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1423.0,
+        "sequence_completion_fraction": 0.06666667014360428,
+        "sequence_remaining_tasks": 14.0,
+        "sequence_start_task_index": 13.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 14.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 5,
+      "length": 55,
+      "motion_complete": false,
+      "reward": 3.910677194595337,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1500
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1278.0,
+        "sequence_completion_fraction": 0.06666667014360428,
+        "sequence_remaining_tasks": 14.0,
+        "sequence_start_task_index": 13.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 14.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 4,
+      "length": 57,
+      "motion_complete": false,
+      "reward": 2.9472854137420654,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1500
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 803.0,
+        "sequence_completion_fraction": 0.0476190485060215,
+        "sequence_remaining_tasks": 20.0,
+        "sequence_start_task_index": 7.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 8.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 6,
+      "length": 54,
+      "motion_complete": false,
+      "reward": 2.342028856277466,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 824
+    },
+    {
+      "causes": {
+        "task_failure": false,
+        "task_success": true,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2832.0,
+        "sequence_completion_fraction": 1.0,
+        "sequence_remaining_tasks": 0.0,
+        "sequence_start_task_index": 27.0,
+        "sequence_success": 1.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 27.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 6,
+      "length": 13,
+      "motion_complete": false,
+      "reward": 5.121264934539795,
+      "single_task_episode": false,
+      "task_success": true,
+      "terminal_reference_frame": 2832
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 28.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 81,
+      "motion_complete": false,
+      "reward": 2.9610812664031982,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2605.0,
+        "sequence_completion_fraction": 0.25,
+        "sequence_remaining_tasks": 3.0,
+        "sequence_start_task_index": 24.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 25.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 7,
+      "length": 48,
+      "motion_complete": false,
+      "reward": 3.2592477798461914,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2664
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 427.0,
+        "sequence_completion_fraction": 0.03846153989434242,
+        "sequence_remaining_tasks": 25.0,
+        "sequence_start_task_index": 2.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 3.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 80,
+      "motion_complete": false,
+      "reward": -0.024171829223632812,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 456
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2640.0,
+        "sequence_completion_fraction": 0.25,
+        "sequence_remaining_tasks": 3.0,
+        "sequence_start_task_index": 24.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 25.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 5,
+      "length": 48,
+      "motion_complete": false,
+      "reward": 2.967708110809326,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2664
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2290.0,
+        "sequence_completion_fraction": 0.125,
+        "sequence_remaining_tasks": 7.0,
+        "sequence_start_task_index": 20.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 21.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 53,
+      "motion_complete": false,
+      "reward": 2.9882171154022217,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2357
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 125.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 3,
+      "length": 83,
+      "motion_complete": false,
+      "reward": 3.313556432723999,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1521.0,
+        "sequence_completion_fraction": 0.0714285746216774,
+        "sequence_remaining_tasks": 13.0,
+        "sequence_start_task_index": 14.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 15.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 48,
+      "motion_complete": false,
+      "reward": 3.204908609390259,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1837
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 824.0,
+        "sequence_completion_fraction": 0.05000000074505806,
+        "sequence_remaining_tasks": 19.0,
+        "sequence_start_task_index": 8.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 9.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 7,
+      "length": 56,
+      "motion_complete": false,
+      "reward": 0.9009010791778564,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 916
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2389.0,
+        "sequence_completion_fraction": 0.1428571492433548,
+        "sequence_remaining_tasks": 6.0,
+        "sequence_start_task_index": 21.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 22.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 66,
+      "motion_complete": false,
+      "reward": 2.237525463104248,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2434
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 174.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 6,
+      "length": 73,
+      "motion_complete": false,
+      "reward": 3.0673398971557617,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 704.0,
+        "sequence_completion_fraction": 0.04545454680919647,
+        "sequence_remaining_tasks": 21.0,
+        "sequence_start_task_index": 6.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 7.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 55,
+      "motion_complete": false,
+      "reward": 0.33958935737609863,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 765
+    },
+    {
+      "causes": {
+        "task_failure": false,
+        "task_success": true,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2964.0,
+        "sequence_completion_fraction": 1.0,
+        "sequence_remaining_tasks": 0.0,
+        "sequence_start_task_index": 27.0,
+        "sequence_success": 1.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 27.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 6,
+      "length": 13,
+      "motion_complete": false,
+      "reward": 5.182905673980713,
+      "single_task_episode": false,
+      "task_success": true,
+      "terminal_reference_frame": 2964
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 154.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 5,
+      "length": 74,
+      "motion_complete": false,
+      "reward": 3.190553903579712,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1184.0,
+        "sequence_completion_fraction": 0.125,
+        "sequence_remaining_tasks": 14.0,
+        "sequence_start_task_index": 12.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 2.0,
+        "task_fall": 1.0,
+        "task_index": 14.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 51,
+      "motion_complete": false,
+      "reward": 7.381252288818359,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1500
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1558.0,
+        "sequence_completion_fraction": 0.0714285746216774,
+        "sequence_remaining_tasks": 13.0,
+        "sequence_start_task_index": 14.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 15.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 49,
+      "motion_complete": false,
+      "reward": 3.2139923572540283,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1837
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 394.0,
+        "sequence_completion_fraction": 0.07692307978868484,
+        "sequence_remaining_tasks": 24.0,
+        "sequence_start_task_index": 2.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 2.0,
+        "task_fall": 1.0,
+        "task_index": 4.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 4,
+      "length": 138,
+      "motion_complete": false,
+      "reward": 3.0002713203430176,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 514
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 413.0,
+        "sequence_completion_fraction": 0.03846153989434242,
+        "sequence_remaining_tasks": 25.0,
+        "sequence_start_task_index": 2.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 3.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 7,
+      "length": 78,
+      "motion_complete": false,
+      "reward": -0.700268030166626,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 456
+    },
+    {
+      "causes": {
+        "task_failure": false,
+        "task_success": true,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2746.0,
+        "sequence_completion_fraction": 1.0,
+        "sequence_remaining_tasks": 0.0,
+        "sequence_start_task_index": 26.0,
+        "sequence_success": 1.0,
+        "task_collision": 0.0,
+        "task_completed_count": 2.0,
+        "task_fall": 0.0,
+        "task_index": 27.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 37,
+      "motion_complete": false,
+      "reward": 10.349462509155273,
+      "single_task_episode": false,
+      "task_success": true,
+      "terminal_reference_frame": 2794
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 442.0,
+        "sequence_completion_fraction": 0.03846153989434242,
+        "sequence_remaining_tasks": 25.0,
+        "sequence_start_task_index": 2.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 3.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 5,
+      "length": 62,
+      "motion_complete": false,
+      "reward": 1.8214728832244873,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 456
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1155.0,
+        "sequence_completion_fraction": 0.125,
+        "sequence_remaining_tasks": 14.0,
+        "sequence_start_task_index": 12.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 2.0,
+        "task_fall": 1.0,
+        "task_index": 14.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 6,
+      "length": 73,
+      "motion_complete": false,
+      "reward": 4.9144744873046875,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1500
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 229.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 83,
+      "motion_complete": false,
+      "reward": 2.1325433254241943,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 164.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 4,
+      "length": 73,
+      "motion_complete": false,
+      "reward": 3.0817694664001465,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2615.0,
+        "sequence_completion_fraction": 0.25,
+        "sequence_remaining_tasks": 3.0,
+        "sequence_start_task_index": 24.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 25.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 7,
+      "length": 54,
+      "motion_complete": false,
+      "reward": 3.2424330711364746,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2664
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2313.0,
+        "sequence_completion_fraction": 0.125,
+        "sequence_remaining_tasks": 7.0,
+        "sequence_start_task_index": 20.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 21.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 51,
+      "motion_complete": false,
+      "reward": 3.0955238342285156,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2357
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 114.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 84,
+      "motion_complete": false,
+      "reward": 3.304433584213257,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1730.0,
+        "sequence_completion_fraction": 0.0714285746216774,
+        "sequence_remaining_tasks": 13.0,
+        "sequence_start_task_index": 14.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 15.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 5,
+      "length": 50,
+      "motion_complete": false,
+      "reward": 3.39656925201416,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1837
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1215.0,
+        "sequence_completion_fraction": 0.125,
+        "sequence_remaining_tasks": 14.0,
+        "sequence_start_task_index": 12.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 2.0,
+        "task_fall": 1.0,
+        "task_index": 14.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 6,
+      "length": 53,
+      "motion_complete": false,
+      "reward": 7.475423812866211,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1500
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2653.0,
+        "sequence_completion_fraction": 0.25,
+        "sequence_remaining_tasks": 3.0,
+        "sequence_start_task_index": 24.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 25.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 4,
+      "length": 45,
+      "motion_complete": false,
+      "reward": 3.0770490169525146,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2664
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1215.0,
+        "sequence_completion_fraction": 0.125,
+        "sequence_remaining_tasks": 14.0,
+        "sequence_start_task_index": 12.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 2.0,
+        "task_fall": 1.0,
+        "task_index": 14.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 7,
+      "length": 52,
+      "motion_complete": false,
+      "reward": 7.736094951629639,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1500
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2517.0,
+        "sequence_completion_fraction": 0.20000000298023224,
+        "sequence_remaining_tasks": 4.0,
+        "sequence_start_task_index": 23.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 24.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 94,
+      "motion_complete": false,
+      "reward": -9.035584449768066,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2597
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 808.0,
+        "sequence_completion_fraction": 0.0476190485060215,
+        "sequence_remaining_tasks": 20.0,
+        "sequence_start_task_index": 7.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 8.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 55,
+      "motion_complete": false,
+      "reward": 2.247515916824341,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 824
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2273.0,
+        "sequence_completion_fraction": 0.1111111119389534,
+        "sequence_remaining_tasks": 8.0,
+        "sequence_start_task_index": 19.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 20.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 5,
+      "length": 52,
+      "motion_complete": false,
+      "reward": 1.6734471321105957,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2287
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1543.0,
+        "sequence_completion_fraction": 0.0714285746216774,
+        "sequence_remaining_tasks": 13.0,
+        "sequence_start_task_index": 14.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 15.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 6,
+      "length": 50,
+      "motion_complete": false,
+      "reward": 3.0312721729278564,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1837
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2408.0,
+        "sequence_completion_fraction": 0.1428571492433548,
+        "sequence_remaining_tasks": 6.0,
+        "sequence_start_task_index": 21.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 22.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 3,
+      "length": 215,
+      "motion_complete": false,
+      "reward": -0.13603699207305908,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2434
+    },
+    {
+      "causes": {
+        "task_failure": false,
+        "task_success": true,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2859.0,
+        "sequence_completion_fraction": 1.0,
+        "sequence_remaining_tasks": 0.0,
+        "sequence_start_task_index": 27.0,
+        "sequence_success": 1.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 27.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 13,
+      "motion_complete": false,
+      "reward": 5.097622871398926,
+      "single_task_episode": false,
+      "task_success": true,
+      "terminal_reference_frame": 2859
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 305.0,
+        "sequence_completion_fraction": 0.03703703731298447,
+        "sequence_remaining_tasks": 26.0,
+        "sequence_start_task_index": 1.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 2.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 76,
+      "motion_complete": false,
+      "reward": 2.5028727054595947,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 373
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 808.0,
+        "sequence_completion_fraction": 0.0476190485060215,
+        "sequence_remaining_tasks": 20.0,
+        "sequence_start_task_index": 7.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 8.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 4,
+      "length": 57,
+      "motion_complete": false,
+      "reward": 2.16133975982666,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 824
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2269.0,
+        "sequence_completion_fraction": 0.1111111119389534,
+        "sequence_remaining_tasks": 8.0,
+        "sequence_start_task_index": 19.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 20.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 52,
+      "motion_complete": false,
+      "reward": 1.873345136642456,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2287
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2265.0,
+        "sequence_completion_fraction": 0.1111111119389534,
+        "sequence_remaining_tasks": 8.0,
+        "sequence_start_task_index": 19.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 20.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 3,
+      "length": 53,
+      "motion_complete": false,
+      "reward": 2.1891863346099854,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2287
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1338.0,
+        "sequence_completion_fraction": 0.06666667014360428,
+        "sequence_remaining_tasks": 14.0,
+        "sequence_start_task_index": 13.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 14.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 51,
+      "motion_complete": false,
+      "reward": 4.194488048553467,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1500
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 558.0,
+        "sequence_completion_fraction": 0.0416666679084301,
+        "sequence_remaining_tasks": 23.0,
+        "sequence_start_task_index": 4.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 5.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 4,
+      "length": 68,
+      "motion_complete": false,
+      "reward": -1.5441864728927612,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 607
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1618.0,
+        "sequence_completion_fraction": 0.0714285746216774,
+        "sequence_remaining_tasks": 13.0,
+        "sequence_start_task_index": 14.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 15.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 3,
+      "length": 50,
+      "motion_complete": false,
+      "reward": 3.3662941455841064,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1837
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1847.0,
+        "sequence_completion_fraction": 0.07692307978868484,
+        "sequence_remaining_tasks": 12.0,
+        "sequence_start_task_index": 15.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 16.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 5,
+      "length": 110,
+      "motion_complete": false,
+      "reward": -0.8025616407394409,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1935
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2284.0,
+        "sequence_completion_fraction": 0.1111111119389534,
+        "sequence_remaining_tasks": 8.0,
+        "sequence_start_task_index": 19.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 20.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 51,
+      "motion_complete": false,
+      "reward": 1.8199396133422852,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2287
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2391.0,
+        "sequence_completion_fraction": 0.1428571492433548,
+        "sequence_remaining_tasks": 6.0,
+        "sequence_start_task_index": 21.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 22.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 113,
+      "motion_complete": false,
+      "reward": 1.2554173469543457,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2434
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 794.0,
+        "sequence_completion_fraction": 0.0476190485060215,
+        "sequence_remaining_tasks": 20.0,
+        "sequence_start_task_index": 7.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 8.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 6,
+      "length": 113,
+      "motion_complete": false,
+      "reward": 1.079162359237671,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 824
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1059.0,
+        "sequence_completion_fraction": 0.0555555559694767,
+        "sequence_remaining_tasks": 17.0,
+        "sequence_start_task_index": 10.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 11.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 57,
+      "motion_complete": false,
+      "reward": 2.217974901199341,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1077
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1127.0,
+        "sequence_completion_fraction": 0.05882352963089943,
+        "sequence_remaining_tasks": 16.0,
+        "sequence_start_task_index": 11.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 12.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 5,
+      "length": 48,
+      "motion_complete": false,
+      "reward": 2.439013957977295,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1142
+    },
+    {
+      "causes": {
+        "task_failure": false,
+        "task_success": true,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2910.0,
+        "sequence_completion_fraction": 1.0,
+        "sequence_remaining_tasks": 0.0,
+        "sequence_start_task_index": 27.0,
+        "sequence_success": 1.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 27.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 5,
+      "length": 13,
+      "motion_complete": false,
+      "reward": 5.1345438957214355,
+      "single_task_episode": false,
+      "task_success": true,
+      "terminal_reference_frame": 2910
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2380.0,
+        "sequence_completion_fraction": 0.1428571492433548,
+        "sequence_remaining_tasks": 6.0,
+        "sequence_start_task_index": 21.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 22.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 7,
+      "length": 179,
+      "motion_complete": false,
+      "reward": -0.000492095947265625,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2434
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1896.0,
+        "sequence_completion_fraction": 0.07692307978868484,
+        "sequence_remaining_tasks": 12.0,
+        "sequence_start_task_index": 15.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 16.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 6,
+      "length": 64,
+      "motion_complete": false,
+      "reward": -0.3101367950439453,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1935
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1832.0,
+        "sequence_completion_fraction": 0.0714285746216774,
+        "sequence_remaining_tasks": 13.0,
+        "sequence_start_task_index": 14.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 15.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 3,
+      "length": 71,
+      "motion_complete": false,
+      "reward": 2.588829517364502,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1837
+    },
+    {
+      "causes": {
+        "task_failure": false,
+        "task_success": true,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2923.0,
+        "sequence_completion_fraction": 1.0,
+        "sequence_remaining_tasks": 0.0,
+        "sequence_start_task_index": 27.0,
+        "sequence_success": 1.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 27.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 5,
+      "length": 13,
+      "motion_complete": false,
+      "reward": 5.180455207824707,
+      "single_task_episode": false,
+      "task_success": true,
+      "terminal_reference_frame": 2923
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1830.0,
+        "sequence_completion_fraction": 0.0714285746216774,
+        "sequence_remaining_tasks": 13.0,
+        "sequence_start_task_index": 14.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 15.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 72,
+      "motion_complete": false,
+      "reward": 2.4068679809570312,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1837
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2197.0,
+        "sequence_completion_fraction": 0.1111111119389534,
+        "sequence_remaining_tasks": 8.0,
+        "sequence_start_task_index": 19.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 20.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 4,
+      "length": 81,
+      "motion_complete": false,
+      "reward": -0.3155709505081177,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2287
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 103.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 81,
+      "motion_complete": false,
+      "reward": 3.20806884765625,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 209.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 78,
+      "motion_complete": false,
+      "reward": 1.5708730220794678,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": false,
+        "task_success": true,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 3048.0,
+        "sequence_completion_fraction": 1.0,
+        "sequence_remaining_tasks": 0.0,
+        "sequence_start_task_index": 27.0,
+        "sequence_success": 1.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 27.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 13,
+      "motion_complete": false,
+      "reward": 5.160758018493652,
+      "single_task_episode": false,
+      "task_success": true,
+      "terminal_reference_frame": 3048
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2579.0,
+        "sequence_completion_fraction": 0.20000000298023224,
+        "sequence_remaining_tasks": 4.0,
+        "sequence_start_task_index": 23.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 24.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 3,
+      "length": 45,
+      "motion_complete": false,
+      "reward": 2.956002950668335,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2597
+    },
+    {
+      "causes": {
+        "task_failure": false,
+        "task_success": true,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2962.0,
+        "sequence_completion_fraction": 1.0,
+        "sequence_remaining_tasks": 0.0,
+        "sequence_start_task_index": 27.0,
+        "sequence_success": 1.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 27.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 13,
+      "motion_complete": false,
+      "reward": 5.18297004699707,
+      "single_task_episode": false,
+      "task_success": true,
+      "terminal_reference_frame": 2962
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2633.0,
+        "sequence_completion_fraction": 0.25,
+        "sequence_remaining_tasks": 3.0,
+        "sequence_start_task_index": 24.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 25.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 6,
+      "length": 55,
+      "motion_complete": false,
+      "reward": 2.7374396324157715,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2664
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1681.0,
+        "sequence_completion_fraction": 0.0714285746216774,
+        "sequence_remaining_tasks": 13.0,
+        "sequence_start_task_index": 14.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 15.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 50,
+      "motion_complete": false,
+      "reward": 3.246840476989746,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1837
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2575.0,
+        "sequence_completion_fraction": 0.20000000298023224,
+        "sequence_remaining_tasks": 4.0,
+        "sequence_start_task_index": 23.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 24.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 4,
+      "length": 50,
+      "motion_complete": false,
+      "reward": 2.791001319885254,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 2597
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 1130.0,
+        "sequence_completion_fraction": 0.05882352963089943,
+        "sequence_remaining_tasks": 16.0,
+        "sequence_start_task_index": 11.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 12.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 47,
+      "motion_complete": false,
+      "reward": 2.343820810317993,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 1142
+    },
+    {
+      "causes": {
+        "task_failure": false,
+        "task_success": true,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 2895.0,
+        "sequence_completion_fraction": 1.0,
+        "sequence_remaining_tasks": 0.0,
+        "sequence_start_task_index": 27.0,
+        "sequence_success": 1.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 27.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 13,
+      "motion_complete": false,
+      "reward": 5.191547393798828,
+      "single_task_episode": false,
+      "task_success": true,
+      "terminal_reference_frame": 2895
+    }
+  ],
+  "episodes_finished": 98,
+  "metrics": {
+    "recurrent_feature_abs": {
+      "count": 1536000,
+      "max": 1.0,
+      "mean": 0.6959944324493408,
+      "min": 0.0
+    }
+  },
+  "motion_complete_episodes": 0,
+  "motion_complete_fraction": 0.0,
+  "purpose": "No-update deterministic playback of a complete TransformerVision PPO checkpoint.",
+  "sequence_complete_episodes": 13,
+  "task_success_episodes": 13,
+  "total_control_steps": 750,
+  "total_transitions": 6000
+}

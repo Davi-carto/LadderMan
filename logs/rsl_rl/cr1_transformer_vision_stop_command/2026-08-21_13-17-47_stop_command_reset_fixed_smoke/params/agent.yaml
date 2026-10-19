@@ -1,0 +1,61 @@
+seed: 42
+device: cuda:0
+num_steps_per_env: 24
+max_iterations: 1
+empirical_normalization: false
+obs_groups: {}
+clip_actions: 10.0
+save_interval: 400
+experiment_name: cr1_transformer_vision_stop_command
+run_name: stop_command_reset_fixed_smoke
+logger: tensorboard
+neptune_project: isaaclab
+wandb_project: isaaclab
+resume: false
+load_run: .*
+load_checkpoint: model_.*.pt
+class_name: OnPolicyRunner
+policy:
+  class_name: ActorCritic
+  init_noise_std: 1.0
+  noise_std_type: scalar
+  state_dependent_std: false
+  actor_obs_normalization: {}
+  critic_obs_normalization: {}
+  actor_hidden_dims:
+  - 512
+  - 256
+  - 128
+  critic_hidden_dims:
+  - 512
+  - 256
+  - 128
+  activation: elu
+algorithm:
+  class_name: ladder.rsl_rl.algorithms:TransformerVisionPPO
+  num_learning_epochs: 5
+  num_mini_batches: 4
+  learning_rate: 0.0005
+  schedule: adaptive
+  gamma: 0.99
+  lam: 0.95
+  entropy_coef: 0.005
+  desired_kl: 0.01
+  max_grad_norm: 0.1
+  value_loss_coef: 1.0
+  use_clipped_value_loss: true
+  clip_param: 0.2
+  normalize_advantage_per_mini_batch: false
+  rnd_cfg: null
+  symmetry_cfg: null
+  min_learning_rate: 1.0e-05
+  max_learning_rate: 0.001
+  use_grad_scaler: true
+  visual_architecture: deterministic
+  visual_checkpoint: ''
+  visual_initialization: scratch
+  auxiliary_learning_rate: 0.0005
+  auxiliary_mini_batch_envs: 256
+  auxiliary_num_epochs: 5
+use_transformer_vision_runner: true
+clip_observations: 100.0

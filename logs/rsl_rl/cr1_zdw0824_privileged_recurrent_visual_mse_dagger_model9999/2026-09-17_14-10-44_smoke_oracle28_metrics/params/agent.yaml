@@ -1,0 +1,74 @@
+seed: 42
+device: cuda:0
+num_steps_per_env: 24
+max_iterations: 1
+empirical_normalization: false
+obs_groups:
+  actor:
+  - policy
+  critic:
+  - critic
+clip_actions: null
+save_interval: 500
+experiment_name: cr1_zdw0824_privileged_recurrent_visual_mse_dagger_model9999
+run_name: smoke_oracle28_metrics
+logger: tensorboard
+neptune_project: isaaclab
+wandb_project: isaaclab
+resume: false
+load_run: .*
+load_checkpoint: model_.*.pt
+class_name: OnPolicyRunner
+policy:
+  class_name: ActorCritic
+  init_noise_std: 0.1
+  noise_std_type: scalar
+  state_dependent_std: false
+  actor_obs_normalization: false
+  critic_obs_normalization: false
+  actor_hidden_dims:
+  - 2048
+  - 1024
+  - 512
+  - 256
+  critic_hidden_dims:
+  - 512
+  - 256
+  - 128
+  activation: elu
+algorithm:
+  class_name: ladder.tasks.ladder_climb.config.cr1.dagger.privileged_recurrent_visual_mse_algorithm:CR1PrivilegedRecurrentVisualMseDagger
+  num_learning_epochs: 1
+  num_mini_batches: 24
+  learning_rate: 0.001
+  schedule: fixed
+  gamma: 0.99
+  lam: 0.95
+  entropy_coef: 0.0
+  desired_kl: null
+  max_grad_norm: 1.0
+  value_loss_coef: 0.0
+  use_clipped_value_loss: false
+  clip_param: 0.2
+  normalize_advantage_per_mini_batch: false
+  rnd_cfg: null
+  symmetry_cfg: null
+  teacher_checkpoint: /home/zhangdawei/LadderMan/logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-09_13-56-37_train10000_scratch_delay0or5ms_phys5ms_seed42/model_9999.pt
+  teacher_hidden_dims:
+  - 512
+  - 256
+  - 256
+  expected_teacher_observation_dim: 780
+  diagnostic_snapshot_interval: 500
+  diagnostic_sample_envs: 16
+  bc_warmup_iterations: 500
+  teacher_rollout_fraction: 0.1
+  teacher_rollout_schedule_start: 500
+  teacher_rollout_schedule_end: 4000
+  teacher_rollout_schedule_initial_fraction: 1.0
+  teacher_rollout_schedule_final_fraction: 0.1
+use_pure_dagger_visual_runner: true
+use_visual_mse_dagger_runner: true
+use_recurrent_visual_mse_dagger_runner: true
+use_recurrent_visual_scheduled_mse_dagger_runner: true
+use_privileged_recurrent_visual_mse_dagger_runner: true

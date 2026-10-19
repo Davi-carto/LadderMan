@@ -1,0 +1,42 @@
+{
+  "control_step": 0,
+  "depth_display_range_m": [
+    0.1,
+    2.0
+  ],
+  "intrinsic_matrix": [
+    [
+      42.19780349731445,
+      0.0,
+      40.0
+    ],
+    [
+      0.0,
+      42.19780349731445,
+      30.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "rung_pixel_fraction": 0.369375,
+  "rung_semantic_ids": [
+    2
+  ],
+  "semantic_id_to_labels": {
+    "0": {
+      "class": "BACKGROUND"
+    },
+    "1": {
+      "class": "UNLABELLED"
+    },
+    "2": {
+      "class": "rung"
+    },
+    "3": {
+      "class": "ladder"
+    }
+  }
+}

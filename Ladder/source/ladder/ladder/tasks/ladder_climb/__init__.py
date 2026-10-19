@@ -1,0 +1,1 @@
+"""Ladder climbing task package."""

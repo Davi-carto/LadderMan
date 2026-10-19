@@ -1,0 +1,64 @@
+seed: 42
+device: cuda:0
+num_steps_per_env: 24
+max_iterations: 0
+empirical_normalization: false
+obs_groups:
+  actor:
+  - policy
+  critic:
+  - critic
+clip_actions: null
+save_interval: 500
+experiment_name: cr1_zdw0824_up_down_pure_visual_dagger
+run_name: smoke_adaptive_reset_config
+logger: tensorboard
+neptune_project: isaaclab
+wandb_project: isaaclab
+resume: false
+load_run: .*
+load_checkpoint: model_.*.pt
+class_name: OnPolicyRunner
+policy:
+  class_name: ActorCritic
+  init_noise_std: 1.0
+  noise_std_type: scalar
+  state_dependent_std: false
+  actor_obs_normalization: false
+  critic_obs_normalization: false
+  actor_hidden_dims:
+  - 2048
+  - 1024
+  - 512
+  - 256
+  critic_hidden_dims:
+  - 512
+  - 256
+  - 128
+  activation: elu
+algorithm:
+  class_name: ladder.tasks.ladder_climb.config.cr1.dagger.pure_algorithm:CR1PureVisualDagger
+  num_learning_epochs: 5
+  num_mini_batches: 4
+  learning_rate: 0.0005
+  schedule: fixed
+  gamma: 0.99
+  lam: 0.95
+  entropy_coef: 0.0
+  desired_kl: null
+  max_grad_norm: 0.5
+  value_loss_coef: 0.0
+  use_clipped_value_loss: false
+  clip_param: 0.2
+  normalize_advantage_per_mini_batch: false
+  rnd_cfg: null
+  symmetry_cfg: null
+  teacher_checkpoint: /home/zhangdawei/LadderMan/logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand/2026-08-28_18-07-30_stage36_two_anchor_20_10_35_35_frame0_nominal_to10000/model_9999.pt
+  teacher_hidden_dims:
+  - 512
+  - 256
+  - 256
+  action_kl_weight: 2.0
+  feature_weight: 1.0
+use_dagger_runner: false
+use_pure_dagger_visual_runner: true

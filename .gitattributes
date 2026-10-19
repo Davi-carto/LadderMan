@@ -1,0 +1,12 @@
+# Binary artifacts should not be diffed or merged as text.
+*.pt binary
+*.pth binary
+*.npz binary
+*.pkl binary
+*.onnx binary
+*.png binary
+*.pdf binary
+*.STL binary
+*.usd binary
+*.gz binary
+*.gz.part* binary

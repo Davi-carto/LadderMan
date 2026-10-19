@@ -1,0 +1,20 @@
+{
+  "checkpoint": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-49-56_allframe_raw_support_ids_amp_8000_env5120/model_7000.pt",
+  "checkpoint_iteration": 7000,
+  "episodes": [],
+  "episodes_finished": 0,
+  "metrics": {
+    "recurrent_feature_abs": {
+      "count": 88064,
+      "max": 1.0,
+      "mean": 0.675478761972383,
+      "min": 5.234880529059183e-09
+    }
+  },
+  "motion_complete_episodes": 0,
+  "motion_complete_fraction": null,
+  "purpose": "No-update deterministic playback of a complete TransformerVision PPO checkpoint.",
+  "task_success_episodes": 0,
+  "total_control_steps": 43,
+  "total_transitions": 344
+}

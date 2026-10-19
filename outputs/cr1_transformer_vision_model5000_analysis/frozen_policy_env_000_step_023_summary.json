@@ -1,0 +1,654 @@
+{
+  "actions_shape": [
+    24,
+    256,
+    25
+  ],
+  "checkpoint": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_wood_step_reference_force_limited_strict_front_side_deploy_obs/2026-07-31_14-01-06_deploy_obs_from_scratch_to7000/model_6999.pt",
+  "depth_ablation": {
+    "interpretation": "Zero/shuffled depth should increase reconstruction MSE if vision is used. Near-zero relative increase means proprioception/GRU can explain the maps without useful depth dependence.",
+    "variants": {
+      "normal": {
+        "delta_from_normal": {
+          "foot": 0.0,
+          "foot_non_rung": 0.0,
+          "foot_rung": 0.0,
+          "future": 0.0,
+          "hand": 0.0,
+          "hand_non_rung": 0.0,
+          "hand_rung": 0.0,
+          "heightmap_non_rung": 0.0,
+          "heightmap_rung": 0.0,
+          "velocity": 0.0
+        },
+        "mse": {
+          "foot": 0.002745699603110552,
+          "foot_non_rung": 0.0020427065901458263,
+          "foot_rung": 0.003348865546286106,
+          "future": 0.6556922197341919,
+          "hand": 0.01739436946809292,
+          "hand_non_rung": 0.04944837838411331,
+          "hand_rung": 0.005212465301156044,
+          "heightmap_non_rung": 0.021302875131368637,
+          "heightmap_rung": 0.004476124886423349,
+          "velocity": 0.006571571808308363
+        },
+        "relative_increase_from_normal": {
+          "foot": 0.0,
+          "foot_non_rung": 0.0,
+          "foot_rung": 0.0,
+          "future": 0.0,
+          "hand": 0.0,
+          "hand_non_rung": 0.0,
+          "hand_rung": 0.0,
+          "heightmap_non_rung": 0.0,
+          "heightmap_rung": 0.0,
+          "velocity": 0.0
+        }
+      },
+      "shuffled": {
+        "delta_from_normal": {
+          "foot": 0.0076570152305066586,
+          "foot_non_rung": 0.0088207614608109,
+          "foot_rung": 0.006685486063361168,
+          "future": 3.6954879760742188e-06,
+          "hand": 0.2986097279936075,
+          "hand_non_rung": 0.4073038324713707,
+          "hand_rung": 0.25298075936734676,
+          "heightmap_non_rung": 0.17071807757019997,
+          "heightmap_rung": 0.15566528355702758,
+          "velocity": 0.0038989312015473843
+        },
+        "mse": {
+          "foot": 0.01040271483361721,
+          "foot_non_rung": 0.010863468050956726,
+          "foot_rung": 0.010034351609647274,
+          "future": 0.655695915222168,
+          "hand": 0.31600409746170044,
+          "hand_non_rung": 0.456752210855484,
+          "hand_rung": 0.2581932246685028,
+          "heightmap_non_rung": 0.1920209527015686,
+          "heightmap_rung": 0.16014140844345093,
+          "velocity": 0.010470503009855747
+        },
+        "relative_increase_from_normal": {
+          "foot": 2.7887301370594835,
+          "foot_non_rung": 4.318173497536519,
+          "foot_rung": 1.996343529161801,
+          "future": 5.636010104820698e-06,
+          "hand": 17.167033765803208,
+          "hand_non_rung": 8.236950245515605,
+          "hand_rung": 48.533802097682944,
+          "heightmap_non_rung": 8.013851488000151,
+          "heightmap_rung": 34.77679633764911,
+          "velocity": 0.5933026854576876
+        }
+      },
+      "zero": {
+        "delta_from_normal": {
+          "foot": 0.012300045695155859,
+          "foot_non_rung": 0.00680541479960084,
+          "foot_rung": 0.01673536654561758,
+          "future": 2.1457672119140625e-06,
+          "hand": 0.28359907306730747,
+          "hand_non_rung": 0.23560865968465805,
+          "hand_rung": 0.29536535404622555,
+          "heightmap_non_rung": 0.09976452216506004,
+          "heightmap_rung": 0.18527386104688048,
+          "velocity": 0.015211847145110369
+        },
+        "mse": {
+          "foot": 0.01504574529826641,
+          "foot_non_rung": 0.008848121389746666,
+          "foot_rung": 0.020084232091903687,
+          "future": 0.6556943655014038,
+          "hand": 0.3009934425354004,
+          "hand_non_rung": 0.28505703806877136,
+          "hand_rung": 0.3005778193473816,
+          "heightmap_non_rung": 0.12106739729642868,
+          "heightmap_rung": 0.18974998593330383,
+          "velocity": 0.02178341895341873
+        },
+        "relative_increase_from_normal": {
+          "foot": 4.479749234483396,
+          "foot_non_rung": 3.3315674568392173,
+          "foot_rung": 4.997324112990177,
+          "future": 3.272521996347502e-06,
+          "hand": 16.304073199521422,
+          "hand_non_rung": 4.7647398637516085,
+          "hand_rung": 56.665193335813306,
+          "heightmap_non_rung": 4.6831482393733825,
+          "heightmap_rung": 41.39157546940646,
+          "velocity": 2.31479584927889
+        }
+      }
+    }
+  },
+  "done_transitions": 4,
+  "frozen_actor_parameter_change_max_abs": 0.0,
+  "future_proprio_diagnostic": {
+    "field_layout": {
+      "action": [
+        59,
+        84
+      ],
+      "climb_direction": [
+        84,
+        85
+      ],
+      "joint_position": [
+        9,
+        34
+      ],
+      "joint_velocity": [
+        34,
+        59
+      ],
+      "root_angular_velocity": [
+        0,
+        3
+      ],
+      "root_orientation_6d": [
+        3,
+        9
+      ]
+    },
+    "interpretation": "The current-frame input contains the previously applied action, while the next-frame action field contains the newly selected action. A much larger action-field error is evidence of this information mismatch, not necessarily a weak dynamic latent.",
+    "overall": {
+      "correlation": 0.6753182617469148,
+      "count": 521900,
+      "model_mae": 0.41222717321259683,
+      "model_mse": 0.655692276184956,
+      "model_rmse": 0.8097482795196023,
+      "prediction_mean": 0.03891366052964242,
+      "prediction_std": 1.040519782944372,
+      "skill_score_vs_zero": 0.2915407623737609,
+      "target_mean": 0.04383645132368025,
+      "target_std": 0.9610395780509134,
+      "zero_baseline_mse": 0.9255187050449312,
+      "zero_baseline_rmse": 0.9620388272023802
+    },
+    "per_field": {
+      "action": {
+        "correlation": 0.5741110116685302,
+        "count": 153500,
+        "model_mae": 0.8305348943562674,
+        "model_mse": 1.4420484419444102,
+        "model_rmse": 1.200853214154174,
+        "prediction_mean": 0.0997153529495923,
+        "prediction_std": 1.298202806115493,
+        "skill_score_vs_zero": 0.15680307174084773,
+        "target_mean": 0.09811120768333709,
+        "target_std": 1.3040665910710818,
+        "zero_baseline_mse": 1.7102154830208347,
+        "zero_baseline_rmse": 1.3077520724590097
+      },
+      "climb_direction": {
+        "correlation": null,
+        "count": 6140,
+        "model_mae": 0.001836727438221537,
+        "model_mse": 3.373589956629586e-06,
+        "model_rmse": 0.0018367335017986648,
+        "prediction_mean": 0.9981632725617785,
+        "prediction_std": 4.719567113189891e-06,
+        "skill_score_vs_zero": 0.9999966264100434,
+        "target_mean": 1.0,
+        "target_std": 0.0,
+        "zero_baseline_mse": 1.0,
+        "zero_baseline_rmse": 1.0
+      },
+      "joint_position": {
+        "correlation": 0.7702140462480337,
+        "count": 153500,
+        "model_mae": 0.47799902581059467,
+        "model_mse": 0.7678929738699671,
+        "model_rmse": 0.8762950267289933,
+        "prediction_mean": -0.0677387589231279,
+        "prediction_std": 1.367019883204822,
+        "skill_score_vs_zero": 0.4101952866569156,
+        "target_mean": -0.05367457652606165,
+        "target_std": 1.1397646647904227,
+        "zero_baseline_mse": 1.301944451270077,
+        "zero_baseline_rmse": 1.1410278047751847
+      },
+      "joint_velocity": {
+        "correlation": 0.04974047739657435,
+        "count": 153500,
+        "model_mae": 0.06377042584927285,
+        "model_mse": 0.01338797339389193,
+        "model_rmse": 0.11570641034053356,
+        "prediction_mean": 0.002786137459687403,
+        "prediction_std": 0.007663810326640837,
+        "skill_score_vs_zero": 0.001966945547188126,
+        "target_mean": 0.0008223338813726333,
+        "target_std": 0.11581745323571327,
+        "zero_baseline_mse": 0.013414358707019085,
+        "zero_baseline_rmse": 0.1158203725905727
+      },
+      "root_angular_velocity": {
+        "correlation": -0.022949555671059906,
+        "count": 18420,
+        "model_mae": 0.06674686798766952,
+        "model_mse": 0.0099404086843376,
+        "model_rmse": 0.09970159820352731,
+        "prediction_mean": 0.0005106660932804035,
+        "prediction_std": 0.003917933355950499,
+        "skill_score_vs_zero": -0.002980854571243974,
+        "target_mean": 0.0038745569620688173,
+        "target_std": 0.09947790530040931,
+        "zero_baseline_mse": 0.009910865834609518,
+        "zero_baseline_rmse": 0.09955333160979354
+      },
+      "root_orientation_6d": {
+        "correlation": 0.9631266799852464,
+        "count": 36840,
+        "model_mae": 0.088270623544355,
+        "model_mse": 0.020130690978592384,
+        "model_rmse": 0.1418826662372553,
+        "prediction_mean": 0.23981626450403187,
+        "prediction_std": 0.5161369543109352,
+        "skill_score_vs_zero": 0.9396079272564825,
+        "target_mean": 0.2638334276100688,
+        "target_std": 0.5135418745049236,
+        "zero_baseline_mse": 0.3333333343945082,
+        "zero_baseline_rmse": 0.5773502701086302
+      }
+    }
+  },
+  "future_proprio_normalization": {
+    "action": "unchanged",
+    "climb_direction": "unchanged",
+    "final_clip": [
+      -100.0,
+      100.0
+    ],
+    "joint_position": "(position - randomized default position) / per-joint CR1 action scale",
+    "joint_position_scales": {
+      "left_ankle_x_joint": 0.15625,
+      "left_ankle_y_joint": 0.428125,
+      "left_elbow_joint": 0.428125,
+      "left_hip_x_joint": 1.134375,
+      "left_hip_y_joint": 1.134375,
+      "left_hip_z_joint": 0.428125,
+      "left_knee_joint": 1.134375,
+      "left_shoulder_x_joint": 0.428125,
+      "left_shoulder_y_joint": 0.428125,
+      "left_shoulder_z_joint": 0.428125,
+      "neck_y_joint": 0.15625,
+      "neck_z_joint": 0.15625,
+      "right_ankle_x_joint": 0.15625,
+      "right_ankle_y_joint": 0.428125,
+      "right_elbow_joint": 0.428125,
+      "right_hip_x_joint": 1.134375,
+      "right_hip_y_joint": 1.134375,
+      "right_hip_z_joint": 0.428125,
+      "right_knee_joint": 1.134375,
+      "right_shoulder_x_joint": 0.428125,
+      "right_shoulder_y_joint": 0.428125,
+      "right_shoulder_z_joint": 0.428125,
+      "waist_x_joint": 0.428125,
+      "waist_y_joint": 1.134375,
+      "waist_z_joint": 0.428125
+    },
+    "joint_velocity": "multiply by 0.1",
+    "root_angular_velocity": "multiply by 0.2",
+    "root_orientation_6d": "unchanged"
+  },
+  "future_total_transitions": 6144,
+  "future_valid_transitions": 6140,
+  "heightmap_point_weights": {
+    "invalid": 0.0,
+    "non_rung": 1.0,
+    "rung": 2.0
+  },
+  "heightmap_shape": [
+    4,
+    10,
+    3
+  ],
+  "heightmap_units": "relative limb-reference height in meters",
+  "input_shapes": {
+    "critic": [
+      256,
+      631
+    ],
+    "policy": [
+      256,
+      660
+    ],
+    "transformer_vision_depth_history": [
+      256,
+      2,
+      60,
+      80
+    ],
+    "transformer_vision_heightmap_hit_class": [
+      256,
+      4,
+      10,
+      3
+    ],
+    "transformer_vision_heightmap_valid": [
+      256,
+      4,
+      10,
+      3
+    ],
+    "transformer_vision_limb_heightmaps": [
+      256,
+      4,
+      10,
+      3
+    ],
+    "transformer_vision_next_proprio_target": [
+      256,
+      85
+    ],
+    "transformer_vision_proprio_history": [
+      256,
+      10,
+      85
+    ],
+    "transformer_vision_velocity_target": [
+      256,
+      3
+    ]
+  },
+  "loss_metrics_deterministic": {
+    "foot": 0.002745699603110552,
+    "foot_left": 0.003007889026775956,
+    "foot_non_rung": 0.0020427065901458263,
+    "foot_right": 0.002483509946614504,
+    "foot_rung": 0.003348865546286106,
+    "future": 0.6556922197341919,
+    "hand": 0.01739436946809292,
+    "hand_left": 0.015055433847010136,
+    "hand_non_rung": 0.04944837838411331,
+    "hand_right": 0.019733304157853127,
+    "hand_rung": 0.005212465301156044,
+    "heightmap_non_rung": 0.021302875131368637,
+    "heightmap_rung": 0.004476124886423349,
+    "kl": 7.072886364767328e-05,
+    "total": 3.3319549560546875,
+    "velocity": 0.006571571808308363,
+    "velocity_skill_score": 0.785490870475769,
+    "velocity_skill_x": 0.779003918170929,
+    "velocity_skill_y": 0.8647658824920654,
+    "velocity_skill_z": 0.7595891952514648,
+    "velocity_x": 0.005557382013648748,
+    "velocity_y": 0.0024330837186425924,
+    "velocity_z": 0.011724251322448254,
+    "velocity_zero_baseline": 0.030635394155979156,
+    "velocity_zero_x": 0.02514697052538395,
+    "velocity_zero_y": 0.01799163781106472,
+    "velocity_zero_z": 0.0487675778567791
+  },
+  "loss_weights": {
+    "foot": 2.0,
+    "future": 5.0,
+    "hand": 2.0,
+    "kl": 1.0,
+    "velocity": 2.0
+  },
+  "map_order": [
+    "left_hand",
+    "right_hand",
+    "left_foot",
+    "right_foot"
+  ],
+  "optimizer_steps": 0,
+  "per_limb": {
+    "left_foot": {
+      "mse": 0.0029817442409694195,
+      "non_rung_elements": 109263,
+      "non_rung_mse": 0.0029196792747825384,
+      "prediction": {
+        "count": 184320,
+        "max": 0.7474831342697144,
+        "mean": 0.05683322623372078,
+        "min": -0.24604295194149017,
+        "std": 0.13974399864673615
+      },
+      "rung_elements": 75057,
+      "rung_fraction": 0.40721028645833335,
+      "rung_mse": 0.0030720937065780163,
+      "target": {
+        "count": 184320,
+        "max": 0.811874270439148,
+        "mean": 0.05738082528114319,
+        "min": -0.4362538158893585,
+        "std": 0.14918892085552216
+      },
+      "valid_elements": 184320,
+      "weighted_mse_2_to_1": 0.003007889026775956
+    },
+    "left_hand": {
+      "mse": 0.0219337809830904,
+      "non_rung_elements": 67016,
+      "non_rung_mse": 0.05289168283343315,
+      "prediction": {
+        "count": 184320,
+        "max": 2.2451846599578857,
+        "mean": 0.44749918580055237,
+        "min": -0.43911588191986084,
+        "std": 0.47180360555648804
+      },
+      "rung_elements": 117304,
+      "rung_fraction": 0.6364149305555555,
+      "rung_mse": 0.004247472155839205,
+      "target": {
+        "count": 184320,
+        "max": 1.674492359161377,
+        "mean": 0.452139288187027,
+        "min": -0.503697395324707,
+        "std": 0.49138888716697693
+      },
+      "valid_elements": 184320,
+      "weighted_mse_2_to_1": 0.015055433847010136
+    },
+    "right_foot": {
+      "mse": 0.002077803947031498,
+      "non_rung_elements": 121911,
+      "non_rung_mse": 0.0012567181838676333,
+      "prediction": {
+        "count": 184320,
+        "max": 0.7731263637542725,
+        "mean": 0.0626029223203659,
+        "min": -0.2950894832611084,
+        "std": 0.14260898530483246
+      },
+      "rung_elements": 62409,
+      "rung_fraction": 0.33859049479166664,
+      "rung_mse": 0.003681729780510068,
+      "target": {
+        "count": 184320,
+        "max": 0.777966320514679,
+        "mean": 0.05843291059136391,
+        "min": -0.4464128017425537,
+        "std": 0.14963185787200928
+      },
+      "valid_elements": 184320,
+      "weighted_mse_2_to_1": 0.002483509946614504
+    },
+    "right_hand": {
+      "mse": 0.02645695023238659,
+      "non_rung_elements": 91178,
+      "non_rung_mse": 0.046917542815208435,
+      "prediction": {
+        "count": 184320,
+        "max": 1.874376893043518,
+        "mean": 0.4904305934906006,
+        "min": -0.4714725613594055,
+        "std": 0.5137120485305786
+      },
+      "rung_elements": 93142,
+      "rung_fraction": 0.5053276909722222,
+      "rung_mse": 0.006427787709981203,
+      "target": {
+        "count": 184320,
+        "max": 1.705386996269226,
+        "mean": 0.4955456256866455,
+        "min": -0.48243653774261475,
+        "std": 0.530553936958313
+      },
+      "valid_elements": 184320,
+      "weighted_mse_2_to_1": 0.019733304157853127
+    }
+  },
+  "proprio_normalization_stats": {
+    "future_target": {
+      "action": {
+        "count": 153500,
+        "max": 6.064939498901367,
+        "mean": 0.09811120480298996,
+        "min": -6.578332424163818,
+        "std": 1.30406653881073
+      },
+      "climb_direction": {
+        "count": 6140,
+        "max": 1.0,
+        "mean": 1.0,
+        "min": 1.0,
+        "std": 0.0
+      },
+      "joint_position": {
+        "count": 153500,
+        "max": 4.0735063552856445,
+        "mean": -0.05367457866668701,
+        "min": -5.364378452301025,
+        "std": 1.139764666557312
+      },
+      "joint_velocity": {
+        "count": 153500,
+        "max": 7.063287258148193,
+        "mean": 0.0008223338518291712,
+        "min": -6.456826210021973,
+        "std": 0.11581744998693466
+      },
+      "root_angular_velocity": {
+        "count": 18420,
+        "max": 1.021536111831665,
+        "mean": 0.0038745568599551916,
+        "min": -1.000818133354187,
+        "std": 0.09947790205478668
+      },
+      "root_orientation_6d": {
+        "count": 36840,
+        "max": 1.0,
+        "mean": 0.2638334035873413,
+        "min": -0.6964027285575867,
+        "std": 0.5135418176651001
+      }
+    },
+    "input_history": {
+      "action": {
+        "count": 1536000,
+        "max": 6.064939498901367,
+        "mean": 0.08000441640615463,
+        "min": -6.578332424163818,
+        "std": 1.1408705711364746
+      },
+      "climb_direction": {
+        "count": 61440,
+        "max": 1.0,
+        "mean": 1.0,
+        "min": 1.0,
+        "std": 0.0
+      },
+      "joint_position": {
+        "count": 1536000,
+        "max": 4.0735063552856445,
+        "mean": -0.04697951301932335,
+        "min": -5.364378452301025,
+        "std": 1.1351583003997803
+      },
+      "joint_velocity": {
+        "count": 1536000,
+        "max": 7.063287258148193,
+        "mean": -0.0001452760334359482,
+        "min": -6.456826210021973,
+        "std": 0.10847432166337967
+      },
+      "root_angular_velocity": {
+        "count": 184320,
+        "max": 1.021536111831665,
+        "mean": 0.0027953777462244034,
+        "min": -1.000818133354187,
+        "std": 0.09191415458917618
+      },
+      "root_orientation_6d": {
+        "count": 368640,
+        "max": 1.0,
+        "mean": 0.2648423910140991,
+        "min": -0.6964027285575867,
+        "std": 0.513022243976593
+      }
+    }
+  },
+  "purpose": "Frozen nonvisual actor rollout; TransformerVision diagnostic only. No PPO or optimizer step ran.",
+  "velocity_diagnostic": {
+    "interpretation": "skill_score_vs_zero > 0 means better than always predicting zero; <= 0 means no better than zero.",
+    "overall": {
+      "correlation": 0.8852817615948548,
+      "count": 18432,
+      "model_mae": 0.0333793599477933,
+      "model_mse": 0.00657157213655432,
+      "model_rmse": 0.0810652338339582,
+      "prediction_mean": -0.014051275986604297,
+      "prediction_std": 0.15360221382237169,
+      "skill_score_vs_zero": 0.7854908579577509,
+      "target_mean": -0.01828607836978,
+      "target_std": 0.1740718632841195,
+      "zero_baseline_mse": 0.03063539424935092,
+      "zero_baseline_rmse": 0.17502969533582272
+    },
+    "per_axis": {
+      "x": {
+        "correlation": 0.8814332484174787,
+        "count": 6144,
+        "model_mae": 0.033655682818109746,
+        "model_mse": 0.00555738200479323,
+        "model_rmse": 0.0745478504371067,
+        "prediction_mean": -0.014441652269548891,
+        "prediction_std": 0.14119098778668224,
+        "skill_score_vs_zero": 0.7790039167178718,
+        "target_mean": -0.019863696424202715,
+        "target_std": 0.15732896791526543,
+        "zero_baseline_mse": 0.025146970580915504,
+        "zero_baseline_rmse": 0.15857796373051175
+      },
+      "y": {
+        "correlation": 0.9299365130942671,
+        "count": 6144,
+        "model_mae": 0.02971623010762118,
+        "model_mse": 0.0024330839850911132,
+        "model_rmse": 0.04932630114949948,
+        "prediction_mean": -0.0109137154668133,
+        "prediction_std": 0.11987576442856056,
+        "skill_score_vs_zero": 0.8647658517251819,
+        "target_mean": -0.0122676836994741,
+        "target_std": 0.13357074156472928,
+        "zero_baseline_mse": 0.017991639065502045,
+        "zero_baseline_rmse": 0.13413291566763932
+      },
+      "z": {
+        "correlation": 0.8704858592874811,
+        "count": 6144,
+        "model_mae": 0.03676616691764896,
+        "model_mse": 0.01172425041977862,
+        "model_rmse": 0.10827857784335099,
+        "prediction_mean": -0.016798460223450697,
+        "prediction_std": 0.1909405212179991,
+        "skill_score_vs_zero": 0.7595892172992817,
+        "target_mean": -0.02272685498566318,
+        "target_std": 0.21966124638655735,
+        "zero_baseline_mse": 0.04876757310163522,
+        "zero_baseline_rmse": 0.22083381331135687
+      }
+    },
+    "units": "m/s"
+  },
+  "vision_checkpoint": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_transformer_vision_pretrain/2026-08-17_16-33-26_fresh_5000/model_5000.pt",
+  "visual_gradient_norm_without_step": 1.694036841392517,
+  "visual_parameter_change_max_abs": 0.0
+}

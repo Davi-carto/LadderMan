@@ -1,0 +1,178 @@
+{
+  "checkpoint": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_pause_decay_reference2x_contact_sequence_visual_amp/2026-10-15_13-26-46_resume6000_reference2x_env5120_add4000_seed42/model_10000.pt",
+  "iter": 10000,
+  "checkpoint_sha256": "782257c87fcea86dc080dc94f954730cddce3bcb8b6f7d64c3b1dc118374e1dc",
+  "motion": "/home/zhangdawei/LadderMan/Ladder/motions/zdw0824_capture1/pitchminus3_yawminus4_xminus030/37_visual_up_down_stop_command/zdw0824_capture1_stage37_train_ready_middle_default100_zplus5mm_reset5mm_visual_up_down_stop_50hz_motion.npz",
+  "task": "Ladder-Climb-CR1-ZDW0824-Visual-ContactSequence-Phased-BodyGoal-FootSafety-Reference-PauseDecay-Weight2x-AMP-v0",
+  "dt": 0.02,
+  "fixtures": [
+    0,
+    373,
+    514,
+    686,
+    824,
+    996,
+    1142
+  ],
+  "max_steps": 1500,
+  "seed": 42,
+  "randomization": false,
+  "action": "deterministic mean",
+  "sampling": "reward time before auto reset and goal/reference advancement; phase_before is issued phase",
+  "reward_names": [
+    "progress",
+    "return_progress",
+    "phase_contact_error",
+    "release_event",
+    "contact_event",
+    "support_loss",
+    "slip",
+    "wrong_contact",
+    "danger",
+    "completion",
+    "failure",
+    "action_rate_l2",
+    "joint_limit",
+    "joint_torque_l2",
+    "joint_acc_l2_upper",
+    "joint_acc_l2_lower",
+    "action_second_difference_l2_lower",
+    "body_progress",
+    "foot_front_contact",
+    "foot_underside_contact",
+    "foot_swing_pose",
+    "reference_body_lower",
+    "reference_body_upper",
+    "reference_joint_lower",
+    "reference_joint_upper",
+    "reference_swing_foot",
+    "reference_anchor_orientation"
+  ],
+  "reward_weights": [
+    4.0,
+    1.0,
+    -0.5,
+    0.2,
+    0.5,
+    -1.0,
+    -0.2,
+    -1.0,
+    -2.0,
+    5.0,
+    -2.0,
+    -0.1,
+    -10.0,
+    -1e-05,
+    -2.5e-07,
+    -1e-06,
+    -0.05,
+    0.5,
+    -3.0,
+    -3.0,
+    -1.0,
+    0.3,
+    0.3,
+    0.5,
+    0.3,
+    0.6,
+    0.2
+  ],
+  "joint_names": [
+    "left_hip_y_joint",
+    "right_hip_y_joint",
+    "waist_z_joint",
+    "left_hip_x_joint",
+    "right_hip_x_joint",
+    "waist_x_joint",
+    "left_hip_z_joint",
+    "right_hip_z_joint",
+    "waist_y_joint",
+    "left_knee_joint",
+    "right_knee_joint",
+    "left_shoulder_y_joint",
+    "neck_z_joint",
+    "right_shoulder_y_joint",
+    "left_ankle_y_joint",
+    "right_ankle_y_joint",
+    "left_shoulder_x_joint",
+    "neck_y_joint",
+    "right_shoulder_x_joint",
+    "left_ankle_x_joint",
+    "right_ankle_x_joint",
+    "left_shoulder_z_joint",
+    "right_shoulder_z_joint",
+    "left_elbow_joint",
+    "right_elbow_joint"
+  ],
+  "body_names": [
+    "base_link",
+    "left_hip_x_link",
+    "left_knee_link",
+    "left_ankle_x_link",
+    "right_hip_x_link",
+    "right_knee_link",
+    "right_ankle_x_link",
+    "body",
+    "left_shoulder_x_link",
+    "left_elbow_link",
+    "left_wrist_x_link",
+    "left_sphere_hand_link",
+    "right_shoulder_x_link",
+    "right_elbow_link",
+    "right_wrist_x_link",
+    "right_sphere_hand_link"
+  ],
+  "rung_sizes": [
+    [
+      0.64,
+      0.13,
+      0.03
+    ],
+    [
+      0.64,
+      0.13,
+      0.03
+    ],
+    [
+      0.64,
+      0.13,
+      0.03
+    ],
+    [
+      0.64,
+      0.13,
+      0.03
+    ],
+    [
+      0.64,
+      0.13,
+      0.03
+    ],
+    [
+      0.64,
+      0.13,
+      0.03
+    ],
+    [
+      0.64,
+      0.13,
+      0.03
+    ]
+  ],
+  "robot_asset": "/home/zhangdawei/LadderMan/assets/robots/CR1-B2-PRO-260608/CR1-B2-pro_free_wrist_fixed_spherehand.urdf",
+  "foot_limb_names": [
+    "left_sole_contact_point",
+    "right_sole_contact_point"
+  ],
+  "limb_distance_thresholds_m": [
+    0.052000001072883606,
+    0.05000000074505806,
+    0.14499999582767487,
+    0.14499999582767487
+  ],
+  "pitch_range_deg": [
+    -55.0,
+    15.0
+  ],
+  "script_sha256": "2511c9dad1d6e6efad725d78f2a790393f780c781ec0c2cb26e3d4fc3365487b"
+}

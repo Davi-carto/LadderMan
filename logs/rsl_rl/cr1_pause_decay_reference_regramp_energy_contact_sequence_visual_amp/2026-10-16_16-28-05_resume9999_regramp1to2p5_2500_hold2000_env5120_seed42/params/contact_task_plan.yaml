@@ -1,0 +1,1404 @@
+reference_clock: false
+reward_reference_guidance:
+  contract: whole_body_shared_frame_phase_bounded_reward_only_v1
+  window_frames: 3
+  release_landing_lead_frames: 5
+  pause_reward_decay:
+    enabled: true
+    grace_s: 0.2
+    linear_fade_s: 0.5
+    scope: all six reference rates AFTER frame selection; no task/AMP scaling
+    renewal: monotone reference advance or goal/reset; never matched-frame/contact
+      flicker
+    unsafe_pause: continues aging; no new grace upon becoming safe
+  clock_increment: motion.fps * policy_dt; monotone; bounded by intersection of limb
+    phase ranges
+  selection: one weighted-best whole-body frame; invalid window gives zero reference
+    rewards
+  phase_lower_frames:
+  - - - 0
+      - 0
+      - 0
+      - 226
+    - - 0
+      - 0
+      - 0
+      - 227
+    - - 0
+      - 0
+      - 0
+      - 0
+    - - 0
+      - 0
+      - 0
+      - 0
+  - - - 285
+      - 285
+      - 285
+      - 285
+    - - 285
+      - 285
+      - 312
+      - 328
+    - - 285
+      - 285
+      - 285
+      - 285
+    - - 285
+      - 285
+      - 285
+      - 285
+  - - - 373
+      - 373
+      - 373
+      - 373
+    - - 373
+      - 373
+      - 373
+      - 373
+    - - 373
+      - 373
+      - 392
+      - 419
+    - - 373
+      - 373
+      - 373
+      - 373
+  - - - 456
+      - 456
+      - 473
+      - 483
+    - - 456
+      - 456
+      - 456
+      - 456
+    - - 456
+      - 456
+      - 456
+      - 456
+    - - 456
+      - 456
+      - 456
+      - 456
+  - - - 514
+      - 514
+      - 514
+      - 514
+    - - 514
+      - 514
+      - 514
+      - 514
+    - - 514
+      - 514
+      - 514
+      - 514
+    - - 514
+      - 514
+      - 544
+      - 575
+  - - - 607
+      - 607
+      - 607
+      - 607
+    - - 607
+      - 607
+      - 630
+      - 649
+    - - 607
+      - 607
+      - 607
+      - 607
+    - - 607
+      - 607
+      - 607
+      - 607
+  - - - 686
+      - 686
+      - 686
+      - 686
+    - - 686
+      - 686
+      - 686
+      - 686
+    - - 686
+      - 686
+      - 716
+      - 733
+    - - 686
+      - 686
+      - 686
+      - 686
+  - - - 765
+      - 765
+      - 781
+      - 790
+    - - 765
+      - 765
+      - 765
+      - 765
+    - - 765
+      - 765
+      - 765
+      - 765
+    - - 765
+      - 765
+      - 765
+      - 765
+  - - - 824
+      - 824
+      - 824
+      - 824
+    - - 824
+      - 824
+      - 824
+      - 824
+    - - 824
+      - 824
+      - 824
+      - 824
+    - - 824
+      - 824
+      - 861
+      - 881
+  - - - 916
+      - 916
+      - 916
+      - 916
+    - - 916
+      - 916
+      - 940
+      - 950
+    - - 916
+      - 916
+      - 916
+      - 916
+    - - 916
+      - 916
+      - 916
+      - 916
+  - - - 996
+      - 996
+      - 996
+      - 996
+    - - 996
+      - 996
+      - 996
+      - 996
+    - - 996
+      - 996
+      - 1029
+      - 1043
+    - - 996
+      - 996
+      - 996
+      - 996
+  - - - 1077
+      - 1077
+      - 1098
+      - 1107
+    - - 1077
+      - 1077
+      - 1077
+      - 1077
+    - - 1077
+      - 1077
+      - 1077
+      - 1077
+    - - 1077
+      - 1077
+      - 1077
+      - 1077
+  - - - 1142
+      - 1142
+      - 1142
+      - 1142
+    - - 1142
+      - 1142
+      - 1142
+      - 1142
+    - - 1142
+      - 1142
+      - 1142
+      - 1142
+    - - 1142
+      - 1142
+      - 1185
+      - 1200
+  - - - 1237
+      - 1237
+      - 1291
+      - 1291
+    - - 1237
+      - 1237
+      - 1265
+      - 1265
+    - - 1237
+      - 1237
+      - 1237
+      - 1237
+    - - 1237
+      - 1237
+      - 1237
+      - 1237
+  - - - 1500
+      - 1500
+      - 1500
+      - 1760
+    - - 1500
+      - 1500
+      - 1500
+      - 1766
+    - - 1500
+      - 1500
+      - 1500
+      - 1500
+    - - 1500
+      - 1500
+      - 1500
+      - 1500
+  - - - 1837
+      - 1837
+      - 1837
+      - 1837
+    - - 1837
+      - 1837
+      - 1837
+      - 1837
+    - - 1837
+      - 1837
+      - 1837
+      - 1837
+    - - 1837
+      - 1837
+      - 1890
+      - 1913
+  - - - 1935
+      - 1935
+      - 1967
+      - 1977
+    - - 1935
+      - 1935
+      - 1935
+      - 1935
+    - - 1935
+      - 1935
+      - 1935
+      - 1935
+    - - 1935
+      - 1935
+      - 1935
+      - 1935
+  - - - 2001
+      - 2001
+      - 2001
+      - 2001
+    - - 2001
+      - 2001
+      - 2001
+      - 2001
+    - - 2001
+      - 2001
+      - 2044
+      - 2065
+    - - 2001
+      - 2001
+      - 2001
+      - 2001
+  - - - 2092
+      - 2092
+      - 2092
+      - 2092
+    - - 2092
+      - 2092
+      - 2127
+      - 2143
+    - - 2092
+      - 2092
+      - 2092
+      - 2092
+    - - 2092
+      - 2092
+      - 2092
+      - 2092
+  - - - 2165
+      - 2165
+      - 2165
+      - 2165
+    - - 2165
+      - 2165
+      - 2165
+      - 2165
+    - - 2165
+      - 2165
+      - 2165
+      - 2165
+    - - 2165
+      - 2165
+      - 2210
+      - 2242
+  - - - 2287
+      - 2287
+      - 2308
+      - 2327
+    - - 2287
+      - 2287
+      - 2287
+      - 2287
+    - - 2287
+      - 2287
+      - 2287
+      - 2287
+    - - 2287
+      - 2287
+      - 2287
+      - 2287
+  - - - 2357
+      - 2357
+      - 2357
+      - 2357
+    - - 2357
+      - 2357
+      - 2357
+      - 2357
+    - - 2357
+      - 2357
+      - 2382
+      - 2407
+    - - 2357
+      - 2357
+      - 2357
+      - 2357
+  - - - 2434
+      - 2434
+      - 2434
+      - 2434
+    - - 2434
+      - 2434
+      - 2464
+      - 2486
+    - - 2434
+      - 2434
+      - 2434
+      - 2434
+    - - 2434
+      - 2434
+      - 2434
+      - 2434
+  - - - 2510
+      - 2510
+      - 2510
+      - 2510
+    - - 2510
+      - 2510
+      - 2510
+      - 2510
+    - - 2510
+      - 2510
+      - 2510
+      - 2510
+    - - 2510
+      - 2510
+      - 2539
+      - 2569
+  - - - 2597
+      - 2597
+      - 2615
+      - 2631
+    - - 2597
+      - 2597
+      - 2597
+      - 2597
+    - - 2597
+      - 2597
+      - 2597
+      - 2597
+    - - 2597
+      - 2597
+      - 2597
+      - 2597
+  - - - 2664
+      - 2664
+      - 2664
+      - 2664
+    - - 2664
+      - 2664
+      - 2664
+      - 2664
+    - - 2664
+      - 2664
+      - 2686
+      - 2714
+    - - 2664
+      - 2664
+      - 2664
+      - 2664
+  - - - 2729
+      - 2729
+      - 2729
+      - 2729
+    - - 2729
+      - 2729
+      - 2760
+      - 2771
+    - - 2729
+      - 2729
+      - 2729
+      - 2729
+    - - 2729
+      - 2729
+      - 2729
+      - 2729
+  - - - 2794
+      - 2794
+      - 2828
+      - 2828
+    - - 2794
+      - 2794
+      - 2827
+      - 2827
+    - - 2794
+      - 2794
+      - 2794
+      - 2794
+    - - 2794
+      - 2794
+      - 2794
+      - 2794
+  phase_upper_frames:
+  - - - 0
+      - 5
+      - 231
+      - 285
+    - - 0
+      - 5
+      - 232
+      - 285
+    - - 285
+      - 285
+      - 285
+      - 285
+    - - 285
+      - 285
+      - 285
+      - 285
+  - - - 373
+      - 373
+      - 373
+      - 373
+    - - 311
+      - 317
+      - 333
+      - 373
+    - - 373
+      - 373
+      - 373
+      - 373
+    - - 373
+      - 373
+      - 373
+      - 373
+  - - - 456
+      - 456
+      - 456
+      - 456
+    - - 456
+      - 456
+      - 456
+      - 456
+    - - 391
+      - 397
+      - 424
+      - 456
+    - - 456
+      - 456
+      - 456
+      - 456
+  - - - 472
+      - 478
+      - 488
+      - 514
+    - - 514
+      - 514
+      - 514
+      - 514
+    - - 514
+      - 514
+      - 514
+      - 514
+    - - 514
+      - 514
+      - 514
+      - 514
+  - - - 607
+      - 607
+      - 607
+      - 607
+    - - 607
+      - 607
+      - 607
+      - 607
+    - - 607
+      - 607
+      - 607
+      - 607
+    - - 543
+      - 549
+      - 580
+      - 607
+  - - - 686
+      - 686
+      - 686
+      - 686
+    - - 629
+      - 635
+      - 654
+      - 686
+    - - 686
+      - 686
+      - 686
+      - 686
+    - - 686
+      - 686
+      - 686
+      - 686
+  - - - 765
+      - 765
+      - 765
+      - 765
+    - - 765
+      - 765
+      - 765
+      - 765
+    - - 715
+      - 721
+      - 738
+      - 765
+    - - 765
+      - 765
+      - 765
+      - 765
+  - - - 780
+      - 786
+      - 795
+      - 824
+    - - 824
+      - 824
+      - 824
+      - 824
+    - - 824
+      - 824
+      - 824
+      - 824
+    - - 824
+      - 824
+      - 824
+      - 824
+  - - - 916
+      - 916
+      - 916
+      - 916
+    - - 916
+      - 916
+      - 916
+      - 916
+    - - 916
+      - 916
+      - 916
+      - 916
+    - - 860
+      - 866
+      - 886
+      - 916
+  - - - 996
+      - 996
+      - 996
+      - 996
+    - - 939
+      - 945
+      - 955
+      - 996
+    - - 996
+      - 996
+      - 996
+      - 996
+    - - 996
+      - 996
+      - 996
+      - 996
+  - - - 1077
+      - 1077
+      - 1077
+      - 1077
+    - - 1077
+      - 1077
+      - 1077
+      - 1077
+    - - 1028
+      - 1034
+      - 1048
+      - 1077
+    - - 1077
+      - 1077
+      - 1077
+      - 1077
+  - - - 1097
+      - 1103
+      - 1112
+      - 1142
+    - - 1142
+      - 1142
+      - 1142
+      - 1142
+    - - 1142
+      - 1142
+      - 1142
+      - 1142
+    - - 1142
+      - 1142
+      - 1142
+      - 1142
+  - - - 1237
+      - 1237
+      - 1237
+      - 1237
+    - - 1237
+      - 1237
+      - 1237
+      - 1237
+    - - 1237
+      - 1237
+      - 1237
+      - 1237
+    - - 1184
+      - 1190
+      - 1205
+      - 1237
+  - - - 1290
+      - 1296
+      - 1500
+      - 1500
+    - - 1264
+      - 1270
+      - 1500
+      - 1500
+    - - 1500
+      - 1500
+      - 1500
+      - 1500
+    - - 1500
+      - 1500
+      - 1500
+      - 1500
+  - - - 1500
+      - 1505
+      - 1765
+      - 1837
+    - - 1500
+      - 1505
+      - 1771
+      - 1837
+    - - 1837
+      - 1837
+      - 1837
+      - 1837
+    - - 1837
+      - 1837
+      - 1837
+      - 1837
+  - - - 1935
+      - 1935
+      - 1935
+      - 1935
+    - - 1935
+      - 1935
+      - 1935
+      - 1935
+    - - 1935
+      - 1935
+      - 1935
+      - 1935
+    - - 1889
+      - 1895
+      - 1918
+      - 1935
+  - - - 1966
+      - 1972
+      - 1982
+      - 2001
+    - - 2001
+      - 2001
+      - 2001
+      - 2001
+    - - 2001
+      - 2001
+      - 2001
+      - 2001
+    - - 2001
+      - 2001
+      - 2001
+      - 2001
+  - - - 2092
+      - 2092
+      - 2092
+      - 2092
+    - - 2092
+      - 2092
+      - 2092
+      - 2092
+    - - 2043
+      - 2049
+      - 2070
+      - 2092
+    - - 2092
+      - 2092
+      - 2092
+      - 2092
+  - - - 2165
+      - 2165
+      - 2165
+      - 2165
+    - - 2126
+      - 2132
+      - 2148
+      - 2165
+    - - 2165
+      - 2165
+      - 2165
+      - 2165
+    - - 2165
+      - 2165
+      - 2165
+      - 2165
+  - - - 2287
+      - 2287
+      - 2287
+      - 2287
+    - - 2287
+      - 2287
+      - 2287
+      - 2287
+    - - 2287
+      - 2287
+      - 2287
+      - 2287
+    - - 2209
+      - 2215
+      - 2247
+      - 2287
+  - - - 2307
+      - 2313
+      - 2332
+      - 2357
+    - - 2357
+      - 2357
+      - 2357
+      - 2357
+    - - 2357
+      - 2357
+      - 2357
+      - 2357
+    - - 2357
+      - 2357
+      - 2357
+      - 2357
+  - - - 2434
+      - 2434
+      - 2434
+      - 2434
+    - - 2434
+      - 2434
+      - 2434
+      - 2434
+    - - 2381
+      - 2387
+      - 2412
+      - 2434
+    - - 2434
+      - 2434
+      - 2434
+      - 2434
+  - - - 2510
+      - 2510
+      - 2510
+      - 2510
+    - - 2463
+      - 2469
+      - 2491
+      - 2510
+    - - 2510
+      - 2510
+      - 2510
+      - 2510
+    - - 2510
+      - 2510
+      - 2510
+      - 2510
+  - - - 2597
+      - 2597
+      - 2597
+      - 2597
+    - - 2597
+      - 2597
+      - 2597
+      - 2597
+    - - 2597
+      - 2597
+      - 2597
+      - 2597
+    - - 2538
+      - 2544
+      - 2574
+      - 2597
+  - - - 2614
+      - 2620
+      - 2636
+      - 2664
+    - - 2664
+      - 2664
+      - 2664
+      - 2664
+    - - 2664
+      - 2664
+      - 2664
+      - 2664
+    - - 2664
+      - 2664
+      - 2664
+      - 2664
+  - - - 2729
+      - 2729
+      - 2729
+      - 2729
+    - - 2729
+      - 2729
+      - 2729
+      - 2729
+    - - 2685
+      - 2691
+      - 2719
+      - 2729
+    - - 2729
+      - 2729
+      - 2729
+      - 2729
+  - - - 2794
+      - 2794
+      - 2794
+      - 2794
+    - - 2759
+      - 2765
+      - 2776
+      - 2794
+    - - 2794
+      - 2794
+      - 2794
+      - 2794
+    - - 2794
+      - 2794
+      - 2794
+      - 2794
+  - - - 2827
+      - 2833
+      - 3060
+      - 3060
+    - - 2826
+      - 2832
+      - 3060
+      - 3060
+    - - 3060
+      - 3060
+      - 3060
+      - 3060
+    - - 3060
+      - 3060
+      - 3060
+      - 3060
+  reset: same random frame as robot; no task/deadline mutation
+  position_alignment: robot anchor XY/yaw; reference absolute Z plus env origin; feet
+    are ankle links
+  actor_reference_input: false
+  value_channels: unchanged task + AMP; all six reference terms added to task reward
+  weights:
+    reference_body_lower: 0.15
+    reference_body_upper: 0.15
+    reference_joint_lower: 0.25
+    reference_joint_upper: 0.15
+    reference_swing_foot: 0.3
+    reference_anchor_orientation: 0.1
+  body_std_m:
+    lower: 0.18
+    upper: 0.25
+  joint_sum_sq_temperature:
+    lower: 0.8
+    upper: 1.0
+  swing_temperature_m2: 0.02
+  anchor_orientation_std_rad: 0.35
+  error_metric_note: zero when no match; read with guidance_valid and conflict_time_s
+single_task_episode: false
+anchors:
+- 0
+- 285
+- 373
+- 456
+- 514
+- 607
+- 686
+- 765
+- 824
+- 916
+- 996
+- 1077
+- 1142
+- 1237
+- 1500
+- 1837
+- 1935
+- 2001
+- 2092
+- 2165
+- 2287
+- 2357
+- 2434
+- 2510
+- 2597
+- 2664
+- 2729
+- 2794
+- 3060
+source_support_ids:
+- - -1
+  - -1
+  - 0
+  - 0
+- - 4
+  - 4
+  - 0
+  - 0
+- - 4
+  - 5
+  - 0
+  - 0
+- - 4
+  - 5
+  - 1
+  - 0
+- - 5
+  - 5
+  - 1
+  - 0
+- - 5
+  - 5
+  - 1
+  - 1
+- - 5
+  - 6
+  - 1
+  - 1
+- - 5
+  - 6
+  - 2
+  - 1
+- - 6
+  - 6
+  - 2
+  - 1
+- - 6
+  - 6
+  - 2
+  - 2
+- - 6
+  - 7
+  - 2
+  - 2
+- - 6
+  - 7
+  - 3
+  - 2
+- - 7
+  - 7
+  - 3
+  - 2
+- - 7
+  - 7
+  - 3
+  - 3
+- - -1
+  - -1
+  - 3
+  - 3
+- - 7
+  - 7
+  - 3
+  - 3
+- - 7
+  - 7
+  - 3
+  - 2
+- - 6
+  - 7
+  - 3
+  - 2
+- - 6
+  - 7
+  - 2
+  - 2
+- - 6
+  - 6
+  - 2
+  - 2
+- - 6
+  - 6
+  - 2
+  - 1
+- - 5
+  - 6
+  - 2
+  - 1
+- - 5
+  - 6
+  - 1
+  - 1
+- - 5
+  - 5
+  - 1
+  - 1
+- - 5
+  - 5
+  - 1
+  - 0
+- - 4
+  - 5
+  - 1
+  - 0
+- - 4
+  - 5
+  - 0
+  - 0
+- - 4
+  - 4
+  - 0
+  - 0
+target_support_ids:
+- - 4
+  - 4
+  - 0
+  - 0
+- - 4
+  - 5
+  - 0
+  - 0
+- - 4
+  - 5
+  - 1
+  - 0
+- - 5
+  - 5
+  - 1
+  - 0
+- - 5
+  - 5
+  - 1
+  - 1
+- - 5
+  - 6
+  - 1
+  - 1
+- - 5
+  - 6
+  - 2
+  - 1
+- - 6
+  - 6
+  - 2
+  - 1
+- - 6
+  - 6
+  - 2
+  - 2
+- - 6
+  - 7
+  - 2
+  - 2
+- - 6
+  - 7
+  - 3
+  - 2
+- - 7
+  - 7
+  - 3
+  - 2
+- - 7
+  - 7
+  - 3
+  - 3
+- - -1
+  - -1
+  - 3
+  - 3
+- - 7
+  - 7
+  - 3
+  - 3
+- - 7
+  - 7
+  - 3
+  - 2
+- - 6
+  - 7
+  - 3
+  - 2
+- - 6
+  - 7
+  - 2
+  - 2
+- - 6
+  - 6
+  - 2
+  - 2
+- - 6
+  - 6
+  - 2
+  - 1
+- - 5
+  - 6
+  - 2
+  - 1
+- - 5
+  - 6
+  - 1
+  - 1
+- - 5
+  - 5
+  - 1
+  - 1
+- - 5
+  - 5
+  - 1
+  - 0
+- - 4
+  - 5
+  - 1
+  - 0
+- - 4
+  - 5
+  - 0
+  - 0
+- - 4
+  - 4
+  - 0
+  - 0
+- - -1
+  - -1
+  - 0
+  - 0
+active_limbs:
+- - true
+  - true
+  - false
+  - false
+- - false
+  - true
+  - false
+  - false
+- - false
+  - false
+  - true
+  - false
+- - true
+  - false
+  - false
+  - false
+- - false
+  - false
+  - false
+  - true
+- - false
+  - true
+  - false
+  - false
+- - false
+  - false
+  - true
+  - false
+- - true
+  - false
+  - false
+  - false
+- - false
+  - false
+  - false
+  - true
+- - false
+  - true
+  - false
+  - false
+- - false
+  - false
+  - true
+  - false
+- - true
+  - false
+  - false
+  - false
+- - false
+  - false
+  - false
+  - true
+- - true
+  - true
+  - false
+  - false
+- - true
+  - true
+  - false
+  - false
+- - false
+  - false
+  - false
+  - true
+- - true
+  - false
+  - false
+  - false
+- - false
+  - false
+  - true
+  - false
+- - false
+  - true
+  - false
+  - false
+- - false
+  - false
+  - false
+  - true
+- - true
+  - false
+  - false
+  - false
+- - false
+  - false
+  - true
+  - false
+- - false
+  - true
+  - false
+  - false
+- - false
+  - false
+  - false
+  - true
+- - true
+  - false
+  - false
+  - false
+- - false
+  - false
+  - true
+  - false
+- - false
+  - true
+  - false
+  - false
+- - true
+  - true
+  - false
+  - false
+directions:
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- 1.0
+- -1.0
+- -1.0
+- -1.0
+- -1.0
+- -1.0
+- -1.0
+- -1.0
+- -1.0
+- -1.0
+- -1.0
+- -1.0
+- -1.0
+- -1.0
+current_expected_support_source: 'per-limb execution phase: prepare=source, release/move=-1,
+  acquire=target'
+contact_phases:
+  names: !!python/tuple
+  - prepare
+  - release
+  - move
+  - acquire
+  actor_encoding: four phase IDs divided by 3; appended after direction
+  confirmation_steps: 4
+  release_grace_steps: 5
+  reset: initialize from reset-frame support annotation; already passed events do
+    not pay
+  timing: all subphases share the original goal deadline; never a reference clock
+  milestone_budgets:
+    release: 0.2
+    contact: 0.5
+body_goal:
+  source: next stable reference body anchor position; fixed within a support goal
+  anchor_body: body
+  actor_encoding: appended body_goal_error_b3 in meters; not center of mass
+  reward_weight_per_meter: 0.5
+  reward: signed distance decrease, fixed low weight in all phases; reset/goal changes
+    do not pay
+  distance_deadband_m: 0.1
+  completion: soft shaping only; no additional completion gate
+  metrics:
+  - body_target_distance_m
+  - body_goal_progress_m
+  - body_completion_error_m
+foot_safety:
+  limbs:
+  - left_foot
+  - right_foot
+  surface_source: per-foot per-rung filtered normal forces; mixed contacts are approximate
+  surface_scope: all ladder rungs, including source/target; no ground or hand penalties
+  force_threshold_n: 5.0
+  min_top_normal_fraction: 0.5
+  front_side_weight_per_foot_second: -3.0
+  underside_weight_per_foot_second: -3.0
+  pose_weight_per_foot_second: -1.0
+  pose_pitch_range_deg: !!python/tuple
+  - -55.0
+  - 15.0
+  pose_side_tilt_limit_deg: 20.0
+  pose_error_scale_deg: 30.0
+  pose_axes: ankle-link +X=toe, +Y=lateral, +Z=sole up; positive pitch means toe up
+  pose_scope: active feet in release/move/unconfirmed acquire, or actually airborne;
+    pre-phase-update
+  pose_penalty: squared angular excess plus upside-down penalty, capped at one per
+    foot
+  completion: unchanged; this experiment adds penalties only
+  metrics: foot_left/right_* exposure durations, force/angle peaks, pose-error integral;
+    retained on reset
+next_support_source: stable_support_rung_id[next_stable_anchor]
+reset_sampling: uniform frames [0, final_anchor), then stable_reset_segment_ids[frame]
+deadline: max(10 s, 2 * remaining reference duration + 1 s)
+episode_length_s: 320.0
+fall_confirmation_steps: 10
+collision_confirmation_steps: 20
+limb_order:
+- left_hand
+- right_hand
+- left_foot
+- right_foot
+reward_units: rates multiplied by dt; progress in meters; bonuses once per event
+ground_support_detection: ankle net force, no rung force, abs(foot z - env origin
+  z) <= tolerance
+ground_height_tolerance_m: 0.12

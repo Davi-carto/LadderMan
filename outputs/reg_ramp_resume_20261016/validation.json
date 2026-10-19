@@ -1,0 +1,25 @@
+{
+  "curve": [
+    [
+      0,
+      1.0
+    ],
+    [
+      1250,
+      1.75
+    ],
+    [
+      2500,
+      2.5
+    ],
+    [
+      4500,
+      2.5
+    ]
+  ],
+  "start_update": 10000,
+  "end_update": 10002,
+  "next_rollout_multiplier_after_reload": 1.0012,
+  "reward_compute_checks": 72,
+  "log_dir": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-23-05_smoke_resume9999_regramp_energy_env8_iter2"
+}

@@ -1,0 +1,334 @@
+{
+  "checkpoint": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-49-56_allframe_raw_support_ids_amp_8000_env5120/model_7000.pt",
+  "checkpoint_iteration": 7000,
+  "episodes": [
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 0.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 3,
+      "length": 181,
+      "motion_complete": false,
+      "reward": 1.6237573623657227,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 0.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 182,
+      "motion_complete": false,
+      "reward": 1.7430965900421143,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 0.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 185,
+      "motion_complete": false,
+      "reward": 1.228261947631836,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 0.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 0.0,
+        "task_completed_count": 1.0,
+        "task_fall": 1.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 186,
+      "motion_complete": false,
+      "reward": 1.1892826557159424,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 0.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 3,
+      "length": 79,
+      "motion_complete": false,
+      "reward": 2.904696226119995,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 0.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 76,
+      "motion_complete": false,
+      "reward": 2.9586472511291504,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 0.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 80,
+      "motion_complete": false,
+      "reward": 2.9808053970336914,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 0.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 80,
+      "motion_complete": false,
+      "reward": 3.0362939834594727,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 0.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 3,
+      "length": 75,
+      "motion_complete": false,
+      "reward": 3.135378360748291,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 0.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 1,
+      "length": 79,
+      "motion_complete": false,
+      "reward": 2.9015374183654785,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 0.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 2,
+      "length": 80,
+      "motion_complete": false,
+      "reward": 2.85709810256958,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    },
+    {
+      "causes": {
+        "task_failure": true,
+        "task_success": false,
+        "time_out": false
+      },
+      "contact_sequence": {
+        "reset_frame": 0.0,
+        "sequence_completion_fraction": 0.0357142873108387,
+        "sequence_remaining_tasks": 27.0,
+        "sequence_start_task_index": 0.0,
+        "sequence_success": 0.0,
+        "task_collision": 1.0,
+        "task_completed_count": 1.0,
+        "task_fall": 0.0,
+        "task_index": 1.0,
+        "task_timeout": 0.0
+      },
+      "env_id": 0,
+      "length": 79,
+      "motion_complete": false,
+      "reward": 3.0488617420196533,
+      "single_task_episode": false,
+      "task_success": false,
+      "terminal_reference_frame": 285
+    }
+  ],
+  "episodes_finished": 12,
+  "metrics": {
+    "recurrent_feature_abs": {
+      "count": 409600,
+      "max": 0.9999999403953552,
+      "mean": 0.6963274624198675,
+      "min": 5.227374799687823e-07
+    }
+  },
+  "motion_complete_episodes": 0,
+  "motion_complete_fraction": 0.0,
+  "purpose": "No-update deterministic playback of a complete TransformerVision PPO checkpoint.",
+  "sequence_complete_episodes": 0,
+  "task_success_episodes": 0,
+  "total_control_steps": 400,
+  "total_transitions": 1600
+}

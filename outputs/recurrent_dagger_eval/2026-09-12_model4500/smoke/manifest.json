@@ -1,0 +1,158 @@
+{
+  "args": {
+    "task": "Ladder-Climb-CR1-ZDW0824-UpDown-Recurrent-Visual-PPO-Dagger-Synced-v0",
+    "checkpoint": "logs/rsl_rl/cr1_zdw0824_recurrent_visual_ppo_dagger_model9999/2026-09-12_00-37-16_ppo_mse_ln_ramp_teacher9999_env5120_iter10000_seed42/model_4500.pt",
+    "motion_file": "Ladder/motions/zdw0824_capture1/pitchminus3_yawminus4_xminus030/37_visual_up_down_stop_command/zdw0824_capture1_stage37_train_ready_middle_default100_zplus5mm_reset5mm_visual_up_down_stop_50hz_motion.npz",
+    "output_dir": "outputs/recurrent_dagger_eval/2026-09-12_model4500/smoke",
+    "reference_frame": 0,
+    "num_envs": 8,
+    "max_steps": 2,
+    "seed": 42,
+    "controller": "student_mean",
+    "fixed_std": 0.1,
+    "nominal_ladder": false,
+    "enable_cameras": false,
+    "xr": false,
+    "device": "cuda:0",
+    "cpu": false,
+    "verbose": false,
+    "info": false,
+    "rendering_mode": null,
+    "kit_args": "",
+    "anim_recording_enabled": false,
+    "anim_recording_start_time": 0,
+    "anim_recording_stop_time": 10,
+    "headless": true,
+    "hide_ui": true,
+    "create_new_stage": false,
+    "physics_gpu": 0,
+    "active_gpu": 0
+  },
+  "task": "Ladder-Climb-CR1-ZDW0824-UpDown-Recurrent-Visual-PPO-Dagger-Synced-v0",
+  "data_contract": "cr1_visual_ppo_dagger_proprio25x85_depth1x60x80_30hz_layernorm_gru256_privileged_critic_mixed_v1",
+  "checkpoint": {
+    "path": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_zdw0824_recurrent_visual_ppo_dagger_model9999/2026-09-12_00-37-16_ppo_mse_ln_ramp_teacher9999_env5120_iter10000_seed42/model_4500.pt",
+    "sha256": "0ddc10c66efdccaed1d0eb24af10085459e598890d8cc433147e98c1bc86a284",
+    "iteration": 4500,
+    "update_iteration": 4501
+  },
+  "teacher_checkpoint": {
+    "path": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-09_13-56-37_train10000_scratch_delay0or5ms_phys5ms_seed42/model_9999.pt",
+    "sha256": "dc03d17436781a3fd24eae746fb340ce0da3b4f133be62b56cf1f9ee64f59dba"
+  },
+  "motion_file": {
+    "path": "/home/zhangdawei/LadderMan/Ladder/motions/zdw0824_capture1/pitchminus3_yawminus4_xminus030/37_visual_up_down_stop_command/zdw0824_capture1_stage37_train_ready_middle_default100_zplus5mm_reset5mm_visual_up_down_stop_50hz_motion.npz",
+    "sha256": "f0ab0814b30e991edfd6e097d586e67d62ca81f598ca03d649447e090ea42038",
+    "frames": 3061
+  },
+  "training_manifest": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_zdw0824_recurrent_visual_ppo_dagger_model9999/2026-09-12_00-37-16_ppo_mse_ln_ramp_teacher9999_env5120_iter10000_seed42/recurrent_visual_ppo_diagnostics/manifest.json",
+  "environment_config_file": "env.yaml",
+  "environment_config_sha256": "77c890ca05167948c7fffdb7892ecf08a8efeb877274d0091284966afe25a932",
+  "step_dt": 0.02,
+  "reference_frame": 0,
+  "downward_start_frame": 1550,
+  "initial_tensor_sha256": {
+    "reference_frame": "12d402c88b95ac6d7ac8735aaf2bcac073096ca49d484617646591adf150429e",
+    "command": "3eea203226242e3d0e3788295fb01cb7fada54015d08c5f97bf39316438a2a29",
+    "root_pos": "848aad9af46b01557958fc22929c775c3de34e23644d0fdb9260d2f5028d20ac",
+    "root_quat": "c8066c054ff4c86a6a97d39488aba1edef493cfb2ad53bf126121d38917a54cc",
+    "root_tilt_rad": "091db807c686326ece8c7083c169c210e9832584ebce705089d5da16f4a59a6b",
+    "anchor_pos_error_m": "d7ebb7cc3d2146cdef80dd42e23e396ec793d6d8e59240f94f8b45572df3ba78",
+    "anchor_rot_error_rad": "2c010c92dbb2f41a74fb608e9b326d05728fa698ecad099231d95702aa7d766e",
+    "joint_pos": "94bd4881258ddcd95f4789e803496a668f4f5ac6d31ae37ccef00bdf30535f0f",
+    "observation/proprio_history": "df5edd30a700e6f3ef5be3294ca9f41baec628323a8ea594c9a390140346ecc7",
+    "observation/depth_history": "39ea454d297ae4f2ba89c2f25c82a78959540ac1ad06e2f2cff6100cc310919e",
+    "observation/depth_updated": "0c21c26ef81a94583805ba26bb23e60d46afaadf893b4ad09611e3d8a3fc8954",
+    "observation/teacher": "18be98ecbdff0bddffd4402aed57f0ae9eb42172c390a1e4319f48b4dc0ecb3d"
+  },
+  "student_network": "CR1RecurrentVisualPpoStudent(\n  (proprio_encoder): Sequential(\n    (0): Linear(in_features=2125, out_features=512, bias=True)\n    (1): ELU(alpha=1.0)\n    (2): Linear(in_features=512, out_features=256, bias=True)\n    (3): ELU(alpha=1.0)\n    (4): Linear(in_features=256, out_features=128, bias=True)\n    (5): ELU(alpha=1.0)\n    (layer_norm): LayerNorm((128,), eps=1e-05, elementwise_affine=True)\n  )\n  (depth_encoder): CR1RecurrentDepthEncoder(\n    (convolutions): Sequential(\n      (0): Conv2d(1, 32, kernel_size=(8, 8), stride=(4, 4))\n      (1): ELU(alpha=1.0)\n      (2): Conv2d(32, 64, kernel_size=(4, 4), stride=(2, 2))\n      (3): ELU(alpha=1.0)\n      (4): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2))\n      (5): ELU(alpha=1.0)\n      (6): Flatten(start_dim=1, end_dim=-1)\n    )\n    (projection): Sequential(\n      (0): Linear(in_features=768, out_features=128, bias=True)\n      (1): ELU(alpha=1.0)\n      (layer_norm): LayerNorm((128,), eps=1e-05, elementwise_affine=True)\n    )\n  )\n  (gru): GRU(256, 256)\n  (recurrent_projection): Sequential(\n    (0): Linear(in_features=256, out_features=256, bias=True)\n    (1): ELU(alpha=1.0)\n  )\n  (feature_mlp): Sequential(\n    (0): Linear(in_features=341, out_features=2048, bias=True)\n    (1): ELU(alpha=1.0)\n    (2): Linear(in_features=2048, out_features=1024, bias=True)\n    (3): ELU(alpha=1.0)\n    (4): Linear(in_features=1024, out_features=512, bias=True)\n    (5): ELU(alpha=1.0)\n    (6): Linear(in_features=512, out_features=256, bias=True)\n    (7): ELU(alpha=1.0)\n  )\n  (action_head): Linear(in_features=256, out_features=25, bias=True)\n)",
+  "checkpoint_action_std": [
+    0.1638636589050293,
+    0.16195960342884064,
+    0.1786821037530899,
+    0.15406055748462677,
+    0.15923132002353668,
+    0.18304510414600372,
+    0.1726255565881729,
+    0.17211629450321198,
+    0.17009668052196503,
+    0.1487734615802765,
+    0.15155543386936188,
+    0.1755029559135437,
+    0.191353440284729,
+    0.17779846489429474,
+    0.1710357815027237,
+    0.17004989087581635,
+    0.18515527248382568,
+    0.1961783766746521,
+    0.17920248210430145,
+    0.18681563436985016,
+    0.1829090714454651,
+    0.1887781172990799,
+    0.18773029744625092,
+    0.16377924382686615,
+    0.1642731875181198
+  ],
+  "executed_action_std": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "observation_shapes": {
+    "proprio_history": [
+      8,
+      25,
+      85
+    ],
+    "depth_history": [
+      8,
+      1,
+      60,
+      80
+    ],
+    "depth_updated": [
+      8,
+      1
+    ],
+    "teacher": [
+      8,
+      780
+    ]
+  },
+  "control_delay_physics_steps": [
+    0,
+    1
+  ],
+  "protocol": {
+    "episode_sampling": "first episode per environment; no replacement by autoreset episodes",
+    "terminal_state_timing": "post-physics after termination compute, before reward/reset/reference advancement",
+    "success": "motion_complete without any simultaneous non-timeout failure term",
+    "censoring": "unfinished first episodes at evaluation budget are censored, never successes",
+    "randomization": "training randomization retained; only fixed frame and explicit nominal_ladder override",
+    "matching": "matched initial seed; future observation/reset RNG streams need not stay paired",
+    "sampling_rng": "separate generator for action noise, seed + 1000003",
+    "ascent_marker": "reached first negative-command frame without simultaneous failure; not a separate geometric success test"
+  }
+}

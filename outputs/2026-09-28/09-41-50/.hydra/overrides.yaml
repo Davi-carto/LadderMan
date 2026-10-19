@@ -1,0 +1,5 @@
+- agent.algorithm.num_learning_epochs=1
+- agent.algorithm.num_mini_batches=1
+- agent.algorithm.sequence_micro_batch_envs=8
+- agent.algorithm.amp_discriminator_batch_size=32
+- agent.algorithm.amp_discriminator_updates=1

@@ -1,0 +1,42 @@
+[
+  {
+    "frame": 373,
+    "source_rung": 0,
+    "samples": 399,
+    "foot_lowest_point_minus_support_top_median_m": -0.0009152162820100784,
+    "foot_lowest_point_minus_support_top_min_m": -0.0012424755841493607,
+    "foot_lowest_point_minus_support_top_max_m": -0.00029577501118183136,
+    "projected_aabb_overlap_fraction": 1.0,
+    "note": "Convex-hull foot vertices; height bounds and XY projection only, not exact signed mesh separation/penetration."
+  },
+  {
+    "frame": 686,
+    "source_rung": 1,
+    "samples": 399,
+    "foot_lowest_point_minus_support_top_median_m": -0.0010479828342795372,
+    "foot_lowest_point_minus_support_top_min_m": -0.0010602911934256554,
+    "foot_lowest_point_minus_support_top_max_m": -4.598405212163925e-05,
+    "projected_aabb_overlap_fraction": 1.0,
+    "note": "Convex-hull foot vertices; height bounds and XY projection only, not exact signed mesh separation/penetration."
+  },
+  {
+    "frame": 2001,
+    "source_rung": 3,
+    "samples": 399,
+    "foot_lowest_point_minus_support_top_median_m": -0.00018174853175878525,
+    "foot_lowest_point_minus_support_top_min_m": -0.0009432574734091759,
+    "foot_lowest_point_minus_support_top_max_m": -6.790366023778915e-05,
+    "projected_aabb_overlap_fraction": 1.0,
+    "note": "Convex-hull foot vertices; height bounds and XY projection only, not exact signed mesh separation/penetration."
+  },
+  {
+    "frame": 996,
+    "source_rung": 2,
+    "samples": 399,
+    "foot_lowest_point_minus_support_top_median_m": -0.039855703711509705,
+    "foot_lowest_point_minus_support_top_min_m": -0.043688490986824036,
+    "foot_lowest_point_minus_support_top_max_m": -0.02019934356212616,
+    "projected_aabb_overlap_fraction": 1.0,
+    "note": "Convex-hull foot vertices; height bounds and XY projection only, not exact signed mesh separation/penetration."
+  }
+]

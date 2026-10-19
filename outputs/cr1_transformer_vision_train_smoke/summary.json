@@ -1,0 +1,34 @@
+{
+  "actor_checkpoint": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_wood_step_reference_force_limited_strict_front_side_deploy_obs/2026-07-31_14-01-06_deploy_obs_from_scratch_to7000/model_6999.pt",
+  "history": [
+    {
+      "done_count": 0,
+      "frozen_actor_parameter_change_max_abs": 0.0,
+      "future_total_transitions": 12,
+      "future_valid_transitions": 12,
+      "gradient_norm_before_clip": 4.695796966552734,
+      "iteration": 1,
+      "losses_before_update": {
+        "foot": 0.02048373594880104,
+        "foot_left": 0.018216600641608238,
+        "foot_right": 0.022750871255993843,
+        "future": 2.745455265045166,
+        "hand": 0.7719991207122803,
+        "hand_left": 0.7980103492736816,
+        "hand_right": 0.7459878921508789,
+        "kl": 0.1413329541683197,
+        "total": 15.488948822021484,
+        "velocity": 0.017687223851680756
+      },
+      "mean_reward": 0.09631441533565521,
+      "visual_parameter_change_max_abs": 0.001000046730041504
+    }
+  ],
+  "learning_rate": 0.001,
+  "max_grad_norm": 1.0,
+  "num_envs": 4,
+  "purpose": "TransformerVision auxiliary-only pretraining. The frozen actor and PPO are excluded.",
+  "resume_checkpoint": null,
+  "rollout_steps": 3,
+  "task": "Ladder-Climb-CR1-Reference-ForceLimited-StrictFrontSide-DeployObs-WarpTransformerVision-v0"
+}

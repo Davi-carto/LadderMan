@@ -1,0 +1,154 @@
+{
+  "actions_shape": [
+    3,
+    4,
+    25
+  ],
+  "checkpoint": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_wood_step_reference_force_limited_strict_front_side_deploy_obs/2026-07-31_14-01-06_deploy_obs_from_scratch_to7000/model_6999.pt",
+  "done_transitions": 0,
+  "frozen_actor_parameter_change_max_abs": 0.0,
+  "future_total_transitions": 12,
+  "future_valid_transitions": 12,
+  "heightmap_shape": [
+    4,
+    10,
+    3
+  ],
+  "heightmap_units": "relative limb-reference height in meters",
+  "input_shapes": {
+    "critic": [
+      4,
+      631
+    ],
+    "policy": [
+      4,
+      660
+    ],
+    "transformer_vision_depth_history": [
+      4,
+      2,
+      60,
+      80
+    ],
+    "transformer_vision_heightmap_valid": [
+      4,
+      4,
+      10,
+      3
+    ],
+    "transformer_vision_limb_heightmaps": [
+      4,
+      4,
+      10,
+      3
+    ],
+    "transformer_vision_next_proprio_target": [
+      4,
+      85
+    ],
+    "transformer_vision_proprio_history": [
+      4,
+      10,
+      85
+    ],
+    "transformer_vision_velocity_target": [
+      4,
+      3
+    ]
+  },
+  "loss_unweighted": {
+    "foot": 0.02054441347718239,
+    "foot_left": 0.01825382374227047,
+    "foot_right": 0.022835005074739456,
+    "future": 2.7485125064849854,
+    "hand": 0.7717781066894531,
+    "hand_left": 0.7980009317398071,
+    "hand_right": 0.7455553412437439,
+    "kl": 0.14358116686344147,
+    "total": 15.506031036376953,
+    "velocity": 0.01762131042778492
+  },
+  "loss_weights": {
+    "foot": 2.0,
+    "future": 5.0,
+    "hand": 2.0,
+    "kl": 1.0,
+    "velocity": 2.0
+  },
+  "map_order": [
+    "left_hand",
+    "right_hand",
+    "left_foot",
+    "right_foot"
+  ],
+  "optimizer_steps": 0,
+  "per_limb": {
+    "left_foot": {
+      "mse": 0.01825382374227047,
+      "prediction": {
+        "count": 360,
+        "max": 0.27188342809677124,
+        "mean": 0.00961608812212944,
+        "min": -0.19479280710220337
+      },
+      "target": {
+        "count": 360,
+        "max": 0.23897457122802734,
+        "mean": 0.026123376563191414,
+        "min": -0.2238033413887024
+      },
+      "valid_elements": 360
+    },
+    "left_hand": {
+      "mse": 0.7980009317398071,
+      "prediction": {
+        "count": 360,
+        "max": 0.1318836510181427,
+        "mean": -8.987180626718327e-05,
+        "min": -0.16089919209480286
+      },
+      "target": {
+        "count": 360,
+        "max": 1.433010458946228,
+        "mean": 0.7453072667121887,
+        "min": -0.1764923334121704
+      },
+      "valid_elements": 360
+    },
+    "right_foot": {
+      "mse": 0.022835005074739456,
+      "prediction": {
+        "count": 360,
+        "max": 0.1809680312871933,
+        "mean": -0.004908107221126556,
+        "min": -0.1693088710308075
+      },
+      "target": {
+        "count": 360,
+        "max": 0.4517495334148407,
+        "mean": 0.030606864020228386,
+        "min": -0.2301454246044159
+      },
+      "valid_elements": 360
+    },
+    "right_hand": {
+      "mse": 0.7455553412437439,
+      "prediction": {
+        "count": 360,
+        "max": 0.22862952947616577,
+        "mean": -0.015166018158197403,
+        "min": -0.3514053225517273
+      },
+      "target": {
+        "count": 360,
+        "max": 1.480597734451294,
+        "mean": 0.6828651428222656,
+        "min": -0.12721657752990723
+      },
+      "valid_elements": 360
+    }
+  },
+  "purpose": "Frozen nonvisual actor rollout; TransformerVision diagnostic only. No PPO or optimizer step ran.",
+  "visual_gradient_norm_without_step": 4.64254903793335,
+  "visual_parameter_change_max_abs": 0.0
+}

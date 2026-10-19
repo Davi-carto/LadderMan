@@ -1,0 +1,835 @@
+{
+  "schema_version": 1,
+  "args": {
+    "checkpoint": "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-10-23_teacher_only_bc_teacher9999_5120env_10000iter/model_9999.pt",
+    "output_dir": "outputs/teacher_student_shadow/2026-09-07_frame0_check/smoke_clean_student",
+    "controller": "student",
+    "condition": "clean",
+    "num_envs": 2,
+    "max_steps": 3,
+    "reference_frame": 0,
+    "seed": 42,
+    "enable_cameras": false,
+    "xr": false,
+    "device": "cuda:0",
+    "cpu": false,
+    "verbose": false,
+    "info": false,
+    "rendering_mode": null,
+    "kit_args": "",
+    "anim_recording_enabled": false,
+    "anim_recording_start_time": 0,
+    "anim_recording_stop_time": 10,
+    "headless": true,
+    "hide_ui": true,
+    "create_new_stage": false,
+    "physics_gpu": 0,
+    "active_gpu": 0
+  },
+  "task": "Ladder-Climb-CR1-ZDW0824-UpDown-Pure-Visual-Dagger-v0",
+  "checkpoint": {
+    "path": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-10-23_teacher_only_bc_teacher9999_5120env_10000iter/model_9999.pt",
+    "sha256": "7f6e27d6a90c41740f96ef42a92efee10cf080eee10773ce3086e103b3c44f3c",
+    "iter": 9999
+  },
+  "training_manifest": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-10-23_teacher_only_bc_teacher9999_5120env_10000iter/teacher_bc/manifest.json",
+  "configuration": {
+    "condition": "clean",
+    "seed": 42,
+    "reference_frame": 0,
+    "changes": [
+      {
+        "path": "seed",
+        "before": null,
+        "after": 42
+      },
+      {
+        "path": "commands.motion.fixed_reference_frame",
+        "before": null,
+        "after": 0
+      },
+      {
+        "path": "commands.motion.debug_vis",
+        "before": true,
+        "after": false
+      },
+      {
+        "path": "scene.contact_forces.debug_vis",
+        "before": true,
+        "after": false
+      },
+      {
+        "path": "events.robot_material",
+        "before": {
+          "func": "isaaclab.envs.mdp.events:randomize_rigid_body_material",
+          "params": {
+            "asset_cfg": {
+              "name": "robot",
+              "joint_names": null,
+              "joint_ids": "slice(None, None, None)",
+              "fixed_tendon_names": null,
+              "fixed_tendon_ids": "slice(None, None, None)",
+              "body_names": ".*",
+              "body_ids": "slice(None, None, None)",
+              "object_collection_names": null,
+              "object_collection_ids": "slice(None, None, None)",
+              "preserve_order": false
+            },
+            "static_friction_range": [
+              0.3,
+              7.2
+            ],
+            "dynamic_friction_range": [
+              0.3,
+              3.6
+            ],
+            "restitution_range": [
+              0.0,
+              0.2
+            ],
+            "num_buckets": 64,
+            "make_consistent": true
+          },
+          "mode": "startup",
+          "interval_range_s": null,
+          "is_global_time": false,
+          "min_step_count_between_reset": 0
+        },
+        "after": null
+      },
+      {
+        "path": "events.robot_mass",
+        "before": {
+          "func": "isaaclab.envs.mdp.events:randomize_rigid_body_mass",
+          "params": {
+            "asset_cfg": {
+              "name": "robot",
+              "joint_names": null,
+              "joint_ids": "slice(None, None, None)",
+              "fixed_tendon_names": null,
+              "fixed_tendon_ids": "slice(None, None, None)",
+              "body_names": ".*",
+              "body_ids": "slice(None, None, None)",
+              "object_collection_names": null,
+              "object_collection_ids": "slice(None, None, None)",
+              "preserve_order": false
+            },
+            "mass_distribution_params": [
+              0.9,
+              1.1
+            ],
+            "operation": "scale"
+          },
+          "mode": "startup",
+          "interval_range_s": null,
+          "is_global_time": false,
+          "min_step_count_between_reset": 0
+        },
+        "after": null
+      },
+      {
+        "path": "events.joint_position_offset",
+        "before": {
+          "func": "ladder.tasks.ladder_climb.mdp.events:randomize_joint_default_pos",
+          "params": {
+            "asset_cfg": {
+              "name": "robot",
+              "joint_names": [
+                ".*"
+              ],
+              "joint_ids": "slice(None, None, None)",
+              "fixed_tendon_names": null,
+              "fixed_tendon_ids": "slice(None, None, None)",
+              "body_names": null,
+              "body_ids": "slice(None, None, None)",
+              "object_collection_names": null,
+              "object_collection_ids": "slice(None, None, None)",
+              "preserve_order": false
+            },
+            "pos_distribution_params": [
+              -0.01,
+              0.01
+            ],
+            "operation": "add"
+          },
+          "mode": "startup",
+          "interval_range_s": null,
+          "is_global_time": false,
+          "min_step_count_between_reset": 0
+        },
+        "after": null
+      },
+      {
+        "path": "events.torso_com",
+        "before": {
+          "func": "ladder.tasks.ladder_climb.mdp.events:randomize_rigid_body_com",
+          "params": {
+            "asset_cfg": {
+              "name": "robot",
+              "joint_names": null,
+              "joint_ids": "slice(None, None, None)",
+              "fixed_tendon_names": null,
+              "fixed_tendon_ids": "slice(None, None, None)",
+              "body_names": "body",
+              "body_ids": "slice(None, None, None)",
+              "object_collection_names": null,
+              "object_collection_ids": "slice(None, None, None)",
+              "preserve_order": false
+            },
+            "com_range": {
+              "x": [
+                -0.02,
+                0.02
+              ],
+              "y": [
+                -0.02,
+                0.02
+              ],
+              "z": [
+                -0.02,
+                0.02
+              ]
+            }
+          },
+          "mode": "startup",
+          "interval_range_s": null,
+          "is_global_time": false,
+          "min_step_count_between_reset": 0
+        },
+        "after": null
+      },
+      {
+        "path": "events.root_velocity_push",
+        "before": {
+          "func": "isaaclab.envs.mdp.events:push_by_setting_velocity",
+          "params": {
+            "asset_cfg": {
+              "name": "robot",
+              "joint_names": null,
+              "joint_ids": "slice(None, None, None)",
+              "fixed_tendon_names": null,
+              "fixed_tendon_ids": "slice(None, None, None)",
+              "body_names": null,
+              "body_ids": "slice(None, None, None)",
+              "object_collection_names": null,
+              "object_collection_ids": "slice(None, None, None)",
+              "preserve_order": false
+            },
+            "velocity_range": {
+              "x": [
+                -0.08,
+                0.08
+              ],
+              "y": [
+                -0.08,
+                0.08
+              ],
+              "z": [
+                -0.03,
+                0.03
+              ],
+              "roll": [
+                -0.1,
+                0.1
+              ],
+              "pitch": [
+                -0.1,
+                0.1
+              ],
+              "yaw": [
+                -0.1,
+                0.1
+              ]
+            }
+          },
+          "mode": "interval",
+          "interval_range_s": [
+            5.0,
+            9.0
+          ],
+          "is_global_time": false,
+          "min_step_count_between_reset": 0
+        },
+        "after": null
+      },
+      {
+        "path": "commands.motion.pose_range",
+        "before": {
+          "x": [
+            -0.01,
+            0.01
+          ],
+          "y": [
+            -0.01,
+            0.01
+          ],
+          "z": [
+            0.0,
+            0.01
+          ],
+          "roll": [
+            -0.02,
+            0.02
+          ],
+          "pitch": [
+            -0.02,
+            0.02
+          ],
+          "yaw": [
+            -0.02,
+            0.02
+          ]
+        },
+        "after": {
+          "x": [
+            0.0,
+            0.0
+          ],
+          "y": [
+            0.0,
+            0.0
+          ],
+          "z": [
+            0.0,
+            0.0
+          ],
+          "roll": [
+            0.0,
+            0.0
+          ],
+          "pitch": [
+            0.0,
+            0.0
+          ],
+          "yaw": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "path": "commands.motion.fixed_start_pose_range",
+        "before": {
+          "x": [
+            -0.06,
+            0.06
+          ],
+          "y": [
+            -0.06,
+            0.06
+          ],
+          "z": [
+            0.0,
+            0.01
+          ],
+          "roll": [
+            -0.02,
+            0.02
+          ],
+          "pitch": [
+            -0.2,
+            0.2
+          ],
+          "yaw": [
+            -0.2,
+            0.2
+          ]
+        },
+        "after": {}
+      },
+      {
+        "path": "commands.motion.velocity_range",
+        "before": {
+          "x": [
+            -0.05,
+            0.05
+          ],
+          "y": [
+            -0.05,
+            0.05
+          ],
+          "z": [
+            -0.02,
+            0.02
+          ],
+          "roll": [
+            -0.05,
+            0.05
+          ],
+          "pitch": [
+            -0.05,
+            0.05
+          ],
+          "yaw": [
+            -0.05,
+            0.05
+          ]
+        },
+        "after": {
+          "x": [
+            0.0,
+            0.0
+          ],
+          "y": [
+            0.0,
+            0.0
+          ],
+          "z": [
+            0.0,
+            0.0
+          ],
+          "roll": [
+            0.0,
+            0.0
+          ],
+          "pitch": [
+            0.0,
+            0.0
+          ],
+          "yaw": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "path": "commands.motion.joint_position_range",
+        "before": [
+          -0.05,
+          0.05
+        ],
+        "after": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "path": "commands.motion.ladder_inclination_delta_range",
+        "before": [
+          -0.017453292519943295,
+          0.017453292519943295
+        ],
+        "after": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "path": "commands.motion.ladder_spacing_delta_range",
+        "before": [
+          -0.01,
+          0.01
+        ],
+        "after": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "path": "events.motor_strength",
+        "before": {
+          "func": "ladder.tasks.ladder_climb.mdp.events:randomize_actuator_strength_and_gains",
+          "params": {
+            "asset_cfg": {
+              "name": "robot",
+              "joint_names": [
+                ".*"
+              ],
+              "joint_ids": "slice(None, None, None)",
+              "fixed_tendon_names": null,
+              "fixed_tendon_ids": "slice(None, None, None)",
+              "body_names": null,
+              "body_ids": "slice(None, None, None)",
+              "object_collection_names": null,
+              "object_collection_ids": "slice(None, None, None)",
+              "preserve_order": false
+            },
+            "motor_strength_range": [
+              0.8,
+              1.2
+            ],
+            "stiffness_factor_range": [
+              0.9,
+              1.1
+            ],
+            "damping_factor_range": [
+              0.9,
+              1.1
+            ]
+          },
+          "mode": "reset",
+          "interval_range_s": null,
+          "is_global_time": false,
+          "min_step_count_between_reset": 0
+        },
+        "after": null
+      },
+      {
+        "path": "events.motor_strength_interval",
+        "before": {
+          "func": "ladder.tasks.ladder_climb.mdp.events:randomize_actuator_strength_and_gains",
+          "params": {
+            "asset_cfg": {
+              "name": "robot",
+              "joint_names": [
+                ".*"
+              ],
+              "joint_ids": "slice(None, None, None)",
+              "fixed_tendon_names": null,
+              "fixed_tendon_ids": "slice(None, None, None)",
+              "body_names": null,
+              "body_ids": "slice(None, None, None)",
+              "object_collection_names": null,
+              "object_collection_ids": "slice(None, None, None)",
+              "preserve_order": false
+            },
+            "motor_strength_range": [
+              0.8,
+              1.2
+            ],
+            "stiffness_factor_range": [
+              0.9,
+              1.1
+            ],
+            "damping_factor_range": [
+              0.9,
+              1.1
+            ]
+          },
+          "mode": "interval",
+          "interval_range_s": [
+            8.0,
+            8.0
+          ],
+          "is_global_time": false,
+          "min_step_count_between_reset": 0
+        },
+        "after": null
+      },
+      {
+        "path": "observations.transformer_vision_inputs.proprio_history.params.add_proprio_noise",
+        "before": true,
+        "after": false
+      },
+      {
+        "path": "observations.transformer_vision_depth.image.params.gaussian_std",
+        "before": 0.005,
+        "after": 0.0
+      },
+      {
+        "path": "observations.transformer_vision_depth.image.params.pixel_dropout_probability",
+        "before": 0.05,
+        "after": 0.0
+      },
+      {
+        "path": "observations.transformer_vision_depth.image.params.rung_focused_mask_probability",
+        "before": 0.1,
+        "after": 0.0
+      },
+      {
+        "path": "observations.transformer_vision_depth.image.params.translation_range",
+        "before": [
+          -0.01,
+          0.01
+        ],
+        "after": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "path": "observations.transformer_vision_depth.image.params.rotation_range",
+        "before": [
+          -0.0261799388,
+          0.0261799388
+        ],
+        "after": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "path": "observations.transformer_vision_depth.image.params.horizontal_fov_randomization_range_deg",
+        "before": [
+          -1.0,
+          1.0
+        ],
+        "after": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "path": "observations.transformer_vision_depth.image.params.vertical_fov_randomization_range_deg",
+        "before": [
+          -1.0,
+          1.0
+        ],
+        "after": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "path": "actions.joint_pos.max_control_delay",
+        "before": 2,
+        "after": 0
+      }
+    ],
+    "remaining_configured_perturbations": [],
+    "effective": {
+      "reset": {
+        "fixed_reference_frame": 0,
+        "pose_range": {
+          "x": [
+            0.0,
+            0.0
+          ],
+          "y": [
+            0.0,
+            0.0
+          ],
+          "z": [
+            0.0,
+            0.0
+          ],
+          "roll": [
+            0.0,
+            0.0
+          ],
+          "pitch": [
+            0.0,
+            0.0
+          ],
+          "yaw": [
+            0.0,
+            0.0
+          ]
+        },
+        "fixed_start_pose_range": {},
+        "velocity_range": {
+          "x": [
+            0.0,
+            0.0
+          ],
+          "y": [
+            0.0,
+            0.0
+          ],
+          "z": [
+            0.0,
+            0.0
+          ],
+          "roll": [
+            0.0,
+            0.0
+          ],
+          "pitch": [
+            0.0,
+            0.0
+          ],
+          "yaw": [
+            0.0,
+            0.0
+          ]
+        },
+        "joint_position_range": [
+          0.0,
+          0.0
+        ],
+        "ladder_inclination_delta_range": [
+          0.0,
+          0.0
+        ],
+        "ladder_spacing_delta_range": [
+          0.0,
+          0.0
+        ]
+      },
+      "proprio_params": {
+        "num_proprio_frames": 9,
+        "num_depth_frames": 2,
+        "depth_height": 60,
+        "depth_width": 80,
+        "climb_direction_value": 1.0,
+        "depth_mean": 1.0,
+        "depth_scale": 1.0,
+        "add_proprio_noise": false,
+        "root_angular_velocity_noise": 0.5,
+        "orientation_noise_rad": 0.05,
+        "joint_position_noise_normalized": 0.01,
+        "joint_velocity_noise": 1.5,
+        "climb_command_name": "motion",
+        "include_climb_command": true
+      },
+      "depth_params": {
+        "robot_name": "robot",
+        "ladder_name": "ladder",
+        "camera_body_name": "d435_head_link",
+        "width": 80,
+        "height": 60,
+        "horizontal_fov_deg": 87.0,
+        "vertical_fov_deg": 58.0,
+        "min_depth": 0.1,
+        "max_depth": 2.0,
+        "gaussian_std": 0.0,
+        "pixel_dropout_probability": 0.0,
+        "rung_focused_mask_probability": 0.0,
+        "translation_range": [
+          0.0,
+          0.0
+        ],
+        "rotation_range": [
+          0.0,
+          0.0
+        ],
+        "ladder_box_spec_set": "thin_rails_grounded",
+        "horizontal_fov_randomization_range_deg": [
+          0.0,
+          0.0
+        ],
+        "vertical_fov_randomization_range_deg": [
+          0.0,
+          0.0
+        ]
+      },
+      "active_events": {},
+      "active_manager_observation_noise": {},
+      "action": {
+        "class_type": "ladder.tasks.ladder_climb.mdp.actions:RateLimitedJointPositionAction",
+        "asset_name": "robot",
+        "debug_vis": false,
+        "clip": null,
+        "joint_names": [
+          ".*"
+        ],
+        "scale": {
+          "waist_z_joint": 0.428125,
+          "waist_x_joint": 0.428125,
+          "waist_y_joint": 1.134375,
+          "left_shoulder_y_joint": 0.428125,
+          "left_shoulder_x_joint": 0.428125,
+          "left_shoulder_z_joint": 0.428125,
+          "left_elbow_joint": 0.428125,
+          "right_shoulder_y_joint": 0.428125,
+          "right_shoulder_x_joint": 0.428125,
+          "right_shoulder_z_joint": 0.428125,
+          "right_elbow_joint": 0.428125,
+          "neck_z_joint": 0.15625,
+          "neck_y_joint": 0.15625,
+          "left_hip_y_joint": 1.134375,
+          "left_hip_x_joint": 1.134375,
+          "left_hip_z_joint": 0.428125,
+          "left_knee_joint": 1.134375,
+          "left_ankle_y_joint": 0.428125,
+          "left_ankle_x_joint": 0.15625,
+          "right_hip_y_joint": 1.134375,
+          "right_hip_x_joint": 1.134375,
+          "right_hip_z_joint": 0.428125,
+          "right_knee_joint": 1.134375,
+          "right_ankle_y_joint": 0.428125,
+          "right_ankle_x_joint": 0.15625
+        },
+        "offset": 0.0,
+        "preserve_order": false,
+        "use_default_offset": true,
+        "max_target_velocity": 6.0,
+        "min_control_delay": 0,
+        "max_control_delay": 0
+      }
+    },
+    "unchanged": [
+      "Motion-command reset implementation, valid-frame checks, and reference progression",
+      "Scene collision geometry, gravity, contacts, and termination thresholds",
+      "Action scale/default offsets, clipping, and target-velocity rate limit",
+      "Depth image dimensions, clipping/normalization, and history initialization/update",
+      "Any non-random reset or semantic/material annotation events (see active_events)"
+    ],
+    "caveat": "Configured stochastic perturbations are separate from GPU physics numerical nondeterminism."
+  },
+  "teacher_checkpoint": {
+    "path": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand/2026-08-28_18-07-30_stage36_two_anchor_20_10_35_35_frame0_nominal_to10000/model_9999.pt",
+    "sha256": "3f7a86f0772a5a4dcaa97b83524cd6a6e1ec2679854e455d59ac82ef043d3957"
+  },
+  "motion": {
+    "path": "/home/zhangdawei/LadderMan/Ladder/motions/zdw0824_capture1/pitchminus3_yawminus4_xminus030/37_visual_up_down_stop_command/zdw0824_capture1_stage37_train_ready_middle_default100_zplus5mm_reset5mm_visual_up_down_stop_50hz_motion.npz",
+    "sha256": "f0ab0814b30e991edfd6e097d586e67d62ca81f598ca03d649447e090ea42038"
+  },
+  "student_network": "CR1PureVisualDaggerStudent(\n  (depth_encoder): CR1PaperDepthEncoder(\n    (network): Sequential(\n      (0): Conv2d(2, 8, kernel_size=(5, 5), stride=(2, 2))\n      (1): ELU(alpha=1.0)\n      (2): Conv2d(8, 8, kernel_size=(5, 5), stride=(2, 2))\n      (3): ELU(alpha=1.0)\n      (4): Conv2d(8, 8, kernel_size=(5, 5), stride=(2, 2))\n      (5): ELU(alpha=1.0)\n      (6): Flatten(start_dim=1, end_dim=-1)\n    )\n  )\n  (feature_mlp): Sequential(\n    (0): Linear(in_features=989, out_features=2048, bias=True)\n    (1): ELU(alpha=1.0)\n    (2): Linear(in_features=2048, out_features=1024, bias=True)\n    (3): ELU(alpha=1.0)\n    (4): Linear(in_features=1024, out_features=512, bias=True)\n    (5): ELU(alpha=1.0)\n    (6): Linear(in_features=512, out_features=256, bias=True)\n    (7): ELU(alpha=1.0)\n  )\n  (action_head): Linear(in_features=256, out_features=25, bias=True)\n)",
+  "teacher_network": "Sequential(\n  (0): Linear(in_features=780, out_features=512, bias=True)\n  (1): ELU(alpha=1.0)\n  (2): Linear(in_features=512, out_features=256, bias=True)\n  (3): ELU(alpha=1.0)\n  (4): Linear(in_features=256, out_features=256, bias=True)\n  (5): ELU(alpha=1.0)\n  (6): Linear(in_features=256, out_features=25, bias=True)\n)",
+  "step_dt": 0.02,
+  "max_episode_length": 4500,
+  "action_joint_names": [
+    "left_hip_y_joint",
+    "right_hip_y_joint",
+    "waist_z_joint",
+    "left_hip_x_joint",
+    "right_hip_x_joint",
+    "waist_x_joint",
+    "left_hip_z_joint",
+    "right_hip_z_joint",
+    "waist_y_joint",
+    "left_knee_joint",
+    "right_knee_joint",
+    "left_shoulder_y_joint",
+    "neck_z_joint",
+    "right_shoulder_y_joint",
+    "left_ankle_y_joint",
+    "right_ankle_y_joint",
+    "left_shoulder_x_joint",
+    "neck_y_joint",
+    "right_shoulder_x_joint",
+    "left_ankle_x_joint",
+    "right_ankle_x_joint",
+    "left_shoulder_z_joint",
+    "right_shoulder_z_joint",
+    "left_elbow_joint",
+    "right_elbow_joint"
+  ],
+  "limb_names": [
+    "left_hand",
+    "right_hand",
+    "left_foot",
+    "right_foot"
+  ],
+  "contact_force_threshold": 5.0,
+  "target_contact_distance_thresholds": [
+    0.052000001072883606,
+    0.05000000074505806,
+    0.14499999582767487,
+    0.14499999582767487
+  ],
+  "termination_names": [
+    "time_out",
+    "motion_complete",
+    "root_pose",
+    "body_local_pose",
+    "required_contact"
+  ],
+  "observation_shapes": {
+    "proprio_history": [
+      2,
+      9,
+      85
+    ],
+    "depth_history": [
+      2,
+      2,
+      60,
+      80
+    ],
+    "teacher": [
+      2,
+      780
+    ]
+  },
+  "protocol": {
+    "control": "deterministic selected actor mean; no sampling, mixing, intervention or optimization",
+    "episodes": "first episode per environment only; capped episodes are censored, not successes",
+    "post_state": "after termination compute, before reset and reference advancement",
+    "reference_alignment": "pre and post measurements compare against the same pre-action reference frame",
+    "observation_timing": "reset output then env.step outputs; no extra observation computation",
+    "trace": "all inputs, actor means/features, pre/post states, actual delayed/rate-limited targets and terminations",
+    "comparison": "same initial seed/frame/config per condition, not a claim of paired future noise or GPU determinism"
+  }
+}

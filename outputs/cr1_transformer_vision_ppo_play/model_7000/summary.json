@@ -1,0 +1,139 @@
+{
+  "checkpoint": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-08-31_22-17-22_joint_scratch_taskgoal12_contact4_env5120_iter12000_seed42/model_7000.pt",
+  "checkpoint_iteration": 7000,
+  "episodes": [],
+  "episodes_finished": 0,
+  "metrics": {
+    "dynamic_abs": {
+      "count": 32,
+      "max": 1.0194642543792725,
+      "mean": 0.37404412031173706,
+      "min": 1.369115487648287e-08
+    },
+    "left_foot_non_rung_mse": {
+      "count": 2,
+      "max": 0.0004439404874574393,
+      "mean": 0.0002468711281835567,
+      "min": 4.980176890967414e-05
+    },
+    "left_foot_rung_fraction": {
+      "count": 2,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0
+    },
+    "left_foot_rung_mse": {
+      "count": 2,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0
+    },
+    "left_foot_weighted_mse": {
+      "count": 2,
+      "max": 0.0004439404874574393,
+      "mean": 0.0002468711281835567,
+      "min": 4.980176890967414e-05
+    },
+    "left_hand_non_rung_mse": {
+      "count": 2,
+      "max": 0.002147478051483631,
+      "mean": 0.0018194837030023336,
+      "min": 0.0014914893545210361
+    },
+    "left_hand_rung_fraction": {
+      "count": 2,
+      "max": 0.20000000298023224,
+      "mean": 0.20000000298023224,
+      "min": 0.20000000298023224
+    },
+    "left_hand_rung_mse": {
+      "count": 2,
+      "max": 0.003049770137295127,
+      "mean": 0.002786344033665955,
+      "min": 0.0025229179300367832
+    },
+    "left_hand_weighted_mse": {
+      "count": 2,
+      "max": 0.0022726247552782297,
+      "mean": 0.002141770557500422,
+      "min": 0.0020109163597226143
+    },
+    "right_foot_non_rung_mse": {
+      "count": 2,
+      "max": 0.00020133225189056247,
+      "mean": 0.00012345791037660092,
+      "min": 4.558356886263937e-05
+    },
+    "right_foot_rung_fraction": {
+      "count": 2,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0
+    },
+    "right_foot_rung_mse": {
+      "count": 2,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0
+    },
+    "right_foot_weighted_mse": {
+      "count": 2,
+      "max": 0.00020133225189056247,
+      "mean": 0.00012345791037660092,
+      "min": 4.558356886263937e-05
+    },
+    "right_hand_non_rung_mse": {
+      "count": 2,
+      "max": 0.00259260437451303,
+      "mean": 0.002463596174493432,
+      "min": 0.002334587974473834
+    },
+    "right_hand_rung_fraction": {
+      "count": 2,
+      "max": 0.30000001192092896,
+      "mean": 0.30000001192092896,
+      "min": 0.30000001192092896
+    },
+    "right_hand_rung_mse": {
+      "count": 2,
+      "max": 0.0018689674325287342,
+      "mean": 0.0014991996577009559,
+      "min": 0.0011294318828731775
+    },
+    "right_hand_weighted_mse": {
+      "count": 2,
+      "max": 0.0022586178965866566,
+      "mean": 0.002018489991314709,
+      "min": 0.0017783620860427618
+    },
+    "velocity_error_norm": {
+      "count": 2,
+      "max": 0.06327278912067413,
+      "mean": 0.0532853901386261,
+      "min": 0.043297991156578064
+    },
+    "velocity_mse": {
+      "count": 2,
+      "max": 0.0013344818726181984,
+      "mean": 0.0009796936355996877,
+      "min": 0.000624905398581177
+    },
+    "velocity_skill": {
+      "count": 1,
+      "max": 0.6425869464874268,
+      "mean": 0.6425869464874268,
+      "min": 0.6425869464874268
+    },
+    "velocity_zero_mse": {
+      "count": 2,
+      "max": 0.0017484122654423118,
+      "mean": 0.0008742061327211559,
+      "min": 0.0
+    }
+  },
+  "motion_complete_episodes": 0,
+  "motion_complete_fraction": null,
+  "purpose": "No-update deterministic playback of a complete TransformerVision PPO checkpoint.",
+  "total_control_steps": 2,
+  "total_transitions": 2
+}

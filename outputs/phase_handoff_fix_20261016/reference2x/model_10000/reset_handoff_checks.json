@@ -1,0 +1,9 @@
+{
+  "physical_resamples": 10,
+  "partial_resamples": 8,
+  "handoff_envs": 203,
+  "reset_settling_samples": 126,
+  "live_goal_samples_before_step10": 1809,
+  "command_sha256": "5a1eedb96cd2c774fcf96c4050d5e40496a264e5dd4951fc42bf5f2cc3e7c787",
+  "passed": true
+}

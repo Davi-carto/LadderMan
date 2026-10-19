@@ -1,0 +1,98 @@
+{
+  "snapshot_date": "2026-10-19",
+  "cutoff_inclusive": "2026-10-04T00:00:00+08:00",
+  "selection": "One designated blind teacher; latest numeric checkpoint per visual run with checkpoint or TensorBoard event activity since cutoff, including smoke runs. No local originals deleted.",
+  "models": [
+    {
+      "path": "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-09_13-56-37_train10000_scratch_delay0or5ms_phys5ms_seed42/model_9999.pt",
+      "kind": "blind_teacher",
+      "bytes": 14032821,
+      "sha256": "dc03d17436781a3fd24eae746fb340ce0da3b4f133be62b56cf1f9ee64f59dba",
+      "last_training_activity": null
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference2x_contact_sequence_visual_amp/2026-10-15_13-22-16_resume6000_env32_iter2/model_6002.pt",
+      "kind": "visual_latest",
+      "bytes": 20467064,
+      "sha256": "c35add02ec4e5c0d76a96d79546ca0e12d72c1d7baedb3040398ad52fe3d0424",
+      "last_training_activity": "2026-10-15T13:22:31.872932+08:00"
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference2x_contact_sequence_visual_amp/2026-10-15_13-26-46_resume6000_reference2x_env5120_add4000_seed42/model_10000.pt",
+      "kind": "visual_latest",
+      "bytes": 20467237,
+      "sha256": "782257c87fcea86dc080dc94f954730cddce3bcb8b6f7d64c3b1dc118374e1dc",
+      "last_training_activity": "2026-10-16T02:27:58.374770+08:00"
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_contact_sequence_visual_amp/2026-10-13_10-40-49_pause_decay_smoke_env32_iter10_seed42/model_9.pt",
+      "kind": "visual_latest",
+      "bytes": 20466033,
+      "sha256": "eb5a7599f6ec447aeb6034b77865ffeda62fafac39d1559fa157a9b6025762d6",
+      "last_training_activity": "2026-10-13T10:41:28.528547+08:00"
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_contact_sequence_visual_amp/2026-10-13_11-03-28_reference_pause_decay_scratch_env5120_iter10000_seed42/model_9999.pt",
+      "kind": "visual_latest",
+      "bytes": 20467064,
+      "sha256": "5c15ef58646ea8bb750db6c9f08f870845dc3363e9b48416197830a7f7077008",
+      "last_training_activity": "2026-10-14T19:27:06.869636+08:00"
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_reg2x_energy_contact_sequence_visual_amp/2026-10-16_16-11-56_smoke_resume9999_reg2x_energy_env8_iter2/model_10001.pt",
+      "kind": "visual_latest",
+      "bytes": 20467237,
+      "sha256": "d2bd7ecdd710d78aadb218cdc2afac45f385b7b470c4060b1aa18a0169e2e2b5",
+      "last_training_activity": "2026-10-16T16:12:13.678344+08:00"
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-21-38_smoke_resume9999_regramp_energy_env8_iter2/model_10001.pt",
+      "kind": "visual_latest",
+      "bytes": 20467621,
+      "sha256": "1bf077038a91e78dbef06a20ee90e08d5566106e6629a2f2d39668122f7a7475",
+      "last_training_activity": "2026-10-16T16:22:00.052479+08:00"
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-23-05_smoke_resume9999_regramp_energy_env8_iter2/model_10001.pt",
+      "kind": "visual_latest",
+      "bytes": 20467621,
+      "sha256": "02ff1a2c5661fe3b6a5883af168f6df3cfe2fa00beaa400818190b92e032e173",
+      "last_training_activity": "2026-10-16T16:23:25.647104+08:00"
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-28-05_resume9999_regramp1to2p5_2500_hold2000_env5120_seed42/model_14499.pt",
+      "kind": "visual_latest",
+      "bytes": 20467621,
+      "sha256": "99513d725fb977c9e7f8ae34479c6b571661af52aa9ab279e09aa1694e137874",
+      "last_training_activity": "2026-10-17T07:13:59.701108+08:00"
+    },
+    {
+      "path": "logs/rsl_rl/cr1_phased_body_goal_contact_sequence_visual_amp/2026-10-08_16-33-27_phased_bodygoal_amp_env5120_iter8000_seed42/model_7999.pt",
+      "kind": "visual_latest",
+      "bytes": 20467064,
+      "sha256": "ad9673ffe283bff10c3d615f73d64eea8ef4749be06ac568f07d7dac1fd73108",
+      "last_training_activity": "2026-10-09T18:19:14.528537+08:00"
+    },
+    {
+      "path": "logs/rsl_rl/cr1_phased_body_goal_foot_safety_contact_sequence_visual_amp/2026-10-10_10-40-27_foot_safety_scratch_env5120_iter10000_seed42/model_9999.pt",
+      "kind": "visual_latest",
+      "bytes": 20467064,
+      "sha256": "87bef1c629c8d9b9ff5051dde2ea25039a6c34e8e8a84f3809dc281f437a9ea8",
+      "last_training_activity": "2026-10-11T18:46:05.460082+08:00"
+    },
+    {
+      "path": "logs/rsl_rl/cr1_reference_guided_contact_sequence_visual_amp/2026-10-12_14-58-46_reference_w3_smoke_env32_iter10_seed42/model_9.pt",
+      "kind": "visual_latest",
+      "bytes": 20466033,
+      "sha256": "41b4fcbd175137a48d7682c0f4c291ce1fc4507795277319373c19a71266669d",
+      "last_training_activity": "2026-10-12T14:59:29.177520+08:00"
+    },
+    {
+      "path": "logs/rsl_rl/cr1_reference_guided_contact_sequence_visual_amp/2026-10-12_15-05-54_reference_w3_scratch_env5120_iter10000_seed42/model_5500.pt",
+      "kind": "visual_latest",
+      "bytes": 20467064,
+      "sha256": "4eb056b5b35ef3e2b6cf78375ef936945b0e1b05e7d594a3046034bf2fa1d6ef",
+      "last_training_activity": "2026-10-13T09:38:54.730207+08:00"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "num_episodes": 8,
+  "success_count": 0,
+  "failure_count": 0,
+  "censored_count": 8,
+  "success_fraction_all_episodes": 0.0,
+  "success_fraction_completed_episodes": null,
+  "mean_length_steps": 2.0,
+  "mean_episode_reward": 0.17722660629078746,
+  "mean_step_reward": 0.08861330314539373,
+  "action_mean_rmse_to_teacher": 0.31583422224427476,
+  "termination_counts": {},
+  "downward_start_frame": 1550,
+  "ascent_eligible_episodes": 8,
+  "ascent_reached_downward_start_count": 0,
+  "controller": "student_mean",
+  "wall_time_seconds": 1.457219404168427,
+  "reference_frame": 0
+}

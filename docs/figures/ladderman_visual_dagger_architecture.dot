@@ -1,0 +1,60 @@
+digraph VisualDagger {
+  graph [rankdir=LR, bgcolor="white", pad=0.35, nodesep=0.35, ranksep=0.65,
+         fontname="DejaVu Sans", label="Visual Teacher-Student DAgger for Ladder Climbing",
+         labelloc=t, fontsize=24];
+  node [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=12,
+        margin="0.16,0.10", penwidth=1.8];
+  edge [fontname="DejaVu Sans", fontsize=10, penwidth=1.8, arrowsize=0.8];
+
+  env [label="Simulator\nEnvironment", fillcolor="#EAF6E7", color="#397A32"];
+  mixer [label="Mixed DAgger Rollout\n\nBC warm-up (first 500 iters):\n100% Teacher\n\nDAgger phase:\n25% Teacher / 75% Student", fillcolor="#F0F8ED", color="#397A32"];
+
+  subgraph cluster_teacher {
+    label="TEACHER (privileged, frozen)";
+    color="#E87522"; fontcolor="#B94D00"; penwidth=2; style="rounded";
+    tobs [label="Privileged Observation\nreference motion + simulator state", fillcolor="#FFF3E9", color="#E87522"];
+    tmlp [label="Teacher MLP\n512 → 256 → 256", fillcolor="#FFF3E9", color="#E87522"];
+    tfeat [label="Teacher Feature\n256-D", fillcolor="#FFF3E9", color="#E87522"];
+    tact [label="Teacher Gaussian Action\nmean + fixed std", fillcolor="#FFF3E9", color="#E87522"];
+    tobs -> tmlp -> tfeat -> tact [color="#E87522"];
+  }
+
+  subgraph cluster_student {
+    label="STUDENT (deployable, all parameters trainable)";
+    color="#2463A6"; fontcolor="#174A84"; penwidth=2; style="rounded";
+    proprio [label="Proprioceptive History\n9 frames × 85-D\n(real-robot available)", fillcolor="#EDF5FF", color="#2463A6"];
+    depth [label="Depth History\n2 frames × 60 × 80", fillcolor="#EDF5FF", color="#2463A6"];
+    flatten [label="Flatten\n765-D", fillcolor="#EDF5FF", color="#2463A6"];
+    cnn [label="Depth CNN Encoder\n3 convolution blocks", fillcolor="#EDF5FF", color="#2463A6"];
+    vfeat [label="Visual Feature\n224-D", fillcolor="#EDF5FF", color="#2463A6"];
+    concat [shape=circle, label="+", width=0.42, fixedsize=true, fillcolor="#EDF5FF", color="#2463A6", fontsize=20];
+    smlp [label="Unified Student Policy MLP\n2048 → 1024 → 512 → 256", fillcolor="#EDF5FF", color="#2463A6"];
+    sfeat [label="Student Feature\n256-D", fillcolor="#EDF5FF", color="#2463A6"];
+    sact [label="Student Gaussian Action\nmean + learned std", fillcolor="#EDF5FF", color="#2463A6"];
+    proprio -> flatten -> concat [color="#2463A6"];
+    depth -> cnn -> vfeat -> concat [color="#2463A6"];
+    concat -> smlp -> sfeat -> sact [color="#2463A6"];
+  }
+
+  loss [label=<<B>L</B><SUB>distill</SUB> = 2 <B>L</B><SUB>KL(action)</SUB> + 1 <B>L</B><SUB>MSE(feature)</SUB><BR/><FONT POINT-SIZE="10">No PPO / critic / reconstruction losses</FONT>>,
+        fillcolor="#FFF0F3", color="#B51F43", penwidth=2.2];
+  deploy [label="DEPLOYMENT: Student only   |   proprioception + depth → action",
+          fillcolor="#EAF2FF", color="#174A84", penwidth=2.2];
+
+  env -> tobs [color="#397A32", label="visited state"];
+  env -> proprio [color="#397A32"];
+  env -> depth [color="#397A32"];
+  tact -> mixer [color="#E87522"];
+  sact -> mixer [color="#2463A6"];
+  mixer -> env [color="#397A32", label="executed action"];
+  tfeat -> loss [style=dashed, color="#B51F43", label="Feature MSE ×1", constraint=false];
+  sfeat -> loss [style=dashed, color="#B51F43", constraint=false];
+  tact -> loss [style=dashed, color="#B51F43", label="Action DKL ×2", constraint=false];
+  sact -> loss [style=dashed, color="#B51F43", constraint=false];
+  loss -> cnn [color="#B51F43", label="gradient", constraint=false];
+  loss -> smlp [color="#B51F43", label="updates entire Student", constraint=false];
+  sact -> deploy [color="#174A84"];
+
+  {rank=same; tobs; proprio; depth}
+  {rank=same; tact; sact}
+}

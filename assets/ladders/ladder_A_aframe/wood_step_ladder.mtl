@@ -1,0 +1,8 @@
+newmtl wood_step
+Kd 0.86 0.55 0.25
+newmtl wood_side
+Kd 0.78 0.45 0.20
+newmtl wood_rear
+Kd 0.70 0.40 0.18
+newmtl metal
+Kd 0.55 0.55 0.55

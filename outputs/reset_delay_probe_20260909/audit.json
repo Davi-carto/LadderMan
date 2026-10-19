@@ -1,0 +1,94 @@
+{
+  "step_dt": 0.02,
+  "configured_delay": [
+    0,
+    2
+  ],
+  "action_type": "<class 'ladder.tasks.ladder_climb.mdp.actions.RateLimitedJointPositionAction'>",
+  "policy_type": "<class 'rsl_rl.models.mlp_model.MLPModel'>",
+  "active_events": {},
+  "noise_terms": {
+    "policy": [],
+    "critic": []
+  },
+  "actuator_types": {
+    "all_joints": "<class 'isaaclab.actuators.actuator_pd.ImplicitActuator'>"
+  },
+  "joint_names": [
+    "left_hip_y_joint",
+    "right_hip_y_joint",
+    "left_hip_x_joint",
+    "right_hip_x_joint",
+    "left_hip_z_joint",
+    "right_hip_z_joint",
+    "left_knee_joint",
+    "right_knee_joint",
+    "left_ankle_y_joint",
+    "right_ankle_y_joint",
+    "left_ankle_x_joint",
+    "right_ankle_x_joint"
+  ],
+  "natural_reset_delays": [
+    [
+      0,
+      2,
+      0,
+      1,
+      1,
+      0,
+      1,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      1,
+      2,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      2,
+      2,
+      1,
+      0,
+      2,
+      2,
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      1,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "natural_reset_state_differences": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "ablation": "visual/proprio recurrent student plus privileged oracle task signals",
+  "clip_actions": null,
+  "controller_schedule": {
+    "bc_warmup_iterations": 1000,
+    "loss_samples": "all_teacher_and_student_controlled_environments",
+    "mixed_rollout_starts_at_iteration": 1000,
+    "split_diagnostics": "action_error_reward_done_and_termination_cause_by_controller",
+    "student_action": "mean_plus_fixed_gaussian_noise",
+    "student_envs_after_warmup": 22,
+    "teacher_action": "deterministic_mean",
+    "teacher_env_selection": "fixed_lowest_environment_indices",
+    "teacher_envs_after_warmup": 2,
+    "teacher_rollout_fraction_after_warmup": 0.1,
+    "teacher_rollout_schedule_end": 5000,
+    "teacher_rollout_schedule_final_fraction": 0.1,
+    "teacher_rollout_schedule_initial_fraction": 1.0,
+    "teacher_rollout_schedule_start": 1000
+  },
+  "data_contract": "cr1_privileged_visual_recurrent_mse_dagger_proprio25x85_depth1x60x80_30hz_layernorm_gru256_target12_contact4_limbvel12_v2",
+  "decimation": 4,
+  "depth_center_m": 1.0,
+  "depth_scale": 1.0,
+  "depth_update_hz": 30.0,
+  "depth_update_period_s": 0.03333333333333333,
+  "excluded_losses": [
+    "ppo",
+    "policy_kl",
+    "teacher_feature_mse",
+    "velocity_prediction",
+    "heightmap_reconstruction",
+    "decoder_reconstruction"
+  ],
+  "feature_normalization": "LayerNorm(128) per proprio/depth branch before GRU",
+  "fixed_start_pose_randomization_probability": 0.7,
+  "fixed_start_probability": 0.1,
+  "fixed_student_rollout_std": [
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612,
+    0.10000000149011612
+  ],
+  "learning_rate": 0.001,
+  "max_control_delay_physics_steps": 1,
+  "max_grad_norm": 1.0,
+  "min_control_delay_physics_steps": 0,
+  "motion_file": "/home/zhangdawei/LadderMan/Ladder/motions/zdw0824_capture1/pitchminus3_yawminus4_xminus030/37_visual_up_down_stop_command/zdw0824_capture1_stage37_train_ready_middle_default100_zplus5mm_reset5mm_visual_up_down_stop_50hz_motion.npz",
+  "motion_file_sha256": "f0ab0814b30e991edfd6e097d586e67d62ca81f598ca03d649447e090ea42038",
+  "normalization_contract": {
+    "action_loss": {
+      "normalization": "none beyond environment action contract",
+      "reduction": "mean over batch,time,action",
+      "space": "raw normalized joint-position action coordinates"
+    },
+    "gru_hidden": "zero initialized and reset on done; no running normalization",
+    "student_depth": {
+      "center_m": 1.0,
+      "encoder_input_range": [
+        -1.0,
+        1.0
+      ],
+      "invalid_pixel_after_centering": -1.0,
+      "metric_clip_m": [
+        0.1,
+        2.0
+      ],
+      "scale": 1.0
+    },
+    "student_observation_normalization": "disabled_running_statistics",
+    "student_proprio": {
+      "command_values": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "final_clip": [
+        -100.0,
+        100.0
+      ],
+      "joint_position": "(q-default_q)/CR1_ACTION_SCALE",
+      "joint_velocity_scale": 0.1,
+      "previous_action": "normalized_joint_position_action_space",
+      "root_angular_velocity_scale": 0.2,
+      "root_orientation": "rotation_matrix_first_two_columns_in[-1,1]"
+    },
+    "teacher_observation": {
+      "checkpoint_actor_observation_normalization": false,
+      "reason": "must match the 780-D teacher checkpoint contract",
+      "running_statistics": false
+    }
+  },
+  "num_envs": 24,
+  "num_learning_epochs": 1,
+  "num_mini_batches": 24,
+  "num_steps_per_env": 24,
+  "optimization_loss": "sequence_mean_squared_error(student_mean, teacher_mean)",
+  "policy_dt_s": 0.02,
+  "privileged_actor_input": {
+    "actual_ladder_contact": "rung-filtered force threshold, 4-D binary",
+    "deployable": false,
+    "limb_linear_velocity": "four end-effectors in robot anchor frame, 12-D, scaled by 0.1",
+    "target_position": "next stable four-limb support target in robot anchor frame, 12-D, meters",
+    "total_dim": 28
+  },
+  "proprio_input_noise_enabled": true,
+  "recurrent_training": {
+    "done_mask_timing": "reset_before_t_plus_1",
+    "gru_update_timing": "fresh_depth_frames_only",
+    "hidden_state_source": "rollout_start_hidden",
+    "mini_batch_axis": "environment",
+    "sequence_length_policy_steps": 24,
+    "time_axis_shuffled": false
+  },
+  "rollout_policy": "teacher_bc_warmup_then_linear_teacher_student_mix",
+  "samples_per_optimizer_mini_batch": 24,
+  "save_interval": 500,
+  "secondary_fixed_start_frame": 1500,
+  "secondary_fixed_start_probability": 0.1,
+  "seed": 42,
+  "sim_dt_s": 0.005,
+  "student_feature_normalization": "separate_layer_norm_proprio_depth_before_gru",
+  "student_inputs": {
+    "climb_command_index_per_proprio_frame": 84,
+    "command_in_every_proprio_frame": true,
+    "depth_shape": [
+      1,
+      60,
+      80
+    ],
+    "depth_update_mask_shape": [
+      1
+    ],
+    "proprio_history_shape": [
+      25,
+      85
+    ]
+  },
+  "student_network": "CR1PrivilegedRecurrentVisualDaggerStudent(\n  (proprio_encoder): Sequential(\n    (0): Linear(in_features=2125, out_features=512, bias=True)\n    (1): ELU(alpha=1.0)\n    (2): Linear(in_features=512, out_features=256, bias=True)\n    (3): ELU(alpha=1.0)\n    (4): Linear(in_features=256, out_features=128, bias=True)\n    (5): ELU(alpha=1.0)\n    (layer_norm): LayerNorm((128,), eps=1e-05, elementwise_affine=True)\n  )\n  (depth_encoder): CR1RecurrentDepthEncoder(\n    (convolutions): Sequential(\n      (0): Conv2d(1, 32, kernel_size=(8, 8), stride=(4, 4))\n      (1): ELU(alpha=1.0)\n      (2): Conv2d(32, 64, kernel_size=(4, 4), stride=(2, 2))\n      (3): ELU(alpha=1.0)\n      (4): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2))\n      (5): ELU(alpha=1.0)\n      (6): Flatten(start_dim=1, end_dim=-1)\n    )\n    (projection): Sequential(\n      (0): Linear(in_features=768, out_features=128, bias=True)\n      (1): ELU(alpha=1.0)\n      (layer_norm): LayerNorm((128,), eps=1e-05, elementwise_affine=True)\n    )\n  )\n  (gru): GRU(256, 256)\n  (recurrent_projection): Sequential(\n    (0): Linear(in_features=256, out_features=256, bias=True)\n    (1): ELU(alpha=1.0)\n  )\n  (feature_mlp): Sequential(\n    (0): Linear(in_features=369, out_features=2048, bias=True)\n    (1): ELU(alpha=1.0)\n    (2): Linear(in_features=2048, out_features=1024, bias=True)\n    (3): ELU(alpha=1.0)\n    (4): Linear(in_features=1024, out_features=512, bias=True)\n    (5): ELU(alpha=1.0)\n    (6): Linear(in_features=512, out_features=256, bias=True)\n    (7): ELU(alpha=1.0)\n  )\n  (action_head): Linear(in_features=256, out_features=25, bias=True)\n)",
+  "student_observation_normalization": "fixed field-wise normalization; privileged target meters and limb velocity*0.1, binary contacts",
+  "task": "Ladder-Climb-CR1-ZDW0824-UpDown-Recurrent-Visual-Privileged-MSE-Dagger-Synced-v0",
+  "teacher_actor_observation_normalization": false,
+  "teacher_checkpoint": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-09_13-56-37_train10000_scratch_delay0or5ms_phys5ms_seed42/model_9999.pt",
+  "teacher_checkpoint_sha256": "dc03d17436781a3fd24eae746fb340ce0da3b4f133be62b56cf1f9ee64f59dba",
+  "teacher_observation_dim": 780,
+  "teacher_role": "online_action_mean_label_for_all_states_and_controller_for_fixed_subset",
+  "uniform_start_probability": 0.4,
+  "use_reset_valid_mask": false
+}

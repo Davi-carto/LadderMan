@@ -1,0 +1,434 @@
+[
+  {
+    "env_id": 0,
+    "outcome": "censored",
+    "success": false,
+    "censored": true,
+    "termination_terms": [],
+    "length_steps": 2,
+    "duration_s": 0.04,
+    "reward_sum": 0.17149005085229874,
+    "mean_step_reward": 0.08574502542614937,
+    "action_mean_rmse_to_teacher": 0.32933607716557967,
+    "initial_state": {
+      "reference_frame": 0,
+      "command": 1.0,
+      "root_pos": [
+        -0.03515005111694336,
+        0.030210018157958984,
+        0.8793724775314331
+      ],
+      "root_quat": [
+        0.9988591074943542,
+        -0.001627226360142231,
+        -0.014468087814748287,
+        0.04547937214374542
+      ],
+      "root_tilt_rad": 0.029120363295078278,
+      "anchor_pos_error_m": 0.013420852832496166,
+      "anchor_rot_error_rad": 0.06422228366136551
+    },
+    "last_state_before_any_reset": {
+      "reference_frame": 1,
+      "command": 1.0,
+      "root_pos": [
+        -0.03208637237548828,
+        0.030484437942504883,
+        0.874518871307373
+      ],
+      "root_quat": [
+        0.9990147948265076,
+        -0.0026930319145321846,
+        -0.018147002905607224,
+        0.04040781036019325
+      ],
+      "root_tilt_rad": 0.03669307380914688,
+      "anchor_pos_error_m": 0.011843709275126457,
+      "anchor_rot_error_rad": 0.07121358811855316
+    },
+    "last_state_is_terminal": false,
+    "root_z_min_m": 0.874518871307373,
+    "root_z_max_m": 0.8793724775314331,
+    "root_z_max_increase_m": 0.0,
+    "root_z_max_decrease_m": 0.004853606224060059,
+    "reached_downward_start_without_failure": false
+  },
+  {
+    "env_id": 1,
+    "outcome": "censored",
+    "success": false,
+    "censored": true,
+    "termination_terms": [],
+    "length_steps": 2,
+    "duration_s": 0.04,
+    "reward_sum": 0.17207708209753036,
+    "mean_step_reward": 0.08603854104876518,
+    "action_mean_rmse_to_teacher": 0.3617776497329516,
+    "initial_state": {
+      "reference_frame": 0,
+      "command": 1.0,
+      "root_pos": [
+        -0.03986978530883789,
+        0.031398773193359375,
+        0.8781885504722595
+      ],
+      "root_quat": [
+        0.9995294809341431,
+        0.0002856734790839255,
+        0.008172459900379181,
+        0.029561463743448257
+      ],
+      "root_tilt_rad": 0.016355782747268677,
+      "anchor_pos_error_m": 0.004349695052951574,
+      "anchor_rot_error_rad": 0.0868644118309021
+    },
+    "last_state_before_any_reset": {
+      "reference_frame": 1,
+      "command": 1.0,
+      "root_pos": [
+        -0.039986610412597656,
+        0.03215610980987549,
+        0.8737574219703674
+      ],
+      "root_quat": [
+        0.9995887279510498,
+        0.0008586007752455771,
+        0.008415591903030872,
+        0.027397960424423218
+      ],
+      "root_tilt_rad": 0.016918282955884933,
+      "anchor_pos_error_m": 0.002868051640689373,
+      "anchor_rot_error_rad": 0.08654530346393585
+    },
+    "last_state_is_terminal": false,
+    "root_z_min_m": 0.8737574219703674,
+    "root_z_max_m": 0.8781885504722595,
+    "root_z_max_increase_m": 0.0,
+    "root_z_max_decrease_m": 0.00443112850189209,
+    "reached_downward_start_without_failure": false
+  },
+  {
+    "env_id": 2,
+    "outcome": "censored",
+    "success": false,
+    "censored": true,
+    "termination_terms": [],
+    "length_steps": 2,
+    "duration_s": 0.04,
+    "reward_sum": 0.17879833281040192,
+    "mean_step_reward": 0.08939916640520096,
+    "action_mean_rmse_to_teacher": 0.28899095268426045,
+    "initial_state": {
+      "reference_frame": 0,
+      "command": 1.0,
+      "root_pos": [
+        -0.03235757350921631,
+        0.036068081855773926,
+        0.877668559551239
+      ],
+      "root_quat": [
+        0.9996851682662964,
+        0.0021057697013020515,
+        0.01799391768872738,
+        0.017355186864733696
+      ],
+      "root_tilt_rad": 0.03623528033494949,
+      "anchor_pos_error_m": 0.015541666187345982,
+      "anchor_rot_error_rad": 0.02657676301896572
+    },
+    "last_state_before_any_reset": {
+      "reference_frame": 1,
+      "command": 1.0,
+      "root_pos": [
+        -0.03468728065490723,
+        0.03507065773010254,
+        0.8723564147949219
+      ],
+      "root_quat": [
+        0.9996141195297241,
+        -0.0033771854359656572,
+        0.024669626727700233,
+        0.012314138002693653
+      ],
+      "root_tilt_rad": 0.04980504885315895,
+      "anchor_pos_error_m": 0.0172563623636961,
+      "anchor_rot_error_rad": 0.02500981092453003
+    },
+    "last_state_is_terminal": false,
+    "root_z_min_m": 0.8723564147949219,
+    "root_z_max_m": 0.877668559551239,
+    "root_z_max_increase_m": 0.0,
+    "root_z_max_decrease_m": 0.005312144756317139,
+    "reached_downward_start_without_failure": false
+  },
+  {
+    "env_id": 3,
+    "outcome": "censored",
+    "success": false,
+    "censored": true,
+    "termination_terms": [],
+    "length_steps": 2,
+    "duration_s": 0.04,
+    "reward_sum": 0.18832453340291977,
+    "mean_step_reward": 0.09416226670145988,
+    "action_mean_rmse_to_teacher": 0.3165455440920883,
+    "initial_state": {
+      "reference_frame": 0,
+      "command": 1.0,
+      "root_pos": [
+        -0.002124190330505371,
+        0.004513382911682129,
+        0.8764103055000305
+      ],
+      "root_quat": [
+        0.999976396560669,
+        -0.003992653917521238,
+        -0.0034045095089823008,
+        0.004427962936460972
+      ],
+      "root_tilt_rad": 0.010495256632566452,
+      "anchor_pos_error_m": 0.036079708486795425,
+      "anchor_rot_error_rad": 0.04789239168167114
+    },
+    "last_state_before_any_reset": {
+      "reference_frame": 1,
+      "command": 1.0,
+      "root_pos": [
+        -0.0018066167831420898,
+        0.0045604705810546875,
+        0.873702347278595
+      ],
+      "root_quat": [
+        0.9999876022338867,
+        0.002079571131616831,
+        0.0005263015045784414,
+        0.0044875661842525005
+      ],
+      "root_tilt_rad": 0.004284653812646866,
+      "anchor_pos_error_m": 0.03914284333586693,
+      "anchor_rot_error_rad": 0.05300873890519142
+    },
+    "last_state_is_terminal": false,
+    "root_z_min_m": 0.873702347278595,
+    "root_z_max_m": 0.8764103055000305,
+    "root_z_max_increase_m": 0.0,
+    "root_z_max_decrease_m": 0.002707958221435547,
+    "reached_downward_start_without_failure": false
+  },
+  {
+    "env_id": 4,
+    "outcome": "censored",
+    "success": false,
+    "censored": true,
+    "termination_terms": [],
+    "length_steps": 2,
+    "duration_s": 0.04,
+    "reward_sum": 0.19083073735237122,
+    "mean_step_reward": 0.09541536867618561,
+    "action_mean_rmse_to_teacher": 0.28278178738490195,
+    "initial_state": {
+      "reference_frame": 0,
+      "command": 1.0,
+      "root_pos": [
+        -0.03842437267303467,
+        0.03730332851409912,
+        0.8753064870834351
+      ],
+      "root_quat": [
+        0.9999703168869019,
+        0.002305077388882637,
+        3.214945536456071e-05,
+        0.007351044099777937
+      ],
+      "root_tilt_rad": 0.00460644019767642,
+      "anchor_pos_error_m": 0.013207780197262764,
+      "anchor_rot_error_rad": 0.04472242668271065
+    },
+    "last_state_before_any_reset": {
+      "reference_frame": 1,
+      "command": 1.0,
+      "root_pos": [
+        -0.037213921546936035,
+        0.03446090221405029,
+        0.8723828196525574
+      ],
+      "root_quat": [
+        0.9999774098396301,
+        -0.0017623072490096092,
+        -0.0006749569438397884,
+        0.006441397126764059
+      ],
+      "root_tilt_rad": 0.0037664202973246574,
+      "anchor_pos_error_m": 0.011986693367362022,
+      "anchor_rot_error_rad": 0.040796637535095215
+    },
+    "last_state_is_terminal": false,
+    "root_z_min_m": 0.8723828196525574,
+    "root_z_max_m": 0.8753064870834351,
+    "root_z_max_increase_m": 0.0,
+    "root_z_max_decrease_m": 0.0029236674308776855,
+    "reached_downward_start_without_failure": false
+  },
+  {
+    "env_id": 5,
+    "outcome": "censored",
+    "success": false,
+    "censored": true,
+    "termination_terms": [],
+    "length_steps": 2,
+    "duration_s": 0.04,
+    "reward_sum": 0.141393031924963,
+    "mean_step_reward": 0.0706965159624815,
+    "action_mean_rmse_to_teacher": 0.29675432312362454,
+    "initial_state": {
+      "reference_frame": 0,
+      "command": 1.0,
+      "root_pos": [
+        -0.0020122528076171875,
+        0.008182764053344727,
+        0.8786406517028809
+      ],
+      "root_quat": [
+        0.9999798536300659,
+        0.0006436349358409643,
+        -0.005159987602382898,
+        0.0036377422511577606
+      ],
+      "root_tilt_rad": 0.01039825938642025,
+      "anchor_pos_error_m": 0.03148703649640083,
+      "anchor_rot_error_rad": 0.04093220829963684
+    },
+    "last_state_before_any_reset": {
+      "reference_frame": 1,
+      "command": 1.0,
+      "root_pos": [
+        -0.0018165111541748047,
+        0.0071974992752075195,
+        0.8722534775733948
+      ],
+      "root_quat": [
+        0.999972403049469,
+        -0.0018940955633297563,
+        -0.004652330651879311,
+        0.0054680705070495605
+      ],
+      "root_tilt_rad": 0.010048437863588333,
+      "anchor_pos_error_m": 0.031757764518260956,
+      "anchor_rot_error_rad": 0.04095989838242531
+    },
+    "last_state_is_terminal": false,
+    "root_z_min_m": 0.8722534775733948,
+    "root_z_max_m": 0.8786406517028809,
+    "root_z_max_increase_m": 0.0,
+    "root_z_max_decrease_m": 0.006387174129486084,
+    "reached_downward_start_without_failure": false
+  },
+  {
+    "env_id": 6,
+    "outcome": "censored",
+    "success": false,
+    "censored": true,
+    "termination_terms": [],
+    "length_steps": 2,
+    "duration_s": 0.04,
+    "reward_sum": 0.18836276978254318,
+    "mean_step_reward": 0.09418138489127159,
+    "action_mean_rmse_to_teacher": 0.30236915585136154,
+    "initial_state": {
+      "reference_frame": 0,
+      "command": 1.0,
+      "root_pos": [
+        -0.025608062744140625,
+        0.008894681930541992,
+        0.8753114342689514
+      ],
+      "root_quat": [
+        0.9995160698890686,
+        0.0014799555065110326,
+        0.0031944336369633675,
+        0.03090432472527027
+      ],
+      "root_tilt_rad": 0.007042106706649065,
+      "anchor_pos_error_m": 0.014577005989849567,
+      "anchor_rot_error_rad": 0.07574228942394257
+    },
+    "last_state_before_any_reset": {
+      "reference_frame": 1,
+      "command": 1.0,
+      "root_pos": [
+        -0.024134159088134766,
+        0.010931611061096191,
+        0.8732006549835205
+      ],
+      "root_quat": [
+        0.9997361302375793,
+        0.0012692639138549566,
+        0.004403551574796438,
+        0.022506199777126312
+      ],
+      "root_tilt_rad": 0.00916750356554985,
+      "anchor_pos_error_m": 0.014733033254742622,
+      "anchor_rot_error_rad": 0.07108038663864136
+    },
+    "last_state_is_terminal": false,
+    "root_z_min_m": 0.8732006549835205,
+    "root_z_max_m": 0.8753114342689514,
+    "root_z_max_increase_m": 0.0,
+    "root_z_max_decrease_m": 0.002110779285430908,
+    "reached_downward_start_without_failure": false
+  },
+  {
+    "env_id": 7,
+    "outcome": "censored",
+    "success": false,
+    "censored": true,
+    "termination_terms": [],
+    "length_steps": 2,
+    "duration_s": 0.04,
+    "reward_sum": 0.18653631210327148,
+    "mean_step_reward": 0.09326815605163574,
+    "action_mean_rmse_to_teacher": 0.3398412890728825,
+    "initial_state": {
+      "reference_frame": 0,
+      "command": 1.0,
+      "root_pos": [
+        -0.036106109619140625,
+        -0.00200498104095459,
+        0.8758536577224731
+      ],
+      "root_quat": [
+        0.9989486336708069,
+        -0.0030795966740697622,
+        0.022961314767599106,
+        0.039558686316013336
+      ],
+      "root_tilt_rad": 0.04633815214037895,
+      "anchor_pos_error_m": 0.025763681158423424,
+      "anchor_rot_error_rad": 0.06632213294506073
+    },
+    "last_state_before_any_reset": {
+      "reference_frame": 1,
+      "command": 1.0,
+      "root_pos": [
+        -0.03469419479370117,
+        -0.0008203983306884766,
+        0.8720974922180176
+      ],
+      "root_quat": [
+        0.9990784525871277,
+        -0.006021576933562756,
+        0.025405975058674812,
+        0.034063614904880524
+      ],
+      "root_tilt_rad": 0.052225783467292786,
+      "anchor_pos_error_m": 0.024911517277359962,
+      "anchor_rot_error_rad": 0.06345440447330475
+    },
+    "last_state_is_terminal": false,
+    "root_z_min_m": 0.8720974922180176,
+    "root_z_max_m": 0.8758536577224731,
+    "root_z_max_increase_m": 0.0,
+    "root_z_max_decrease_m": 0.0037561655044555664,
+    "reached_downward_start_without_failure": false
+  }
+]

@@ -1,0 +1,158 @@
+{
+  "created_utc": "2026-09-05T17:05:53.361481+00:00",
+  "data_contract": "cr1_pure_visual_dagger_9x85_depth2_cnn_v1",
+  "rollout_controller": "frozen_teacher_deterministic_action_mean_only",
+  "environment_metrics_owner": "teacher, not student autonomous performance",
+  "validation": {
+    "num_envs": 2,
+    "selection": "fixed final environment IDs, excluded from gradient updates",
+    "scope": "held-out teacher trajectories; shared adaptive reset sampler"
+  },
+  "loss": {
+    "action": "KL(student || teacher), mean over samples and action dimensions",
+    "feature": "raw feature MSE, mean over samples and feature dimensions",
+    "action_weight": 2.0,
+    "feature_weight": 1.0,
+    "rl_loss": false,
+    "visual_auxiliary_loss": false
+  },
+  "motion": {
+    "path": "/home/zhangdawei/LadderMan/Ladder/motions/zdw0824_capture1/pitchminus3_yawminus4_xminus030/37_visual_up_down_stop_command/zdw0824_capture1_stage37_train_ready_middle_default100_zplus5mm_reset5mm_visual_up_down_stop_50hz_motion.npz",
+    "sha256": "f0ab0814b30e991edfd6e097d586e67d62ca81f598ca03d649447e090ea42038"
+  },
+  "teacher_checkpoint": {
+    "path": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand/2026-08-28_18-07-30_stage36_two_anchor_20_10_35_35_frame0_nominal_to10000/model_9999.pt",
+    "sha256": "3f7a86f0772a5a4dcaa97b83524cd6a6e1ec2679854e455d59ac82ef043d3957"
+  },
+  "versions": {
+    "torch": "2.7.0+cu128",
+    "isaaclab": "2.3.2",
+    "rsl_rl": "5.0.1"
+  },
+  "num_envs": 8,
+  "motion_num_frames": 3061,
+  "step_dt": 0.02,
+  "seed": 42,
+  "num_steps_per_env": 8,
+  "save_interval": 1,
+  "diagnostic_snapshot_interval": 1,
+  "action_joint_names": {
+    "joint_pos": [
+      "left_hip_y_joint",
+      "right_hip_y_joint",
+      "waist_z_joint",
+      "left_hip_x_joint",
+      "right_hip_x_joint",
+      "waist_x_joint",
+      "left_hip_z_joint",
+      "right_hip_z_joint",
+      "waist_y_joint",
+      "left_knee_joint",
+      "right_knee_joint",
+      "left_shoulder_y_joint",
+      "neck_z_joint",
+      "right_shoulder_y_joint",
+      "left_ankle_y_joint",
+      "right_ankle_y_joint",
+      "left_shoulder_x_joint",
+      "neck_y_joint",
+      "right_shoulder_x_joint",
+      "left_ankle_x_joint",
+      "right_ankle_x_joint",
+      "left_shoulder_z_joint",
+      "right_shoulder_z_joint",
+      "left_elbow_joint",
+      "right_elbow_joint"
+    ]
+  },
+  "previous_action_baseline": {
+    "slice": "proprio_history[:, -1, 59:84]",
+    "units": "raw policy action, whole proprio frame clipped to [-100, 100]",
+    "source": "previous teacher action during rollout; student action during autonomous play"
+  },
+  "episode_metric_timing": "pre_action_metrics; existing command metrics may precede reference advancement",
+  "source_archive": {
+    "path": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-05-45_smoke_teacher_only_bc/teacher_bc/sources.tar.gz",
+    "sha256": "786bf252f1d0852d0c15ac13edc8e570e6d8f8cea682ba0d85fb682124c8445e",
+    "num_files": 119
+  },
+  "configuration_directory": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-05-45_smoke_teacher_only_bc/params",
+  "rollout_mode": "teacher_only_bc_v1",
+  "student_network": "CR1PureVisualDaggerStudent(\n  (depth_encoder): CR1PaperDepthEncoder(\n    (network): Sequential(\n      (0): Conv2d(2, 8, kernel_size=(5, 5), stride=(2, 2))\n      (1): ELU(alpha=1.0)\n      (2): Conv2d(8, 8, kernel_size=(5, 5), stride=(2, 2))\n      (3): ELU(alpha=1.0)\n      (4): Conv2d(8, 8, kernel_size=(5, 5), stride=(2, 2))\n      (5): ELU(alpha=1.0)\n      (6): Flatten(start_dim=1, end_dim=-1)\n    )\n  )\n  (feature_mlp): Sequential(\n    (0): Linear(in_features=989, out_features=2048, bias=True)\n    (1): ELU(alpha=1.0)\n    (2): Linear(in_features=2048, out_features=1024, bias=True)\n    (3): ELU(alpha=1.0)\n    (4): Linear(in_features=1024, out_features=512, bias=True)\n    (5): ELU(alpha=1.0)\n    (6): Linear(in_features=512, out_features=256, bias=True)\n    (7): ELU(alpha=1.0)\n  )\n  (action_head): Linear(in_features=256, out_features=25, bias=True)\n)",
+  "teacher_network": "Sequential(\n  (0): Linear(in_features=780, out_features=512, bias=True)\n  (1): ELU(alpha=1.0)\n  (2): Linear(in_features=512, out_features=256, bias=True)\n  (3): ELU(alpha=1.0)\n  (4): Linear(in_features=256, out_features=256, bias=True)\n  (5): ELU(alpha=1.0)\n  (6): Linear(in_features=256, out_features=25, bias=True)\n)",
+  "teacher_std": [
+    0.21125416457653046,
+    0.19935041666030884,
+    0.22951018810272217,
+    0.22527578473091125,
+    0.22990529239177704,
+    0.23009377717971802,
+    0.24323666095733643,
+    0.25125518441200256,
+    0.19932407140731812,
+    0.16081635653972626,
+    0.16239456832408905,
+    0.23999415338039398,
+    0.3163340091705322,
+    0.23002789914608002,
+    0.23755435645580292,
+    0.2442707121372223,
+    0.22497355937957764,
+    0.31846415996551514,
+    0.22840438783168793,
+    0.32879728078842163,
+    0.3189447522163391,
+    0.2709849178791046,
+    0.2628944516181946,
+    0.20425957441329956,
+    0.18777379393577576
+  ],
+  "train_env_ids": [
+    0,
+    5
+  ],
+  "validation_env_ids": [
+    6,
+    7
+  ],
+  "snapshot_env_ids": [
+    0,
+    1,
+    6,
+    7
+  ],
+  "environment_metric_names": [
+    "error_joint_pos",
+    "error_anchor_pos",
+    "error_anchor_rot",
+    "required_physical_contact_fraction",
+    "required_target_contact_fraction",
+    "mean_required_contact_error",
+    "reference_anchor_speed",
+    "robot_anchor_speed",
+    "stationary_during_reference_motion_fraction",
+    "reference_completion_fraction",
+    "anchor_progress_ratio",
+    "reference_anchor_displacement",
+    "robot_anchor_displacement",
+    "fixed_start_episode",
+    "secondary_fixed_start_episode",
+    "uniform_start_episode",
+    "adaptive_start_episode",
+    "reset_valid_fraction"
+  ],
+  "termination_names": [
+    "time_out",
+    "motion_complete",
+    "root_pose",
+    "body_local_pose",
+    "required_contact"
+  ],
+  "resume_checkpoint": null,
+  "initial_policy_updates": 0,
+  "observation_timing": "Pre-action, including teacher labels and frame; env.step auto-resets.",
+  "metric_timing": "Existing command metrics sampled pre-action; command metrics can lag reference cursor.",
+  "validation_scope": "Held-out env trajectories of the same motion, sharing the adaptive sampler; not unseen-motion generalization.",
+  "iteration_convention": "Zero-based optimizer-update index; rollout metrics/predictions are PRE-update, model_i is POST-update.",
+  "episode_length_convention": "Observed steps tracked separately from randomized initial environment timeout counter."
+}

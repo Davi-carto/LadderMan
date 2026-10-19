@@ -1,0 +1,20 @@
+{
+  "checkpoint": "/home/zhangdawei/LadderMan/logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_09-46-36_smoke_groundnet_v2_final_0928/model_0.pt",
+  "checkpoint_iteration": 0,
+  "episodes": [],
+  "episodes_finished": 0,
+  "metrics": {
+    "recurrent_feature_abs": {
+      "count": 2560,
+      "max": 0.3882390558719635,
+      "mean": 0.09103111326694488,
+      "min": 8.15513794805156e-06
+    }
+  },
+  "motion_complete_episodes": 0,
+  "motion_complete_fraction": null,
+  "purpose": "No-update deterministic playback of a complete TransformerVision PPO checkpoint.",
+  "task_success_episodes": 0,
+  "total_control_steps": 10,
+  "total_transitions": 10
+}

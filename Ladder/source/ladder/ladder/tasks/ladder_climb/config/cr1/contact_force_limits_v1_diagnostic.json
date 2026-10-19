@@ -1,0 +1,30 @@
+{
+  "foot_step": {
+    "hard": 1500.0,
+    "soft": 900.0
+  },
+  "hand_front": {
+    "hard": 200.0,
+    "soft": 20.0
+  },
+  "hand_ground": {
+    "hard": 200.0,
+    "soft": 20.0
+  },
+  "hand_side_board": {
+    "hard": 200.0,
+    "soft": 20.0
+  },
+  "hand_top": {
+    "hard": 400.0,
+    "soft": 180.0
+  },
+  "hand_underside": {
+    "hard": 200.0,
+    "soft": 20.0
+  },
+  "hand_wrong_rung": {
+    "hard": 200.0,
+    "soft": 20.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "control_step": 0,
+  "depth_display_range_m": [
+    0.1,
+    2.0
+  ],
+  "intrinsic_matrix": [
+    [
+      337.5824279785156,
+      0.0,
+      320.0
+    ],
+    [
+      0.0,
+      337.5824279785156,
+      240.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "rfm_keep_pixel_fraction": 0.47498697916666666,
+  "robot_semantic_ids": [
+    4
+  ],
+  "rung_pixel_fraction": 0.2867122395833333,
+  "rung_semantic_ids": [
+    2
+  ],
+  "semantic_id_to_labels": {
+    "0": {
+      "class": "BACKGROUND"
+    },
+    "1": {
+      "class": "UNLABELLED"
+    },
+    "2": {
+      "class": "rung"
+    },
+    "3": {
+      "class": "ladder"
+    },
+    "4": {
+      "class": "robot"
+    }
+  }
+}

@@ -1,0 +1,261 @@
+<?xml version="1.0"?>
+<robot name="wood_step_ladder_sim">
+  <!-- Simulation-friendly fixed obstacle: primitive box visuals and collisions. -->
+  <!-- Load with fix_base_link=True and disable_gravity=True in Isaac Gym. -->
+  <material name="wood_step">
+    <color rgba="0.86 0.55 0.25 1.0"/>
+  </material>
+  <material name="wood_side">
+    <color rgba="0.78 0.45 0.20 1.0"/>
+  </material>
+  <material name="wood_rear">
+    <color rgba="0.70 0.40 0.18 1.0"/>
+  </material>
+  <material name="metal">
+    <color rgba="0.55 0.55 0.55 1.0"/>
+  </material>
+  <link name="base">
+    <inertial>
+      <origin xyz="0 -0.55 0.90" rpy="0 0 0"/>
+      <mass value="1000.0"/>
+      <inertia ixx="250.0" ixy="0.0" ixz="0.0" iyy="250.0" iyz="0.0" izz="250.0"/>
+    </inertial>
+    <visual name="base_platform_visual">
+      <origin xyz="0.00000000 -0.52000000 0.08000000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 1.04000000 0.16000000"/>
+      </geometry>
+      <material name="wood_rear"/>
+    </visual>
+    <collision name="base_platform_collision">
+      <origin xyz="0.00000000 -0.52000000 0.08000000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 1.04000000 0.16000000"/>
+      </geometry>
+    </collision>
+    <visual name="step_01_visual">
+      <origin xyz="0.00000000 -0.06500000 0.17500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 0.13000000 0.03000000"/>
+      </geometry>
+      <material name="wood_step"/>
+    </visual>
+    <collision name="step_01_collision">
+      <origin xyz="0.00000000 -0.06500000 0.17500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 0.13000000 0.03000000"/>
+      </geometry>
+    </collision>
+    <visual name="step_02_visual">
+      <origin xyz="0.00000000 -0.20000000 0.40500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 0.13000000 0.03000000"/>
+      </geometry>
+      <material name="wood_step"/>
+    </visual>
+    <collision name="step_02_collision">
+      <origin xyz="0.00000000 -0.20000000 0.40500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 0.13000000 0.03000000"/>
+      </geometry>
+    </collision>
+    <visual name="step_03_visual">
+      <origin xyz="0.00000000 -0.33500000 0.63500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 0.13000000 0.03000000"/>
+      </geometry>
+      <material name="wood_step"/>
+    </visual>
+    <collision name="step_03_collision">
+      <origin xyz="0.00000000 -0.33500000 0.63500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 0.13000000 0.03000000"/>
+      </geometry>
+    </collision>
+    <visual name="step_04_visual">
+      <origin xyz="0.00000000 -0.47000000 0.86500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 0.13000000 0.03000000"/>
+      </geometry>
+      <material name="wood_step"/>
+    </visual>
+    <collision name="step_04_collision">
+      <origin xyz="0.00000000 -0.47000000 0.86500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 0.13000000 0.03000000"/>
+      </geometry>
+    </collision>
+    <visual name="step_05_visual">
+      <origin xyz="0.00000000 -0.60500000 1.09500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 0.13000000 0.03000000"/>
+      </geometry>
+      <material name="wood_step"/>
+    </visual>
+    <collision name="step_05_collision">
+      <origin xyz="0.00000000 -0.60500000 1.09500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 0.13000000 0.03000000"/>
+      </geometry>
+    </collision>
+    <visual name="step_06_visual">
+      <origin xyz="0.00000000 -0.74000000 1.32500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 0.13000000 0.03000000"/>
+      </geometry>
+      <material name="wood_step"/>
+    </visual>
+    <collision name="step_06_collision">
+      <origin xyz="0.00000000 -0.74000000 1.32500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 0.13000000 0.03000000"/>
+      </geometry>
+    </collision>
+    <visual name="step_07_visual">
+      <origin xyz="0.00000000 -0.87500000 1.55500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 0.13000000 0.03000000"/>
+      </geometry>
+      <material name="wood_step"/>
+    </visual>
+    <collision name="step_07_collision">
+      <origin xyz="0.00000000 -0.87500000 1.55500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.64000000 0.13000000 0.03000000"/>
+      </geometry>
+    </collision>
+    <visual name="front_zigzag_side_board_left_visual">
+      <origin xyz="-0.35000000 -0.52000000 0.96000000" rpy="0.57637522 0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.06000000 0.14000000 2.30829767"/>
+      </geometry>
+      <material name="wood_side"/>
+    </visual>
+    <collision name="front_zigzag_side_board_left_collision">
+      <origin xyz="-0.35000000 -0.52000000 0.96000000" rpy="0.57637522 0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.06000000 0.14000000 2.30829767"/>
+      </geometry>
+    </collision>
+    <visual name="front_zigzag_side_board_right_visual">
+      <origin xyz="0.35000000 -0.52000000 0.96000000" rpy="0.57637522 0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.06000000 0.14000000 2.30829767"/>
+      </geometry>
+      <material name="wood_side"/>
+    </visual>
+    <collision name="front_zigzag_side_board_right_collision">
+      <origin xyz="0.35000000 -0.52000000 0.96000000" rpy="0.57637522 0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.06000000 0.14000000 2.30829767"/>
+      </geometry>
+    </collision>
+    <visual name="top_platform_visual">
+      <origin xyz="0.00000000 -1.05950000 1.74500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.76000000 0.13000000 0.03000000"/>
+      </geometry>
+      <material name="wood_step"/>
+    </visual>
+    <collision name="top_platform_collision">
+      <origin xyz="0.00000000 -1.05950000 1.74500000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.76000000 0.13000000 0.03000000"/>
+      </geometry>
+    </collision>
+    <visual name="top_high_post_left_visual">
+      <origin xyz="-0.35000000 -1.05950000 1.87000000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.09000000 0.12000000 0.22000000"/>
+      </geometry>
+      <material name="wood_side"/>
+    </visual>
+    <collision name="top_high_post_left_collision">
+      <origin xyz="-0.35000000 -1.05950000 1.87000000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.09000000 0.12000000 0.22000000"/>
+      </geometry>
+    </collision>
+    <visual name="top_high_post_right_visual">
+      <origin xyz="0.35000000 -1.05950000 1.87000000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.09000000 0.12000000 0.22000000"/>
+      </geometry>
+      <material name="wood_side"/>
+    </visual>
+    <collision name="top_high_post_right_collision">
+      <origin xyz="0.35000000 -1.05950000 1.87000000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.09000000 0.12000000 0.22000000"/>
+      </geometry>
+    </collision>
+    <visual name="rear_support_leg_left_visual">
+      <origin xyz="-0.37000000 -1.04975000 0.89000000" rpy="0.01120643 0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.08000000 0.08000000 1.90010926"/>
+      </geometry>
+      <material name="wood_rear"/>
+    </visual>
+    <collision name="rear_support_leg_left_collision">
+      <origin xyz="-0.37000000 -1.04975000 0.89000000" rpy="0.01120643 0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.08000000 0.08000000 1.90010926"/>
+      </geometry>
+    </collision>
+    <visual name="rear_support_leg_right_visual">
+      <origin xyz="0.37000000 -1.04975000 0.89000000" rpy="0.01120643 0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.08000000 0.08000000 1.90010926"/>
+      </geometry>
+      <material name="wood_rear"/>
+    </visual>
+    <collision name="rear_support_leg_right_collision">
+      <origin xyz="0.37000000 -1.04975000 0.89000000" rpy="0.01120643 0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.08000000 0.08000000 1.90010926"/>
+      </geometry>
+    </collision>
+    <visual name="rear_middle_cross_beam_visual">
+      <origin xyz="0.00000000 -1.04877500 0.72000000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.76000000 0.07000000 0.08000000"/>
+      </geometry>
+      <material name="wood_rear"/>
+    </visual>
+    <collision name="rear_middle_cross_beam_collision">
+      <origin xyz="0.00000000 -1.04877500 0.72000000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.76000000 0.07000000 0.08000000"/>
+      </geometry>
+    </collision>
+    <visual name="side_limit_bar_left_visual">
+      <origin xyz="-0.37000000 -0.73949687 0.82000000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.02500000 0.62099375 0.02500000"/>
+      </geometry>
+      <material name="metal"/>
+    </visual>
+    <collision name="side_limit_bar_left_collision">
+      <origin xyz="-0.37000000 -0.73949687 0.82000000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.02500000 0.62099375 0.02500000"/>
+      </geometry>
+    </collision>
+    <visual name="side_limit_bar_right_visual">
+      <origin xyz="0.37000000 -0.73949687 0.82000000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.02500000 0.62099375 0.02500000"/>
+      </geometry>
+      <material name="metal"/>
+    </visual>
+    <collision name="side_limit_bar_right_collision">
+      <origin xyz="0.37000000 -0.73949687 0.82000000" rpy="0.00000000 -0.00000000 0.00000000"/>
+      <geometry>
+        <box size="0.02500000 0.62099375 0.02500000"/>
+      </geometry>
+    </collision>
+  </link>
+  <gazebo>
+    <static>true</static>
+  </gazebo>
+</robot>

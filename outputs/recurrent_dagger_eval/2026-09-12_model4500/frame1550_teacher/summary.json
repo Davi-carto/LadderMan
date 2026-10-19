@@ -1,0 +1,23 @@
+{
+  "num_episodes": 32,
+  "success_count": 16,
+  "failure_count": 16,
+  "censored_count": 0,
+  "success_fraction_all_episodes": 0.5,
+  "success_fraction_completed_episodes": 0.5,
+  "mean_length_steps": 847.625,
+  "mean_episode_reward": 81.62849945832977,
+  "mean_step_reward": 0.09630260959543403,
+  "action_mean_rmse_to_teacher": 0.16605893308345404,
+  "termination_counts": {
+    "root_pose": 15,
+    "body_local_pose": 4,
+    "motion_complete": 16
+  },
+  "downward_start_frame": 1550,
+  "ascent_eligible_episodes": 0,
+  "ascent_reached_downward_start_count": 0,
+  "controller": "teacher",
+  "wall_time_seconds": 883.5034740781412,
+  "reference_frame": 1550
+}
