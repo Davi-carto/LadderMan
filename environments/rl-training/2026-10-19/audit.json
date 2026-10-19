@@ -1,0 +1,204 @@
+{
+  "snapshot_date": "2026-10-19",
+  "timezone": "Asia/Shanghai",
+  "method": "Recompute .py/.pyi/.pth file digests against installed distribution RECORD entries. Counts are per-distribution records, not deduplicated paths. Check extra Python files in isaaclab/rsl_rl/gymnasium roots. Compare editable Isaac Lab addon worktrees to HEAD and verify HEAD against the official remote tag.",
+  "scope_limit": "This is a current source/import-hook integrity audit, not a complete binary/Conda/system-library audit or proof that installation RECORD files were never rewritten. Unrelated editable project source was not audited.",
+  "distributions": 299,
+  "sources_checked": 47912,
+  "unhashed_sources": 0,
+  "exceptions": [
+    {
+      "name": "opencv-python-headless",
+      "version": "4.11.0.86",
+      "checked": 58,
+      "unhashed": 0,
+      "mismatches": [
+        "cv2/typing/__init__.py",
+        "cv2/version.py"
+      ],
+      "missing": []
+    }
+  ],
+  "packages_without_RECORD": [],
+  "critical_packages": [
+    {
+      "name": "isaaclab",
+      "version": "2.3.2",
+      "checked_sources": 971,
+      "checked_bytes": 7137098,
+      "hash_mismatches": [],
+      "missing_recorded_sources": [],
+      "unhashed_sources": [],
+      "additional_python_files": []
+    },
+    {
+      "name": "rsl-rl-lib",
+      "version": "5.0.1",
+      "checked_sources": 29,
+      "checked_bytes": 181143,
+      "hash_mismatches": [],
+      "missing_recorded_sources": [],
+      "unhashed_sources": [],
+      "additional_python_files": []
+    },
+    {
+      "name": "torch",
+      "version": "2.7.0+cu128",
+      "checked_sources": 2100,
+      "checked_bytes": 38293115,
+      "hash_mismatches": [],
+      "missing_recorded_sources": [],
+      "unhashed_sources": [],
+      "additional_python_files": []
+    },
+    {
+      "name": "numpy",
+      "version": "1.26.0",
+      "checked_sources": 655,
+      "checked_bytes": 9468261,
+      "hash_mismatches": [],
+      "missing_recorded_sources": [],
+      "unhashed_sources": [],
+      "additional_python_files": []
+    },
+    {
+      "name": "gymnasium",
+      "version": "1.2.0",
+      "checked_sources": 121,
+      "checked_bytes": 1278974,
+      "hash_mismatches": [],
+      "missing_recorded_sources": [],
+      "unhashed_sources": [],
+      "additional_python_files": []
+    },
+    {
+      "name": "warp-lang",
+      "version": "1.14.0",
+      "checked_sources": 414,
+      "checked_bytes": 8246781,
+      "hash_mismatches": [],
+      "missing_recorded_sources": [],
+      "unhashed_sources": [],
+      "additional_python_files": []
+    },
+    {
+      "name": "tensordict",
+      "version": "0.13.0",
+      "checked_sources": 58,
+      "checked_bytes": 2315966,
+      "hash_mismatches": [],
+      "missing_recorded_sources": [],
+      "unhashed_sources": [],
+      "additional_python_files": []
+    },
+    {
+      "name": "isaaclab-assets",
+      "version": "0.2.4",
+      "checked_sources": 2,
+      "checked_bytes": 3539,
+      "hash_mismatches": [],
+      "missing_recorded_sources": [],
+      "unhashed_sources": [],
+      "additional_python_files": []
+    },
+    {
+      "name": "isaaclab-mimic",
+      "version": "1.0.16",
+      "checked_sources": 2,
+      "checked_bytes": 3536,
+      "hash_mismatches": [],
+      "missing_recorded_sources": [],
+      "unhashed_sources": [],
+      "additional_python_files": []
+    },
+    {
+      "name": "isaaclab-rl",
+      "version": "0.4.7",
+      "checked_sources": 2,
+      "checked_bytes": 3515,
+      "hash_mismatches": [],
+      "missing_recorded_sources": [],
+      "unhashed_sources": [],
+      "additional_python_files": []
+    },
+    {
+      "name": "isaaclab-tasks",
+      "version": "0.11.12",
+      "checked_sources": 2,
+      "checked_bytes": 3539,
+      "hash_mismatches": [],
+      "missing_recorded_sources": [],
+      "unhashed_sources": [],
+      "additional_python_files": []
+    }
+  ],
+  "editable_isaaclab": {
+    "version": "v2.3.2",
+    "commit": "37ddf626871758333d6ed89cf64ad702aef127d0",
+    "official_tag_commit_matches": true,
+    "checked_paths": [
+      "source/isaaclab_assets",
+      "source/isaaclab_mimic",
+      "source/isaaclab_rl",
+      "source/isaaclab_tasks"
+    ],
+    "working_tree_clean": true,
+    "note": "These addons are actually imported from an external source checkout, not from the Conda prefix."
+  },
+  "opencv_overlap": {
+    "explanation": "opencv-python and opencv-python-headless 4.11.0.86 are both installed. The two Python mismatches and the checked shared binary match opencv-python RECORD exactly, consistent with overlapping distribution installs, not a custom patch. No packages were changed.",
+    "checked_files": [
+      {
+        "distribution": "opencv-python",
+        "version": "4.11.0.86",
+        "path": "cv2/cv2.abi3.so",
+        "matches_RECORD": true,
+        "expected": "GI04rORxanRTTd9N1PfXegZkG9CQi_Eushijwv7zXzg",
+        "actual": "GI04rORxanRTTd9N1PfXegZkG9CQi_Eushijwv7zXzg"
+      },
+      {
+        "distribution": "opencv-python",
+        "version": "4.11.0.86",
+        "path": "cv2/typing/__init__.py",
+        "matches_RECORD": true,
+        "expected": "WVIPWJREoW72Swb0Z8XIgW2nkky2HjzDOmp5wFDjUjs",
+        "actual": "WVIPWJREoW72Swb0Z8XIgW2nkky2HjzDOmp5wFDjUjs"
+      },
+      {
+        "distribution": "opencv-python",
+        "version": "4.11.0.86",
+        "path": "cv2/version.py",
+        "matches_RECORD": true,
+        "expected": "hs5yqDhdH_81iiowYjH4a3adZU6JvspqFkycNndPflo",
+        "actual": "hs5yqDhdH_81iiowYjH4a3adZU6JvspqFkycNndPflo"
+      },
+      {
+        "distribution": "opencv-python-headless",
+        "version": "4.11.0.86",
+        "path": "cv2/cv2.abi3.so",
+        "matches_RECORD": false,
+        "expected": "aP7knSZqlecwwcsX2ROjmpOrXFC-4VgWAPRTAm-ce40",
+        "actual": "GI04rORxanRTTd9N1PfXegZkG9CQi_Eushijwv7zXzg"
+      },
+      {
+        "distribution": "opencv-python-headless",
+        "version": "4.11.0.86",
+        "path": "cv2/typing/__init__.py",
+        "matches_RECORD": false,
+        "expected": "OcpcWCPgPFdmAKQ9RuwEavViTFzC6E5CdyoxpzUMZIw",
+        "actual": "WVIPWJREoW72Swb0Z8XIgW2nkky2HjzDOmp5wFDjUjs"
+      },
+      {
+        "distribution": "opencv-python-headless",
+        "version": "4.11.0.86",
+        "path": "cv2/version.py",
+        "matches_RECORD": false,
+        "expected": "OwdJIWnmB5lA9xYWI2jFG22-5FvjbJxG-2-eVrBElzk",
+        "actual": "hs5yqDhdH_81iiowYjH4a3adZU6JvspqFkycNndPflo"
+      }
+    ]
+  },
+  "pip_check": "No broken requirements found. pip check does not detect cv2 file ownership conflicts.",
+  "project_adaptation": "Ladder/scripts/rsl_rl/rsl_rl_compat.py and Ladder/source/ladder/ladder/rsl_rl contain the project's custom adapters/algorithms; they do not require overwriting installed RSL-RL source.",
+  "fresh_environment_rebuild_tested": false
+}

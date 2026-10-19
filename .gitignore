@@ -13,6 +13,7 @@
 !/logs/
 !/outputs/
 !/training_artifacts/
+!/environments/
 
 # Credentials, local tools and caches are never part of this snapshot.
 **/.git/

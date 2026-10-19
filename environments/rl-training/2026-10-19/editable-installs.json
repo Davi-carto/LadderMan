@@ -1,0 +1,59 @@
+{
+  "snapshot_date": "2026-10-19",
+  "timezone": "Asia/Shanghai",
+  "placeholders": {
+    "ISAACLAB_SOURCE": "A separate checkout of https://github.com/isaac-sim/IsaacLab.git at v2.3.2, commit 37ddf626871758333d6ed89cf64ad702aef127d0",
+    "USER_PROJECTS": "Original external project workspace; not included in this repository or inside the Conda prefix"
+  },
+  "note": "These are source links, not bundled code. The four non-Isaac-Lab editables belong to other projects and are not imported by the LadderMan source/scripts scan. Source changes in those unrelated projects were not audited.",
+  "installs": [
+    {
+      "name": "LeggedManip_Lab",
+      "version": "0.1.0",
+      "source": "${USER_PROJECTS}/LeggedManip_Lab/source/LeggedManip_Lab",
+      "isaaclab_addon": false
+    },
+    {
+      "name": "deep_robotics_retarget",
+      "version": "0.2.0",
+      "source": "${USER_PROJECTS}/DeepRoboticsLab/deep-robotics-retarget",
+      "isaaclab_addon": false
+    },
+    {
+      "name": "isaaclab_assets",
+      "version": "0.2.4",
+      "source": "${ISAACLAB_SOURCE}/source/isaaclab_assets",
+      "isaaclab_addon": true
+    },
+    {
+      "name": "isaaclab_mimic",
+      "version": "1.0.16",
+      "source": "${ISAACLAB_SOURCE}/source/isaaclab_mimic",
+      "isaaclab_addon": true
+    },
+    {
+      "name": "isaaclab_rl",
+      "version": "0.4.7",
+      "source": "${ISAACLAB_SOURCE}/source/isaaclab_rl",
+      "isaaclab_addon": true
+    },
+    {
+      "name": "isaaclab_tasks",
+      "version": "0.11.12",
+      "source": "${ISAACLAB_SOURCE}/source/isaaclab_tasks",
+      "isaaclab_addon": true
+    },
+    {
+      "name": "rl_training",
+      "version": "1.0.0",
+      "source": "${USER_PROJECTS}/DeepRoboticsLab/rl_training/source/rl_training",
+      "isaaclab_addon": false
+    },
+    {
+      "name": "whole_body_tracking",
+      "version": "0.1.0",
+      "source": "${USER_PROJECTS}/DeepRoboticsLab/deep-robotics-mimic/source/whole_body_tracking",
+      "isaaclab_addon": false
+    }
+  ]
+}

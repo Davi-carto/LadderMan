@@ -8969,3 +8969,46 @@ dependencies still require installation.
 The snapshot is divided into bounded source/model and log-archive commits for
 normal fast-forward pushes; no force push or local training-data deletion is used.
 Restoration/retention instructions are in `Ladder/README.md`.
+
+### 2026-10-19: Record the current Conda environment and audit third-party source
+
+Added `environments/rl-training/2026-10-19/`: sanitized environment YAML,
+26 exact Conda artifact URLs with SHA-256, 290 non-editable pip requirements,
+291-entry non-editable freeze inventory, eight external editable-install records,
+runtime metadata and source-integrity audit. SMPL-X retains its exact Git commit.
+No credentials, environment-variable values or original user home paths are
+included. The root upload allowlist now includes `environments/`.
+
+The runtime is Python3.11.15 / IsaacLab2.3.2 / IsaacSim5.1.0.0 / torch2.7.0+cu128 /
+RSL-RL5.0.1 on Ubuntu22.04.5 x86_64, glibc2.35, driver570.172.18. Conda is26.3.2;
+the environment occupies approximately22GiB, not including external editable
+source trees. The local isaaclab_v2.1.0 reference is not the active runtime.
+
+Recomputed47,912 Python-source/import-hook installation RECORD digests across299
+distributions, including4,356 entries for the11 explicitly checked core packages.
+No mismatches in those core packages. The only two Python-source mismatches are
+OpenCV headless records: both files match the installed GUI OpenCV's RECORD.
+The checked cv2 shared binary also matches GUI OpenCV, consistent with overlapping
+opencv-python / opencv-python-headless4.11.0.86 installations, not a project patch.
+No source files were missing from the checked records. `pip check` passes, but it
+does not detect shared-file ownership conflicts. The audit is not an exhaustive
+binary/Conda/system-file check or proof about past modification history.
+
+Four active Isaac Lab addon editables point outside the Conda prefix. Their
+source worktrees are clean; HEAD37ddf626871758333d6ed89cf64ad702aef127d0 matches
+the official remote v2.3.2 tag. Four other editables belong to unrelated projects;
+their source contents were not audited or uploaded. The project's adapters and
+custom algorithms remain under LadderMan, including rsl_rl_compat.py.
+
+The README explains the manifests, pinned addon restoration and current OpenCV
+overlap. The new-environment install sequence keeps RSL-RL5.0.1 (avoiding the
+IsaacLab rsl-rl extra's3.1.2 dependency) and explicitly reinstalls GUI OpenCV last
+to match the observed shared-file owner. This preserves the existing baseline,
+not a recommendation to mix OpenCV flavors. Version/CUDA checks and the existing
+single-environment reset/step command are provided for the destination server;
+the default smoke motion was verified to be tracked in Git. Reference files:
+IsaacLab_v2.3.2/source/isaaclab_rl/setup.py, Ladder/source/ladder/setup.py and
+Ladder/scripts/check_cr1_ladder_env.py.
+No existing packages were installed, uninstalled or updated. No large environment
+bundle is planned, per the user's decision. No fresh-server reconstruction was
+claimed; validation covers the manifest against the current working environment.
