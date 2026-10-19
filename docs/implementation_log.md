@@ -8930,3 +8930,42 @@ Initial diagnostic-only inference_mode mistakes were corrected in tests/harness;
 one failed validation process was stopped. The final short run exited normally.
 No full training launched; corrected command still resumes original model9999,
 not any small-test checkpoint, with4500 additional updates.
+
+### 2026-10-19: Prepare filtered GitHub publication without deleting local data
+
+Publication target: `Davi-carto/LadderMan`, branch `main`. This work changes only
+repository packaging, not environments, rewards, networks or training behavior.
+HTTPS remains the fetch URL; the already-authenticated Davi-carto SSH identity
+is used for pushes. Commit identity uses the account's GitHub noreply email.
+
+Checkpoint allowlist and SHA-256 checksums are recorded in
+`training_artifacts/checkpoints.json`: the designated September 9 smooth-output
+blind teacher `model_9999.pt`, plus the latest numerical checkpoint from each
+visual run with checkpoint/event-file activity since October 4, 00:00 +08:00.
+This yields 13 checkpoints: one teacher, six full visual runs and six smoke runs.
+The cutoff is a fixed publication snapshot, not an automatic rolling retention
+job. All excluded checkpoints remain untouched on local disk.
+
+Preserve all 395 TensorBoard/JSONL/console-log files under `logs` and `outputs`,
+including older runs: 121 event files, 59 JSONL files and 215 `.log` files.
+Lossless split-gzip archives reduce 7,883,266,421 bytes to 1,508,311,795 bytes.
+There are 399 parts, each at most 48 MiB, plus a manifest with original paths,
+sizes and SHA-256 checksums. `scripts/training_log_archive.py restore` rebuilds
+the original paths for TensorBoard and refuses to overwrite differing files.
+Training configs, saved source snapshots and structured diagnostic summaries
+remain at their original paths; old checkpoint references are provenance only.
+
+Checks: all 395 archives decompress and match their original SHA-256; archive
+manifest coverage exactly matches all source log paths and sizes; all 13 selected
+checkpoint checksums match; no staged file exceeds 50 MiB. Small synthetic tests
+cover multi-part restore, empty logs, existing-file protection and path confinement.
+Common credential signatures were checked without printing secret values.
+Excluded from publication: unrelated personal deliverables, credential/cache
+directories, external reference checkouts, unselected model exports and bulk
+diagnostic image/depth/tensor dumps. Runtime source has no imports of the omitted
+whole_body_tracking or holosoma reference trees. External Isaac Lab/runtime
+dependencies still require installation.
+
+The snapshot is divided into bounded source/model and log-archive commits for
+normal fast-forward pushes; no force push or local training-data deletion is used.
+Restoration/retention instructions are in `Ladder/README.md`.

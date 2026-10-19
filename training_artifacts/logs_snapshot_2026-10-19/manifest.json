@@ -1,0 +1,3565 @@
+{
+  "format": "split-gzip-v1",
+  "part_bytes": 50331648,
+  "files": [
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-28_09-42-34_smoke_sequence_amp_groundfix_0928/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 4384,
+      "sha256": "0a55e0d1a29df61c3ea2935a34169431977c65b005088d0c49b2800a2434cd8a",
+      "compressed_bytes": 1460,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-28_09-42-34_smoke_sequence_amp_groundfix_0928/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-28_09-42-34_smoke_sequence_amp_groundfix_0928/events.out.tfevents.1790559761.qdxsphfvp3lxmip.1894677.0",
+      "bytes": 22483,
+      "sha256": "79ff64a8b128d292c1940902b02c2901b0b8edf9b66eb7379e9016fe6a79c94b",
+      "compressed_bytes": 6223,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-28_09-42-34_smoke_sequence_amp_groundfix_0928/events.out.tfevents.1790559761.qdxsphfvp3lxmip.1894677.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-28_10-29-02_smoke_allframe_sequence_0928/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 2173,
+      "sha256": "5db22748fb2ddbc165a47036c1259c5c5604c73a1a1ea4a5ef01add34e440d1c",
+      "compressed_bytes": 927,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-28_10-29-02_smoke_allframe_sequence_0928/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-28_10-29-02_smoke_allframe_sequence_0928/events.out.tfevents.1790562549.qdxsphfvp3lxmip.1906169.0",
+      "bytes": 11335,
+      "sha256": "d2233fb3f9a3b1777b27a4c4b0f3f835e93a44383bd27291f422cc4ecdfa8e1d",
+      "compressed_bytes": 3728,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-28_10-29-02_smoke_allframe_sequence_0928/events.out.tfevents.1790562549.qdxsphfvp3lxmip.1906169.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-30_10-34-50_smoke_contact_sequence_resetfix_0930/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 4480,
+      "sha256": "2669da16720263b5c05e31d09cfd5f869940361087358c392769eef8e9e50a6b",
+      "compressed_bytes": 1529,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-30_10-34-50_smoke_contact_sequence_resetfix_0930/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-30_10-34-50_smoke_contact_sequence_resetfix_0930/events.out.tfevents.1790735697.qdxsphfvp3lxmip.2274338.0",
+      "bytes": 23729,
+      "sha256": "223d0ae1060c7ea7d85b1684578a73891e17d77e1722ba927a70ab932db9443b",
+      "compressed_bytes": 6598,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-30_10-34-50_smoke_contact_sequence_resetfix_0930/events.out.tfevents.1790735697.qdxsphfvp3lxmip.2274338.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-30_10-41-54_contact_sequence_amp_timehistory_resetfix_8000_env5120/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 18145865,
+      "sha256": "0aa7b50a65fa8ce1d19c72feeeb777f910dc0520dc626093d401afe8b1b49cc8",
+      "compressed_bytes": 3633768,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-30_10-41-54_contact_sequence_amp_timehistory_resetfix_8000_env5120/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-30_10-41-54_contact_sequence_amp_timehistory_resetfix_8000_env5120/events.out.tfevents.1790736178.qdxsphfvp3lxmip.2275881.0",
+      "bytes": 97686123,
+      "sha256": "71a654e664a0814870317f5a39ffcb2f91b2dfeb0b1c418d18c0a82278c67567",
+      "compressed_bytes": 23855393,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_sequence_visual_amp/2026-09-30_10-41-54_contact_sequence_amp_timehistory_resetfix_8000_env5120/events.out.tfevents.1790736178.qdxsphfvp3lxmip.2275881.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-24_15-15-05_smoke_contact_amp/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 4393,
+      "sha256": "7461551ed6dbfc6a34855b7b61feef9a4a0920be179bef01bad3af16ea5b0220",
+      "compressed_bytes": 1464,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-24_15-15-05_smoke_contact_amp/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-24_15-15-05_smoke_contact_amp/events.out.tfevents.1790234113.qdxsphfvp3lxmip.1233068.0",
+      "bytes": 22483,
+      "sha256": "29f2c19a1e6cb7cb2cdef5096ce8474ae9ae6c1362d3b5005f6776e448435233",
+      "compressed_bytes": 6253,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-24_15-15-05_smoke_contact_amp/events.out.tfevents.1790234113.qdxsphfvp3lxmip.1233068.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_09-36-42_smoke_event_amp_0928/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 4381,
+      "sha256": "2b558109d8ad7c56e9e8dfee20de284eb78321b6261c19c5607347c0e4eadacf",
+      "compressed_bytes": 1454,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_09-36-42_smoke_event_amp_0928/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_09-36-42_smoke_event_amp_0928/events.out.tfevents.1790559409.qdxsphfvp3lxmip.1891086.0",
+      "bytes": 22483,
+      "sha256": "e97862845b0751835d8cf20a9956d9c8076225dd2cbbb3ac811280848e57b111",
+      "compressed_bytes": 6225,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_09-36-42_smoke_event_amp_0928/events.out.tfevents.1790559409.qdxsphfvp3lxmip.1891086.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_09-41-51_smoke_event_amp_groundfix_0928/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 4384,
+      "sha256": "8d6a57ab4f323364d1e3a1b560ddb45e326942637d632c1461a6f09543f674ca",
+      "compressed_bytes": 1459,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_09-41-51_smoke_event_amp_groundfix_0928/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_09-41-51_smoke_event_amp_groundfix_0928/events.out.tfevents.1790559718.qdxsphfvp3lxmip.1894080.0",
+      "bytes": 22483,
+      "sha256": "7400cea09cf114832bd4442944506bcd48c88eb0e5fc3206b5503381e59c1434",
+      "compressed_bytes": 6210,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_09-41-51_smoke_event_amp_groundfix_0928/events.out.tfevents.1790559718.qdxsphfvp3lxmip.1894080.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_09-46-36_smoke_groundnet_v2_final_0928/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 2180,
+      "sha256": "fceeda19dc55d49da7ad5703e8bdeaf558d7cefe4d721b4c83aa050d8d9fe515",
+      "compressed_bytes": 933,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_09-46-36_smoke_groundnet_v2_final_0928/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_09-46-36_smoke_groundnet_v2_final_0928/events.out.tfevents.1790560004.qdxsphfvp3lxmip.1896496.0",
+      "bytes": 11082,
+      "sha256": "e05f12271d4656ff9f6a18ff08aa5aa3ea008b18f6fe70d3faea1f65b5bb3c0f",
+      "compressed_bytes": 3620,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_09-46-36_smoke_groundnet_v2_final_0928/events.out.tfevents.1790560004.qdxsphfvp3lxmip.1896496.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-27-49_smoke_allframe_ids_terminal_0928/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 2173,
+      "sha256": "5db22748fb2ddbc165a47036c1259c5c5604c73a1a1ea4a5ef01add34e440d1c",
+      "compressed_bytes": 927,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-27-49_smoke_allframe_ids_terminal_0928/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-27-49_smoke_allframe_ids_terminal_0928/events.out.tfevents.1790562476.qdxsphfvp3lxmip.1905517.0",
+      "bytes": 11335,
+      "sha256": "c0f2172adb8d06db30d5523b321e4b97d80044c849216a9e93deecfc96a26b11",
+      "compressed_bytes": 3722,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-27-49_smoke_allframe_ids_terminal_0928/events.out.tfevents.1790562476.qdxsphfvp3lxmip.1905517.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-39-59_smoke_raw_three_support_ids_0928/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 2159,
+      "sha256": "fe842f35271215cf356ed5c231a8d1b69af8ca0a18b9cf9b18e5ce323a1ed6ff",
+      "compressed_bytes": 912,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-39-59_smoke_raw_three_support_ids_0928/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-39-59_smoke_raw_three_support_ids_0928/events.out.tfevents.1790563206.qdxsphfvp3lxmip.1908631.0",
+      "bytes": 11335,
+      "sha256": "1fcec27f0744e6f4dfcfa9e5ec7baa467b5abd2efb561832d0c3d3981d2037da",
+      "compressed_bytes": 3713,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-39-59_smoke_raw_three_support_ids_0928/events.out.tfevents.1790563206.qdxsphfvp3lxmip.1908631.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-49-56_allframe_raw_support_ids_amp_8000_env5120/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 16590734,
+      "sha256": "535384d036487b1d309c546576706aab5f53ee7346c5181c43f4cbbf0a3c3459",
+      "compressed_bytes": 3332013,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-49-56_allframe_raw_support_ids_amp_8000_env5120/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-49-56_allframe_raw_support_ids_amp_8000_env5120/events.out.tfevents.1790563858.qdxsphfvp3lxmip.1910568.0",
+      "bytes": 86155466,
+      "sha256": "ba8f4657ce70014d50097fdf6554f2c53ea69312c0f91d7e2cc5bc6b288b118d",
+      "compressed_bytes": 20608846,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-28_10-49-56_allframe_raw_support_ids_amp_8000_env5120/events.out.tfevents.1790563858.qdxsphfvp3lxmip.1910568.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-29_10-16-09_smoke_continuous_contact_audit/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 4345,
+      "sha256": "6b1459767c3c919546b548a26f6fe5caeeac8d67148c513189b6456dd17ac197",
+      "compressed_bytes": 1418,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-29_10-16-09_smoke_continuous_contact_audit/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-29_10-16-09_smoke_continuous_contact_audit/events.out.tfevents.1790648176.qdxsphfvp3lxmip.2083942.0",
+      "bytes": 23599,
+      "sha256": "2b8ebd523514c9657bc622cd6f3f2ff14925d5b1e7b97727656b3b9b2ab72fc5",
+      "compressed_bytes": 6528,
+      "parts": [
+        "logs/rsl_rl/cr1_event_contact_task_visual_amp/2026-09-29_10-16-09_smoke_continuous_contact_audit/events.out.tfevents.1790648176.qdxsphfvp3lxmip.2083942.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand/2026-08-28_15-31-18_smoke_stage36_middle_stand/events.out.tfevents.1787902286.qdxsphfvp3lxmip.3428538.0",
+      "bytes": 11515,
+      "sha256": "95ca4620244380dd114a135e257f4f4b6fa6acd558b59a86236c755e2ad48321",
+      "compressed_bytes": 3504,
+      "parts": [
+        "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand/2026-08-28_15-31-18_smoke_stage36_middle_stand/events.out.tfevents.1787902286.qdxsphfvp3lxmip.3428538.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand/2026-08-28_18-07-30_stage36_two_anchor_20_10_35_35_frame0_nominal_to10000/events.out.tfevents.1787911727.qdxsphfvp3lxmip.3456800.0",
+      "bytes": 123870760,
+      "sha256": "091d5199367dcec6c9c1409d91ea00b20c4ab5b176521b0ba373a6636607eefd",
+      "compressed_bytes": 26756790,
+      "parts": [
+        "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand/2026-08-28_18-07-30_stage36_two_anchor_20_10_35_35_frame0_nominal_to10000/events.out.tfevents.1787911727.qdxsphfvp3lxmip.3456800.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-08-31_11-30-54_from_scratch_train8000_joint_acc_seed42/events.out.tfevents.1788147129.qdxsphfvp3lxmip.3979641.0",
+      "bytes": 52871750,
+      "sha256": "8a3883a7fd1ab5cf79c8a6fa41278999f115c23341a595769f5307dd0e8c9a82",
+      "compressed_bytes": 11491681,
+      "parts": [
+        "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-08-31_11-30-54_from_scratch_train8000_joint_acc_seed42/events.out.tfevents.1788147129.qdxsphfvp3lxmip.3979641.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-07_17-45-25_train10000_allframes_reset10_10_40_40_root08_velstd075_frame0dr07_seed42/events.out.tfevents.1788774425.qdxsphfvp3lxmip.1265760.0",
+      "bytes": 130519464,
+      "sha256": "8e8774000fb5d4a558a218f4c9ad6d2f5f14108f3444ce606f612839e5e88611",
+      "compressed_bytes": 27954426,
+      "parts": [
+        "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-07_17-45-25_train10000_allframes_reset10_10_40_40_root08_velstd075_frame0dr07_seed42/events.out.tfevents.1788774425.qdxsphfvp3lxmip.1265760.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-08_11-28-30_finetune2500_lower_body_joint_acc1e6_from_model9999_seed42/events.out.tfevents.1788838186.qdxsphfvp3lxmip.1423827.0",
+      "bytes": 32827522,
+      "sha256": "25a47ae261f4f3f68e9225f906759396a1135ea185453f3bd0025e9b319eafb4",
+      "compressed_bytes": 7005626,
+      "parts": [
+        "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-08_11-28-30_finetune2500_lower_body_joint_acc1e6_from_model9999_seed42/events.out.tfevents.1788838186.qdxsphfvp3lxmip.1423827.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-08_14-38-43_smoke_robust_lower_joint_velocity/events.out.tfevents.1788849530.qdxsphfvp3lxmip.1456907.0",
+      "bytes": 12560,
+      "sha256": "3089b65c5eb39c1b8d9dcda802e03488bd87e71b30e5f1fd1a82ff8d2e032544",
+      "compressed_bytes": 3710,
+      "parts": [
+        "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-08_14-38-43_smoke_robust_lower_joint_velocity/events.out.tfevents.1788849530.qdxsphfvp3lxmip.1456907.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-08_14-52-42_smoke_action_second_difference/events.out.tfevents.1788850370.qdxsphfvp3lxmip.1460671.0",
+      "bytes": 12644,
+      "sha256": "4846c3909f07c27662e73d47258b9c215a3b0583adb29a8893351a1cfaa335c3",
+      "compressed_bytes": 3726,
+      "parts": [
+        "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-08_14-52-42_smoke_action_second_difference/events.out.tfevents.1788850370.qdxsphfvp3lxmip.1460671.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-08_22-46-26_finetune3000_velrobust_actiond2_from12498_seed42/events.out.tfevents.1788878859.qdxsphfvp3lxmip.1521586.0",
+      "bytes": 1396623,
+      "sha256": "2232f559a50eb599ed77adceb9b6916a964f994df6f532eb9d312ae92bec29cc",
+      "compressed_bytes": 302415,
+      "parts": [
+        "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-08_22-46-26_finetune3000_velrobust_actiond2_from12498_seed42/events.out.tfevents.1788878859.qdxsphfvp3lxmip.1521586.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-08_22-54-17_finetune4000_velrobust_actiond2_from8000_seed42/events.out.tfevents.1788879333.qdxsphfvp3lxmip.1523238.0",
+      "bytes": 53204016,
+      "sha256": "457ff9bba80699bdc3ea1ef2950c7fe322206693ee9a517042d49acf646c9082",
+      "compressed_bytes": 11349439,
+      "parts": [
+        "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-08_22-54-17_finetune4000_velrobust_actiond2_from8000_seed42/events.out.tfevents.1788879333.qdxsphfvp3lxmip.1523238.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-09_13-45-16_train10000_scratch_delay0to5ms_phys1ms_seed42/events.out.tfevents.1788932793.qdxsphfvp3lxmip.1647801.0",
+      "bytes": 314950,
+      "sha256": "3dd303ca26d2cb35d84240523469ea0446494fb2398b30eb6d63a6b2d0bbdcdd",
+      "compressed_bytes": 71030,
+      "parts": [
+        "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-09_13-45-16_train10000_scratch_delay0to5ms_phys1ms_seed42/events.out.tfevents.1788932793.qdxsphfvp3lxmip.1647801.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-09_13-56-37_train10000_scratch_delay0or5ms_phys5ms_seed42/events.out.tfevents.1788933474.qdxsphfvp3lxmip.1650552.0",
+      "bytes": 132999370,
+      "sha256": "d8691e56690ec93651c8ba5aa92e63d400c14240827009fdefd1edce1d7003ba",
+      "compressed_bytes": 28573116,
+      "parts": [
+        "logs/rsl_rl/cr1_nonvisual_zdw0824_no_command_full_state_middle_stand_smooth_output/2026-09-09_13-56-37_train10000_scratch_delay0or5ms_phys5ms_seed42/events.out.tfevents.1788933474.qdxsphfvp3lxmip.1650552.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference2x_contact_sequence_visual_amp/2026-10-15_13-22-16_resume6000_env32_iter2/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 4428,
+      "sha256": "ce9b5b9f523f239e37e5c6d1207b428b5275af42035993bd936c232b95363e8a",
+      "compressed_bytes": 1507,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference2x_contact_sequence_visual_amp/2026-10-15_13-22-16_resume6000_env32_iter2/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference2x_contact_sequence_visual_amp/2026-10-15_13-22-16_resume6000_env32_iter2/events.out.tfevents.1792041744.qdxsphfvp3lxmip.825497.0",
+      "bytes": 34454,
+      "sha256": "9507c5b1cbe5d788cfbd7b836854f06c3bfe03ac354225952a99e8fde6386cc1",
+      "compressed_bytes": 9036,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference2x_contact_sequence_visual_amp/2026-10-15_13-22-16_resume6000_env32_iter2/events.out.tfevents.1792041744.qdxsphfvp3lxmip.825497.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference2x_contact_sequence_visual_amp/2026-10-15_13-26-46_resume6000_reference2x_env5120_add4000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 9107259,
+      "sha256": "b4b0410ea3c4160a6b7f752387cba95089c60da18a380768cb7a7ef141a16505",
+      "compressed_bytes": 1828035,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference2x_contact_sequence_visual_amp/2026-10-15_13-26-46_resume6000_reference2x_env5120_add4000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference2x_contact_sequence_visual_amp/2026-10-15_13-26-46_resume6000_reference2x_env5120_add4000_seed42/events.out.tfevents.1792042072.qdxsphfvp3lxmip.826682.0",
+      "bytes": 68893204,
+      "sha256": "9023375b89dec5965af2abda2bfceaf8146bdc0247aa6ae5360bb240873c388a",
+      "compressed_bytes": 16480224,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference2x_contact_sequence_visual_amp/2026-10-15_13-26-46_resume6000_reference2x_env5120_add4000_seed42/events.out.tfevents.1792042072.qdxsphfvp3lxmip.826682.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_contact_sequence_visual_amp/2026-10-13_10-40-49_pause_decay_smoke_env32_iter10_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 22334,
+      "sha256": "219b3bc2d7ea7dca4e935c4fd71197da5bf1e3674b47ec6fb8b8932ae01a01a1",
+      "compressed_bytes": 5527,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference_contact_sequence_visual_amp/2026-10-13_10-40-49_pause_decay_smoke_env32_iter10_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_contact_sequence_visual_amp/2026-10-13_10-40-49_pause_decay_smoke_env32_iter10_seed42/events.out.tfevents.1791859257.qdxsphfvp3lxmip.435106.0",
+      "bytes": 169337,
+      "sha256": "bd2c1edaa7a6034f1a7f09dc05bbb7e93d5f8ee1a50914ad0b97b9e3b2cd8107",
+      "compressed_bytes": 39346,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference_contact_sequence_visual_amp/2026-10-13_10-40-49_pause_decay_smoke_env32_iter10_seed42/events.out.tfevents.1791859257.qdxsphfvp3lxmip.435106.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_contact_sequence_visual_amp/2026-10-13_11-03-28_reference_pause_decay_scratch_env5120_iter10000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 22740916,
+      "sha256": "9a5be730087d8104796ef182f5e3e2c9fc41d619b1dea439d6f1a1e2728d623a",
+      "compressed_bytes": 4570118,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference_contact_sequence_visual_amp/2026-10-13_11-03-28_reference_pause_decay_scratch_env5120_iter10000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_contact_sequence_visual_amp/2026-10-13_11-03-28_reference_pause_decay_scratch_env5120_iter10000_seed42/events.out.tfevents.1791860672.qdxsphfvp3lxmip.440098.0",
+      "bytes": 172206015,
+      "sha256": "da6ea8563112d28fecec61213dca6d903bef8a10c27307be502a7b334807270d",
+      "compressed_bytes": 41390280,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference_contact_sequence_visual_amp/2026-10-13_11-03-28_reference_pause_decay_scratch_env5120_iter10000_seed42/events.out.tfevents.1791860672.qdxsphfvp3lxmip.440098.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_reg2x_energy_contact_sequence_visual_amp/2026-10-16_16-11-56_smoke_resume9999_reg2x_energy_env8_iter2/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 4432,
+      "sha256": "22a70d4f3ff8f09dc68db02cd11224cc66c66108113aadafc29194864bfeeb5b",
+      "compressed_bytes": 1533,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference_reg2x_energy_contact_sequence_visual_amp/2026-10-16_16-11-56_smoke_resume9999_reg2x_energy_env8_iter2/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_reg2x_energy_contact_sequence_visual_amp/2026-10-16_16-11-56_smoke_resume9999_reg2x_energy_env8_iter2/events.out.tfevents.1792138327.qdxsphfvp3lxmip.1042608.0",
+      "bytes": 34680,
+      "sha256": "59dfa2edf6c4f8691730e701e3c6069c0f2e8f01a8ffe5935153c805c0106acd",
+      "compressed_bytes": 9181,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference_reg2x_energy_contact_sequence_visual_amp/2026-10-16_16-11-56_smoke_resume9999_reg2x_energy_env8_iter2/events.out.tfevents.1792138327.qdxsphfvp3lxmip.1042608.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-21-38_smoke_resume9999_regramp_energy_env8_iter2/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 5106,
+      "sha256": "16a819a4d0216e766d94021493987934b1697003608b336c6bb83bf366dd8de1",
+      "compressed_bytes": 1640,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-21-38_smoke_resume9999_regramp_energy_env8_iter2/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-21-38_smoke_resume9999_regramp_energy_env8_iter2/events.out.tfevents.1792138914.qdxsphfvp3lxmip.1044853.0",
+      "bytes": 35766,
+      "sha256": "1933a15f1936def87231435e80c013bf3680ef7c6c9cffb2ec79b75fb41b2945",
+      "compressed_bytes": 9460,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-21-38_smoke_resume9999_regramp_energy_env8_iter2/events.out.tfevents.1792138914.qdxsphfvp3lxmip.1044853.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-23-05_smoke_resume9999_regramp_energy_env8_iter2/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 5093,
+      "sha256": "0f30f0c080249c33efca4b5d98481075be9268f668587b17bd98bac64de8dc99",
+      "compressed_bytes": 1644,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-23-05_smoke_resume9999_regramp_energy_env8_iter2/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-23-05_smoke_resume9999_regramp_energy_env8_iter2/events.out.tfevents.1792138999.qdxsphfvp3lxmip.1045469.0",
+      "bytes": 35766,
+      "sha256": "f2d204667502dc05078ae66e580aa0c008590ead367fa1be37f22efa34dc3a36",
+      "compressed_bytes": 9461,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-23-05_smoke_resume9999_regramp_energy_env8_iter2/events.out.tfevents.1792138999.qdxsphfvp3lxmip.1045469.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-28-05_resume9999_regramp1to2p5_2500_hold2000_env5120_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 11857933,
+      "sha256": "9f3dd06a70ae51f3a9ab0290a4758d8cd67a15ec3a302af8c4d41270db60b536",
+      "compressed_bytes": 2186877,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-28-05_resume9999_regramp1to2p5_2500_hold2000_env5120_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-28-05_resume9999_regramp1to2p5_2500_hold2000_env5120_seed42/events.out.tfevents.1792139349.qdxsphfvp3lxmip.1046643.0",
+      "bytes": 80290692,
+      "sha256": "bd8dc16f00a8cd6385d1cdc8d9ff87e32bfe7871228dc120919c87e0815f5408",
+      "compressed_bytes": 18896166,
+      "parts": [
+        "logs/rsl_rl/cr1_pause_decay_reference_regramp_energy_contact_sequence_visual_amp/2026-10-16_16-28-05_resume9999_regramp1to2p5_2500_hold2000_env5120_seed42/events.out.tfevents.1792139349.qdxsphfvp3lxmip.1046643.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_phased_body_goal_contact_sequence_visual_amp/2026-10-08_16-33-27_phased_bodygoal_amp_env5120_iter8000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 18180698,
+      "sha256": "c91021deacc50c2ac2ed772b7d748f09787ed5889c192f7e7233c7744422edff",
+      "compressed_bytes": 3647880,
+      "parts": [
+        "logs/rsl_rl/cr1_phased_body_goal_contact_sequence_visual_amp/2026-10-08_16-33-27_phased_bodygoal_amp_env5120_iter8000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_phased_body_goal_contact_sequence_visual_amp/2026-10-08_16-33-27_phased_bodygoal_amp_env5120_iter8000_seed42/events.out.tfevents.1791448471.qdxsphfvp3lxmip.3746708.0",
+      "bytes": 108123795,
+      "sha256": "f039ae7bcb204aaa5ce271a6cd26dab5966dbec50e5f57bf43e97eb19c31a0af",
+      "compressed_bytes": 26364643,
+      "parts": [
+        "logs/rsl_rl/cr1_phased_body_goal_contact_sequence_visual_amp/2026-10-08_16-33-27_phased_bodygoal_amp_env5120_iter8000_seed42/events.out.tfevents.1791448471.qdxsphfvp3lxmip.3746708.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_phased_body_goal_foot_safety_contact_sequence_visual_amp/2026-10-10_10-40-27_foot_safety_scratch_env5120_iter10000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 22722321,
+      "sha256": "8feda3232da16c0a7749384c2e8d20967961839eda00f0fba50e75238d5c72c2",
+      "compressed_bytes": 4554498,
+      "parts": [
+        "logs/rsl_rl/cr1_phased_body_goal_foot_safety_contact_sequence_visual_amp/2026-10-10_10-40-27_foot_safety_scratch_env5120_iter10000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_phased_body_goal_foot_safety_contact_sequence_visual_amp/2026-10-10_10-40-27_foot_safety_scratch_env5120_iter10000_seed42/events.out.tfevents.1791600091.qdxsphfvp3lxmip.4061845.0",
+      "bytes": 152779141,
+      "sha256": "86216412d15f8b1864c81e8d08eade067e3ac1328ff337610fb0e4fe7175a24a",
+      "compressed_bytes": 36867801,
+      "parts": [
+        "logs/rsl_rl/cr1_phased_body_goal_foot_safety_contact_sequence_visual_amp/2026-10-10_10-40-27_foot_safety_scratch_env5120_iter10000_seed42/events.out.tfevents.1791600091.qdxsphfvp3lxmip.4061845.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_reference_guided_contact_sequence_visual_amp/2026-10-12_14-58-46_reference_w3_smoke_env32_iter10_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 22344,
+      "sha256": "8114a5a8fbf35e41c8f51c7a1f314081785026750eac3aae587101129a265fad",
+      "compressed_bytes": 5516,
+      "parts": [
+        "logs/rsl_rl/cr1_reference_guided_contact_sequence_visual_amp/2026-10-12_14-58-46_reference_w3_smoke_env32_iter10_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_reference_guided_contact_sequence_visual_amp/2026-10-12_14-58-46_reference_w3_smoke_env32_iter10_seed42/events.out.tfevents.1791788334.qdxsphfvp3lxmip.285170.0",
+      "bytes": 166115,
+      "sha256": "f60f756106d9035a407bae05221997959cfdda5ba510966b743dacf4e1aa3362",
+      "compressed_bytes": 38727,
+      "parts": [
+        "logs/rsl_rl/cr1_reference_guided_contact_sequence_visual_amp/2026-10-12_14-58-46_reference_w3_smoke_env32_iter10_seed42/events.out.tfevents.1791788334.qdxsphfvp3lxmip.285170.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_reference_guided_contact_sequence_visual_amp/2026-10-12_15-05-54_reference_w3_scratch_env5120_iter10000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 12918075,
+      "sha256": "d147595a541c22f5523bb573ae899afe12f9b1b788818855f252ae71bc916f58",
+      "compressed_bytes": 2595759,
+      "parts": [
+        "logs/rsl_rl/cr1_reference_guided_contact_sequence_visual_amp/2026-10-12_15-05-54_reference_w3_scratch_env5120_iter10000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_reference_guided_contact_sequence_visual_amp/2026-10-12_15-05-54_reference_w3_scratch_env5120_iter10000_seed42/events.out.tfevents.1791788854.qdxsphfvp3lxmip.287433.0",
+      "bytes": 96110489,
+      "sha256": "2b5c143106f3d85ac952c7770e7eee141bee6e35788a39bcb44d02fb99862215",
+      "compressed_bytes": 23098258,
+      "parts": [
+        "logs/rsl_rl/cr1_reference_guided_contact_sequence_visual_amp/2026-10-12_15-05-54_reference_w3_scratch_env5120_iter10000_seed42/events.out.tfevents.1791788854.qdxsphfvp3lxmip.287433.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_ppo_thin_rails_scratch/2026-08-18_14-32-31/events.out.tfevents.1787034868.qdxsphfvp3lxmip.1456372.0",
+      "bytes": 646390,
+      "sha256": "f6ad426249af4ef0ec1f4136f02d9d037f63e839c70ab98ddf82a0d7b0dd40cd",
+      "compressed_bytes": 151969,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_ppo_thin_rails_scratch/2026-08-18_14-32-31/events.out.tfevents.1787034868.qdxsphfvp3lxmip.1456372.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_pretrain/2026-08-17_16-33-26_fresh_5000/train.log",
+      "bytes": 27474269,
+      "sha256": "2e47565f63d2472c56fda27fc6fd4c49e340e295c4b0cd512c5beb4ee0fd44e8",
+      "compressed_bytes": 514027,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_pretrain/2026-08-17_16-33-26_fresh_5000/train.log.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_stop_command/2026-08-21_11-19-30_stop_command_smoke/events.out.tfevents.1787282377.qdxsphfvp3lxmip.2036579.0",
+      "bytes": 88,
+      "sha256": "ef1b7be39386484e1d0d366934e8908a455040aae7a78d1f48c9db40501bebad",
+      "compressed_bytes": 98,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_stop_command/2026-08-21_11-19-30_stop_command_smoke/events.out.tfevents.1787282377.qdxsphfvp3lxmip.2036579.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_stop_command/2026-08-21_11-21-24_stop_command_smoke2/events.out.tfevents.1787282516.qdxsphfvp3lxmip.2037240.0",
+      "bytes": 13818,
+      "sha256": "e68ce337d485b9bcc7ded7fc51a5e5bcf54f12a20f921573f2e7a96470ae561f",
+      "compressed_bytes": 4383,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_stop_command/2026-08-21_11-21-24_stop_command_smoke2/events.out.tfevents.1787282516.qdxsphfvp3lxmip.2037240.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_stop_command/2026-08-21_13-17-47_stop_command_reset_fixed_smoke/events.out.tfevents.1787289475.qdxsphfvp3lxmip.2055857.0",
+      "bytes": 13818,
+      "sha256": "552038cffe69c3a7c5dfda8c2c816029db498560ea3a8d005aa4d3271449def8",
+      "compressed_bytes": 4395,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_stop_command/2026-08-21_13-17-47_stop_command_reset_fixed_smoke/events.out.tfevents.1787289475.qdxsphfvp3lxmip.2055857.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_stop_command/2026-08-21_13-33-53_zdw0818_v4_stop_command_full2533_long7000/events.out.tfevents.1787290484.qdxsphfvp3lxmip.2059182.0",
+      "bytes": 33193114,
+      "sha256": "233355733302ef8ff32472824241bc423f917eb88e0cef7bfd63a49860c4475a",
+      "compressed_bytes": 7589014,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_stop_command/2026-08-21_13-33-53_zdw0818_v4_stop_command_full2533_long7000/events.out.tfevents.1787290484.qdxsphfvp3lxmip.2059182.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_stop_command_validated_task/2026-08-30_00-33-45_config_smoke_20260830/events.out.tfevents.1788021233.qdxsphfvp3lxmip.3698896.0",
+      "bytes": 14309,
+      "sha256": "b57aeb7722ce539f8ea9439de167a1cafaf5be9d1117a6f2d7dc750e3209d02d",
+      "compressed_bytes": 4667,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_stop_command_validated_task/2026-08-30_00-33-45_config_smoke_20260830/events.out.tfevents.1788021233.qdxsphfvp3lxmip.3698896.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_stop_command_validated_task/2026-08-30_10-42-04_stage37_config_smoke_20260830/events.out.tfevents.1788057733.qdxsphfvp3lxmip.3780590.0",
+      "bytes": 14309,
+      "sha256": "d9fe6a8ca8692bead800604f457f6846926a1e9b22cf72b676eb2ca6eb2435fa",
+      "compressed_bytes": 4686,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_stop_command_validated_task/2026-08-30_10-42-04_stage37_config_smoke_20260830/events.out.tfevents.1788057733.qdxsphfvp3lxmip.3780590.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_v4_no_command/2026-08-21_18-40-59_v4_no_command_target_sync_smoke/events.out.tfevents.1787308866.qdxsphfvp3lxmip.2108742.0",
+      "bytes": 13818,
+      "sha256": "a656ee2e27a5ae2a98cdfbb868bc12cf8b97e10812edc607de0bcfe1331cd03b",
+      "compressed_bytes": 4383,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_v4_no_command/2026-08-21_18-40-59_v4_no_command_target_sync_smoke/events.out.tfevents.1787308866.qdxsphfvp3lxmip.2108742.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_v4_no_command/2026-08-21_18-47-05_v4_no_command_reset2498_smoke/events.out.tfevents.1787309249.qdxsphfvp3lxmip.2110707.0",
+      "bytes": 13818,
+      "sha256": "bc9f2772214c06eeb2bd652ffbabda13e3e387865bcd28a15a423b09f7d8db1f",
+      "compressed_bytes": 4395,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_v4_no_command/2026-08-21_18-47-05_v4_no_command_reset2498_smoke/events.out.tfevents.1787309249.qdxsphfvp3lxmip.2110707.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_v4_no_command/2026-08-21_18-49-34_zdw0818_v4_no_command_target_sync_reset2498_long7000/events.out.tfevents.1787309426.qdxsphfvp3lxmip.2111466.0",
+      "bytes": 101834802,
+      "sha256": "293e4db1db5f1265ed1c076a1e0505191f00bc58b370f07d408f18cb3e6d7902",
+      "compressed_bytes": 23097166,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_v4_no_command/2026-08-21_18-49-34_zdw0818_v4_no_command_target_sync_reset2498_long7000/events.out.tfevents.1787309426.qdxsphfvp3lxmip.2111466.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_stop_command_validated_task/2026-08-30_10-45-43_registration_smoke_20260830/events.out.tfevents.1788057951.qdxsphfvp3lxmip.3781803.0",
+      "bytes": 14309,
+      "sha256": "173c46628d3779437478eea9167799973f78630fa36c0441d1f0bf4df8b9cfc1",
+      "compressed_bytes": 4740,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_stop_command_validated_task/2026-08-30_10-45-43_registration_smoke_20260830/events.out.tfevents.1788057951.qdxsphfvp3lxmip.3781803.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_stop_command_validated_task/2026-08-30_10-57-44_numerical_preflight_256env_20260830/events.out.tfevents.1788058675.qdxsphfvp3lxmip.3784001.0",
+      "bytes": 28920,
+      "sha256": "097dae988224b23d27a6a2a10eda96e553105f1730fdcfaa7400bee6edbf8ca0",
+      "compressed_bytes": 8179,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_stop_command_validated_task/2026-08-30_10-57-44_numerical_preflight_256env_20260830/events.out.tfevents.1788058675.qdxsphfvp3lxmip.3784001.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_smooth_output/2026-08-30_11-06-33_updown_smooth_output_smoke_20260830/events.out.tfevents.1788059202.qdxsphfvp3lxmip.3785691.0",
+      "bytes": 14372,
+      "sha256": "d6560bfe2e59b0d7e58421ed23ba7965c2b03da8cd0973023565974e53eb31dc",
+      "compressed_bytes": 4720,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_smooth_output/2026-08-30_11-06-33_updown_smooth_output_smoke_20260830/events.out.tfevents.1788059202.qdxsphfvp3lxmip.3785691.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_smooth_output/2026-08-30_11-14-23_train12000_updown_smooth_output_seed42/events.out.tfevents.1788059742.qdxsphfvp3lxmip.3787377.0",
+      "bytes": 122966236,
+      "sha256": "77fd9f0c60f6e2fb8209dec0e9dd8c9f787dde40fd770cdd7f5881decfb4852d",
+      "compressed_bytes": 27814965,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_smooth_output/2026-08-30_11-14-23_train12000_updown_smooth_output_seed42/events.out.tfevents.1788059742.qdxsphfvp3lxmip.3787377.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-08-31_15-33-14_smoke_task_goal_contract/events.out.tfevents.1788161603.qdxsphfvp3lxmip.4012723.0",
+      "bytes": 88,
+      "sha256": "79e1d0eda4f5b478cbe943c04465a868ffe8e888c5ff989158d1f3f074800c28",
+      "compressed_bytes": 98,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-08-31_15-33-14_smoke_task_goal_contract/events.out.tfevents.1788161603.qdxsphfvp3lxmip.4012723.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-08-31_15-33-50_smoke_task_goal_contract_env4/events.out.tfevents.1788161638.qdxsphfvp3lxmip.4013199.0",
+      "bytes": 14301,
+      "sha256": "95a4b9cb05e98014a57a30c468a15f79b4f43fbd709c93729ecf4083340699cc",
+      "compressed_bytes": 4568,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-08-31_15-33-50_smoke_task_goal_contract_env4/events.out.tfevents.1788161638.qdxsphfvp3lxmip.4013199.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-08-31_22-09-36_smoke_joint_task_goal_scratch/events.out.tfevents.1788185385.qdxsphfvp3lxmip.4071817.0",
+      "bytes": 88,
+      "sha256": "f80f556916c6401bcb51246fcedfa3f4316773bd67d7de7c8cf07852ead023c2",
+      "compressed_bytes": 98,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-08-31_22-09-36_smoke_joint_task_goal_scratch/events.out.tfevents.1788185385.qdxsphfvp3lxmip.4071817.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-08-31_22-10-16_smoke_joint_task_goal_scratch_env4/events.out.tfevents.1788185425.qdxsphfvp3lxmip.4072323.0",
+      "bytes": 14301,
+      "sha256": "aeec0275e9a688898aaa46400bcfddd81a50a6ee15cd20ed061b4697273618b8",
+      "compressed_bytes": 4577,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-08-31_22-10-16_smoke_joint_task_goal_scratch_env4/events.out.tfevents.1788185425.qdxsphfvp3lxmip.4072323.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-08-31_22-17-22_joint_scratch_taskgoal12_contact4_env5120_iter12000_seed42/events.out.tfevents.1788185904.qdxsphfvp3lxmip.4073708.0",
+      "bytes": 110300918,
+      "sha256": "23b1859b3187ae0a8216044810944ff07187176a53296033d288af87918bbd13",
+      "compressed_bytes": 25038577,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-08-31_22-17-22_joint_scratch_taskgoal12_contact4_env5120_iter12000_seed42/events.out.tfevents.1788185904.qdxsphfvp3lxmip.4073708.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-01_19-01-43_smoke_fp32_ppo_aux_amp/events.out.tfevents.1788260510.qdxsphfvp3lxmip.57859.0",
+      "bytes": 14463,
+      "sha256": "bf356599fdcd54eb3710921cb2b388850d3ff11eb44fff01ec754997cbbac4eb",
+      "compressed_bytes": 4554,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-01_19-01-43_smoke_fp32_ppo_aux_amp/events.out.tfevents.1788260510.qdxsphfvp3lxmip.57859.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-01_19-12-17_train8000_taskgoal_fp32ppo_auxamp_env5120_seed42/events.out.tfevents.1788261199.qdxsphfvp3lxmip.59729.0",
+      "bytes": 94770154,
+      "sha256": "1f006c1693be87b9c4155e77ef7dfd1d8acad078b56146119044e03994b7a256",
+      "compressed_bytes": 21490973,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-01_19-12-17_train8000_taskgoal_fp32ppo_auxamp_env5120_seed42/events.out.tfevents.1788261199.qdxsphfvp3lxmip.59729.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-02_15-48-04_smoke_next_stable_motion_semantics/events.out.tfevents.1788335293.qdxsphfvp3lxmip.234392.0",
+      "bytes": 15147,
+      "sha256": "6c4f1432a5c4bb161db7bd786b365470da77faee3bfde5961d1dced853f7ca9f",
+      "compressed_bytes": 4779,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-02_15-48-04_smoke_next_stable_motion_semantics/events.out.tfevents.1788335293.qdxsphfvp3lxmip.234392.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-05_11-22-19_continue_v1_model7000_to15000/events.out.tfevents.1788578602.qdxsphfvp3lxmip.808601.0",
+      "bytes": 88,
+      "sha256": "50a58563e1f63536823a11fdebf5e6319784c710587b0b36eac7e23f70703b3c",
+      "compressed_bytes": 98,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-05_11-22-19_continue_v1_model7000_to15000/events.out.tfevents.1788578602.qdxsphfvp3lxmip.808601.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-05_11-26-02_continue_v1_model7000_to15000/events.out.tfevents.1788578824.qdxsphfvp3lxmip.809874.0",
+      "bytes": 88,
+      "sha256": "44a95f1352b778701aef82eebc894a7213ec1b98889fdcbd5d66d00c58a9849a",
+      "compressed_bytes": 98,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-05_11-26-02_continue_v1_model7000_to15000/events.out.tfevents.1788578824.qdxsphfvp3lxmip.809874.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-05_11-27-49_smoke_resume_v1_model7000/events.out.tfevents.1788578876.qdxsphfvp3lxmip.810547.0",
+      "bytes": 88,
+      "sha256": "397b8e84997fcfae6ffe5625a9171826125cf62146a9e996ef6594b3bfef0edf",
+      "compressed_bytes": 98,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-05_11-27-49_smoke_resume_v1_model7000/events.out.tfevents.1788578876.qdxsphfvp3lxmip.810547.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-05_11-28-55_smoke_resume_v1_model7000_fixed/events.out.tfevents.1788578942.qdxsphfvp3lxmip.811351.0",
+      "bytes": 15495,
+      "sha256": "e4c1526a42137429e1d03ec1489aeb44f5902dc7decac0597acfccfee2244826",
+      "compressed_bytes": 4680,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-05_11-28-55_smoke_resume_v1_model7000_fixed/events.out.tfevents.1788578942.qdxsphfvp3lxmip.811351.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-05_11-29-53_continue_v1_model7000_to15000/events.out.tfevents.1788579055.qdxsphfvp3lxmip.811906.0",
+      "bytes": 80796920,
+      "sha256": "a92dd4c0e4df4cdbb123fb95e0bec67ecc002996890e711f3af281359ee2a67d",
+      "compressed_bytes": 18226568,
+      "parts": [
+        "logs/rsl_rl/cr1_transformer_vision_zdw0824_up_down_task_goal/2026-09-05_11-29-53_continue_v1_model7000_to15000/events.out.tfevents.1788579055.qdxsphfvp3lxmip.811906.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_ladder_geometry_dr_relaxed_reset_nominal30/2026-07-24_14-39-03_relaxed_reset_nominal30_4096_to7000/events.out.tfevents.1784875177.qdxsphfvp3lxmip.794556.0",
+      "bytes": 39325940,
+      "sha256": "fd1c7367d8fae53eb67f5a73198ae22834ce91db6a7f06f88e77c911fcf087fa",
+      "compressed_bytes": 9322036,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_ladder_geometry_dr_relaxed_reset_nominal30/2026-07-24_14-39-03_relaxed_reset_nominal30_4096_to7000/events.out.tfevents.1784875177.qdxsphfvp3lxmip.794556.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_force_limited/2026-07-30_15-05-29_force_limited_7000/events.out.tfevents.1785395166.qdxsphfvp3lxmip.1936807.0",
+      "bytes": 82439266,
+      "sha256": "255a2830ce33b2792f0eec4cb1c444626aac42e3e618f8ea2bb8162bc7aad023",
+      "compressed_bytes": 18120359,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_force_limited/2026-07-30_15-05-29_force_limited_7000/events.out.tfevents.1785395166.qdxsphfvp3lxmip.1936807.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_force_limited_strict_front_side_deploy_obs/2026-07-31_14-01-06_deploy_obs_from_scratch_to7000/events.out.tfevents.1785477704.qdxsphfvp3lxmip.2124081.0",
+      "bytes": 82440726,
+      "sha256": "c8f5a9eb42ed74ee55b61509964d51b6f8543240ea5d2777532a8318bef09a80",
+      "compressed_bytes": 18226864,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_force_limited_strict_front_side_deploy_obs/2026-07-31_14-01-06_deploy_obs_from_scratch_to7000/events.out.tfevents.1785477704.qdxsphfvp3lxmip.2124081.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_force_limited_strict_front_side_deploy_obs_no_side_boards/2026-08-03_10-10-18/events.out.tfevents.1785723053.qdxsphfvp3lxmip.2692121.0",
+      "bytes": 77747300,
+      "sha256": "6e526d8f83047144122ac57441bced2a6da860e343864cc486cfcd438fcf0d7f",
+      "compressed_bytes": 17117835,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_force_limited_strict_front_side_deploy_obs_no_side_boards/2026-08-03_10-10-18/events.out.tfevents.1785723053.qdxsphfvp3lxmip.2692121.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_force_limited_strict_front_side_deploy_obs_no_side_boards_near_targets/2026-08-03_17-38-02_near_targets_strict_underside_target_rung/events.out.tfevents.1785749918.qdxsphfvp3lxmip.2767923.0",
+      "bytes": 5267136,
+      "sha256": "3d0586f91af11ba28b879581f0a3f6f192515a79d6f12d0a5a2be1a28421ad46",
+      "compressed_bytes": 1169741,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_force_limited_strict_front_side_deploy_obs_no_side_boards_near_targets/2026-08-03_17-38-02_near_targets_strict_underside_target_rung/events.out.tfevents.1785749918.qdxsphfvp3lxmip.2767923.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_force_limited_strict_front_side_deploy_obs_no_side_boards_near_targets/2026-08-03_17-55-36_near_targets_strict_underside_target_rung/events.out.tfevents.1785750971.qdxsphfvp3lxmip.2772341.0",
+      "bytes": 78875404,
+      "sha256": "db251d9279bada796197fc9c2553012a2b35a45cdcfd33f76ee165bd3c02ec34",
+      "compressed_bytes": 17409653,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_force_limited_strict_front_side_deploy_obs_no_side_boards_near_targets/2026-08-03_17-55-36_near_targets_strict_underside_target_rung/events.out.tfevents.1785750971.qdxsphfvp3lxmip.2772341.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_force_limited_strict_front_side_deploy_obs_no_side_boards_original_targets/2026-08-04_10-46-09_original_targets_strict_underside_target_rung/events.out.tfevents.1785811604.qdxsphfvp3lxmip.2898305.0",
+      "bytes": 78876332,
+      "sha256": "e9e53e30ad7f5d7c2d6179a2f16729b2139c14949496051e27d9ac24f27d374d",
+      "compressed_bytes": 17446543,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_force_limited_strict_front_side_deploy_obs_no_side_boards_original_targets/2026-08-04_10-46-09_original_targets_strict_underside_target_rung/events.out.tfevents.1785811604.qdxsphfvp3lxmip.2898305.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_rails_protected_per_body_safe_frame0/2026-08-06_16-20-19_rails_per_body_fixed_to7000/events.out.tfevents.1786004472.qdxsphfvp3lxmip.3322675.0",
+      "bytes": 3722706,
+      "sha256": "daf0999226a3ba6d35b7fa6541b353d69ad11dec28eab22910374b4be6532cab",
+      "compressed_bytes": 835180,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_rails_protected_per_body_safe_frame0/2026-08-06_16-20-19_rails_per_body_fixed_to7000/events.out.tfevents.1786004472.qdxsphfvp3lxmip.3322675.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_rails_protected_per_body_safe_frame0/2026-08-06_16-57-43_rails_per_body_fixed_to7000/events.out.tfevents.1786006714.qdxsphfvp3lxmip.3329463.0",
+      "bytes": 81071412,
+      "sha256": "cec0880f35cdf4b47ee12e3d499ace8cd1c418f6c1df53c537664d6217910d9e",
+      "compressed_bytes": 17819523,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_rails_protected_per_body_safe_frame0/2026-08-06_16-57-43_rails_per_body_fixed_to7000/events.out.tfevents.1786006714.qdxsphfvp3lxmip.3329463.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_rails_protected_per_body_thin_rails_safe_frame0/2026-08-07_11-00-17_thin_rails_missing_global_rail1_finetune2500/events.out.tfevents.1786071670.qdxsphfvp3lxmip.13461.0",
+      "bytes": 28960004,
+      "sha256": "aafed2820738292b459f469879e9382fb063c6e51d173d74d674e9f3b254a5d6",
+      "compressed_bytes": 6357191,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_rails_protected_per_body_thin_rails_safe_frame0/2026-08-07_11-00-17_thin_rails_missing_global_rail1_finetune2500/events.out.tfevents.1786071670.qdxsphfvp3lxmip.13461.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_rails_protected_per_body_thin_rails_safe_frame0/2026-08-07_13-51-15_thin_rails_missing_global_rail1_from_scratch_to7000/events.out.tfevents.1786081926.qdxsphfvp3lxmip.38241.0",
+      "bytes": 81075120,
+      "sha256": "9fe516479945eb6d782a5e0bfd1dd91861d196b0f17ebee0c90abe1233af864a",
+      "compressed_bytes": 17979814,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_rails_protected_per_body_thin_rails_safe_frame0/2026-08-07_13-51-15_thin_rails_missing_global_rail1_from_scratch_to7000/events.out.tfevents.1786081926.qdxsphfvp3lxmip.38241.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_rails_protected_per_body_thin_rails_safe_frame0/2026-08-10_10-22-22_from_scratch_extend_to8500/events.out.tfevents.1786328593.qdxsphfvp3lxmip.568199.0",
+      "bytes": 2606402,
+      "sha256": "36e4517ee8123886b452a1e51ae79d35be090a30b7f811df1a304c5f82100738",
+      "compressed_bytes": 574539,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_rails_protected_per_body_thin_rails_safe_frame0/2026-08-10_10-22-22_from_scratch_extend_to8500/events.out.tfevents.1786328593.qdxsphfvp3lxmip.568199.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_rails_protected_per_body_thin_rails_safe_frame0/2026-08-10_11-32-45_from_scratch_extend_to8500/events.out.tfevents.1786332817.qdxsphfvp3lxmip.18657.0",
+      "bytes": 17376002,
+      "sha256": "f24129befe586a51194217b75eac65c9e4cc14e5bac79d346fa935f12c605e0e",
+      "compressed_bytes": 3815959,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_rails_protected_per_body_thin_rails_safe_frame0/2026-08-10_11-32-45_from_scratch_extend_to8500/events.out.tfevents.1786332817.qdxsphfvp3lxmip.18657.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_rails_protected_safe_frame0/2026-08-06_10-58-59_rails_protected_top250_support100_front035/events.out.tfevents.1785985177.qdxsphfvp3lxmip.3274744.0",
+      "bytes": 58955186,
+      "sha256": "2782b284edc166c56145e6bd7d25690eab358052fa9339d5ceeb3d6d79ec2a9e",
+      "compressed_bytes": 12935034,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_rails_protected_safe_frame0/2026-08-06_10-58-59_rails_protected_top250_support100_front035/events.out.tfevents.1785985177.qdxsphfvp3lxmip.3274744.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_rate_limited/2026-07-27_17-44-50_arc_uniform_frame0_10nominal_20perturbed/events.out.tfevents.1785145522.qdxsphfvp3lxmip.1355190.0",
+      "bytes": 40547916,
+      "sha256": "0ea1ed8cd3a0abbc3f60b35cbfa6c0f07f9a3ff33f720c8f431cf1a60b42fb8f",
+      "compressed_bytes": 9459009,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_rate_limited/2026-07-27_17-44-50_arc_uniform_frame0_10nominal_20perturbed/events.out.tfevents.1785145522.qdxsphfvp3lxmip.1355190.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_rate_limited/2026-07-28_10-28-19_contact08_root_push/events.out.tfevents.1785205732.qdxsphfvp3lxmip.1480025.0",
+      "bytes": 36998294,
+      "sha256": "fa7fa8afa00c284f25dfb816f8f3b2ed9fa6d6c9d99c8433cf87077a72b6f4cb",
+      "compressed_bytes": 8293328,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_rate_limited/2026-07-28_10-28-19_contact08_root_push/events.out.tfevents.1785205732.qdxsphfvp3lxmip.1480025.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_rate_limited/2026-07-28_14-27-21_contact_filter_smoke/events.out.tfevents.1785220056.qdxsphfvp3lxmip.1518180.0",
+      "bytes": 6973,
+      "sha256": "e71d3778fa527c590cf5cfd347ea54fb7923c3c4d1195825066ae2993dd9eea0",
+      "compressed_bytes": 2410,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_rate_limited/2026-07-28_14-27-21_contact_filter_smoke/events.out.tfevents.1785220056.qdxsphfvp3lxmip.1518180.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_rate_limited/2026-07-28_14-41-45_contact_filter_fixed08_root_push/events.out.tfevents.1785220943.qdxsphfvp3lxmip.1521598.0",
+      "bytes": 21452346,
+      "sha256": "183d1053a6e746897ff91db5fe143f352c68a91dcef5188b26659b44b5749269",
+      "compressed_bytes": 4862066,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_rate_limited/2026-07-28_14-41-45_contact_filter_fixed08_root_push/events.out.tfevents.1785220943.qdxsphfvp3lxmip.1521598.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_rate_limited/2026-07-28_17-36-36_hand_target025_stepforce_temp003/events.out.tfevents.1785231431.qdxsphfvp3lxmip.1559239.0",
+      "bytes": 51906528,
+      "sha256": "59e169505c79c035c2e81f9589f4ff0a41121d32f149cf2b4f6f69e0c391b901",
+      "compressed_bytes": 11715009,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_rate_limited/2026-07-28_17-36-36_hand_target025_stepforce_temp003/events.out.tfevents.1785231431.qdxsphfvp3lxmip.1559239.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_rate_limited/2026-07-29_11-01-08_rung3_hold_to195_right_penalty060_040/events.out.tfevents.1785294102.qdxsphfvp3lxmip.1701023.0",
+      "bytes": 35084708,
+      "sha256": "fdb57cab0ccff5da112cf6558c308fc37ba01a7badbeaa8f6ee001f2483af76d",
+      "compressed_bytes": 7984416,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_rate_limited/2026-07-29_11-01-08_rung3_hold_to195_right_penalty060_040/events.out.tfevents.1785294102.qdxsphfvp3lxmip.1701023.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_wood_step_reference_rate_limited/2026-07-29_16-31-59_temp001_surfaceaware_missingcontact_grace10/events.out.tfevents.1785313956.qdxsphfvp3lxmip.1750256.0",
+      "bytes": 56686224,
+      "sha256": "68f9b68c7ec3c7280262304e4df97f894c8bc9a9a053b8cf42a9e6766363f3b7",
+      "compressed_bytes": 12593556,
+      "parts": [
+        "logs/rsl_rl/cr1_wood_step_reference_rate_limited/2026-07-29_16-31-59_temp001_surfaceaware_missingcontact_grace10/events.out.tfevents.1785313956.qdxsphfvp3lxmip.1750256.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-21_15-46-28_stable_anchor_oracle_policy_only_cnn_gru_5120_8000/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 7602339,
+      "sha256": "30811bca3cd05aa31c97c0c4eae3bee95c7905026c81bcc4d8994c6e918df803",
+      "compressed_bytes": 1551101,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-21_15-46-28_stable_anchor_oracle_policy_only_cnn_gru_5120_8000/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-21_15-46-28_stable_anchor_oracle_policy_only_cnn_gru_5120_8000/events.out.tfevents.1789976853.qdxsphfvp3lxmip.676603.0",
+      "bytes": 83788340,
+      "sha256": "eee1dfd0c955e021521c0566a1e17339e27bb12ce8a521f1a2c111f7b55bba38",
+      "compressed_bytes": 18446945,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-21_15-46-28_stable_anchor_oracle_policy_only_cnn_gru_5120_8000/events.out.tfevents.1789976853.qdxsphfvp3lxmip.676603.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-22_12-25-19_stable_support_reward_v2_oracle_policy_only_env5120_iter8000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 4514096,
+      "sha256": "032540d5687fe3a82809a32ac8caf866381a4f60604b6cb8f61b827584aca2eb",
+      "compressed_bytes": 923015,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-22_12-25-19_stable_support_reward_v2_oracle_policy_only_env5120_iter8000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-22_12-25-19_stable_support_reward_v2_oracle_policy_only_env5120_iter8000_seed42/events.out.tfevents.1790051182.qdxsphfvp3lxmip.851664.0",
+      "bytes": 51266712,
+      "sha256": "5a45f5f1139ac250ac74d7d1437dc6acd25cc71402f66f3febfe7d75434228d6",
+      "compressed_bytes": 11267341,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-22_12-25-19_stable_support_reward_v2_oracle_policy_only_env5120_iter8000_seed42/events.out.tfevents.1790051182.qdxsphfvp3lxmip.851664.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-22_23-47-47_scratch_oracle_support48_v5_env5120_iter1000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 11416059,
+      "sha256": "a20c28f8e5cea6b66e6067abd9899472e6ca17cc0267885cae0d489393986c69",
+      "compressed_bytes": 2327768,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-22_23-47-47_scratch_oracle_support48_v5_env5120_iter1000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-22_23-47-47_scratch_oracle_support48_v5_env5120_iter1000_seed42/events.out.tfevents.1790092130.qdxsphfvp3lxmip.937134.0",
+      "bytes": 129506388,
+      "sha256": "d3cbc1f9961d3d4906a80c6bb05148f86549e0646c9211bde0de30cb3f7d48b5",
+      "compressed_bytes": 28439044,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-22_23-47-47_scratch_oracle_support48_v5_env5120_iter1000_seed42/events.out.tfevents.1790092130.qdxsphfvp3lxmip.937134.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-24_11-25-11_v5_resume_2000/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 1133616,
+      "sha256": "f9dc526889c7587c9c6d5f0c529e650099322eb0607e2c7ade2318b40310267c",
+      "compressed_bytes": 232319,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-24_11-25-11_v5_resume_2000/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-24_11-25-11_v5_resume_2000/events.out.tfevents.1790220379.qdxsphfvp3lxmip.1203085.0",
+      "bytes": 12790168,
+      "sha256": "ee519140ecbe7fe55bbdb8feb4caecfec248c34c97049e1bf63fffedfa68aff5",
+      "compressed_bytes": 2810160,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_policy_only_ppo/2026-09-24_11-25-11_v5_resume_2000/events.out.tfevents.1790220379.qdxsphfvp3lxmip.1203085.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_ppo/2026-09-21_10-16-51_smoke_oracle32_gru256_env8/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 3045,
+      "sha256": "7dab5585d0222b859049c5670fb3a19fc81e67135bbe3218e4ade13b17535fe5",
+      "compressed_bytes": 1085,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_ppo/2026-09-21_10-16-51_smoke_oracle32_gru256_env8/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_ppo/2026-09-21_10-16-51_smoke_oracle32_gru256_env8/events.out.tfevents.1789957019.qdxsphfvp3lxmip.596063.0",
+      "bytes": 16598,
+      "sha256": "8f8bcaaf4631c8e1fcaae2e53dfface091b32aa8e4f2047b115b4af75aed76ae",
+      "compressed_bytes": 5138,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_ppo/2026-09-21_10-16-51_smoke_oracle32_gru256_env8/events.out.tfevents.1789957019.qdxsphfvp3lxmip.596063.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_ppo/2026-09-21_14-34-07_stable_anchor_oracle_5120_8000/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 551491,
+      "sha256": "6af6d930e9f99808cac918f4549abc0b9f8b9f2aecb53b62f876c8ae3de34758",
+      "compressed_bytes": 109610,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_ppo/2026-09-21_14-34-07_stable_anchor_oracle_5120_8000/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_ppo/2026-09-21_14-34-07_stable_anchor_oracle_5120_8000/events.out.tfevents.1789972512.qdxsphfvp3lxmip.661099.0",
+      "bytes": 3154110,
+      "sha256": "2d8ccd1052eaa1633a5f0cf511b24eebe6258077c87b4f24124ac912f15c212b",
+      "compressed_bytes": 712288,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_oracle_contact_goal_ppo/2026-09-21_14-34-07_stable_anchor_oracle_5120_8000/events.out.tfevents.1789972512.qdxsphfvp3lxmip.661099.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_policy_only_ppo/2026-09-29_13-01-07_time_sampled_10x85_3depth_30hz_full/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 8757408,
+      "sha256": "2ade4cb3fb6c48dad5a880c0a20067f4d68cd0b6901b4fec8a35f8beb6b6a671",
+      "compressed_bytes": 1839002,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_policy_only_ppo/2026-09-29_13-01-07_time_sampled_10x85_3depth_30hz_full/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_policy_only_ppo/2026-09-29_13-01-07_time_sampled_10x85_3depth_30hz_full/events.out.tfevents.1790658130.qdxsphfvp3lxmip.2113239.0",
+      "bytes": 101861530,
+      "sha256": "f55030c74f0c6e53d3ff22095f11dc360838fa5877cda31a29b1acd8393e62ab",
+      "compressed_bytes": 22239320,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_policy_only_ppo/2026-09-29_13-01-07_time_sampled_10x85_3depth_30hz_full/events.out.tfevents.1790658130.qdxsphfvp3lxmip.2113239.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_reconstruction_ppo/2026-09-13_16-05-39_smoke_end_to_end_env96/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 6130,
+      "sha256": "1bfd4af4f33f305743d225bb41d7a4c038892c08912508e5608579e3df5a164d",
+      "compressed_bytes": 1818,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_reconstruction_ppo/2026-09-13_16-05-39_smoke_end_to_end_env96/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_reconstruction_ppo/2026-09-13_16-05-39_smoke_end_to_end_env96/events.out.tfevents.1789286747.qdxsphfvp3lxmip.2466533.0",
+      "bytes": 34040,
+      "sha256": "6e1810a5f71f2cfd3dea0ffefa43298c667386811d66d528972e5b1b809eb397",
+      "compressed_bytes": 9451,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_reconstruction_ppo/2026-09-13_16-05-39_smoke_end_to_end_env96/events.out.tfevents.1789286747.qdxsphfvp3lxmip.2466533.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_reconstruction_ppo/2026-09-13_16-08-30_scratch_e2e_ppo_reconstruction_env5120_iter10000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl",
+      "bytes": 30997230,
+      "sha256": "752a7b1715c137b341f7bd4a581d0e8eb181479b0bdb5d209ffa2127347821c9",
+      "compressed_bytes": 6179946,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_reconstruction_ppo/2026-09-13_16-08-30_scratch_e2e_ppo_reconstruction_env5120_iter10000_seed42/end_to_end_visual_ppo_diagnostics/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_reconstruction_ppo/2026-09-13_16-08-30_scratch_e2e_ppo_reconstruction_env5120_iter10000_seed42/events.out.tfevents.1789286973.qdxsphfvp3lxmip.2468200.0",
+      "bytes": 174249544,
+      "sha256": "d7ddd2038453539d02fd448ab742f81e51427d7d28886e2316b3ed2c5767a5f5",
+      "compressed_bytes": 38834684,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_end_to_end_visual_reconstruction_ppo/2026-09-13_16-08-30_scratch_e2e_ppo_reconstruction_env5120_iter10000_seed42/events.out.tfevents.1789286973.qdxsphfvp3lxmip.2468200.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_ln_mse_dagger_model9999/2026-09-18_10-36-34_smoke_privileged28_ln/events.out.tfevents.1789699003.qdxsphfvp3lxmip.11459.0",
+      "bytes": 25372,
+      "sha256": "e6cceecb9eb5bcb60dd6cbf249a1b9502d3ce1f0d332d4c0ac42b0590da1d4aa",
+      "compressed_bytes": 7315,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_ln_mse_dagger_model9999/2026-09-18_10-36-34_smoke_privileged28_ln/events.out.tfevents.1789699003.qdxsphfvp3lxmip.11459.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_ln_mse_dagger_model9999/2026-09-18_10-43-12_privileged28_ln_teacher1000_linear5000_env5120_iter10000_seed42/events.out.tfevents.1789699454.qdxsphfvp3lxmip.12810.0",
+      "bytes": 265570046,
+      "sha256": "a63e3bb7ed620e9c938a9820edf3edac9641622945da29bc5745d736be641c8d",
+      "compressed_bytes": 59147020,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_ln_mse_dagger_model9999/2026-09-18_10-43-12_privileged28_ln_teacher1000_linear5000_env5120_iter10000_seed42/events.out.tfevents.1789699454.qdxsphfvp3lxmip.12810.0.gz.part000",
+        "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_ln_mse_dagger_model9999/2026-09-18_10-43-12_privileged28_ln_teacher1000_linear5000_env5120_iter10000_seed42/events.out.tfevents.1789699454.qdxsphfvp3lxmip.12810.0.gz.part001"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_ln_mse_dagger_model9999/2026-09-20_23-17-21_privileged28_ln_resume9999_add6000_env5120_seed42/events.out.tfevents.1789917502.qdxsphfvp3lxmip.505870.0",
+      "bytes": 159366644,
+      "sha256": "027cb75cd01d1f3297877078e392ad481cc0bb430f648e55eee68f8e3c213cf3",
+      "compressed_bytes": 35493422,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_ln_mse_dagger_model9999/2026-09-20_23-17-21_privileged28_ln_resume9999_add6000_env5120_seed42/events.out.tfevents.1789917502.qdxsphfvp3lxmip.505870.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_ln_mse_dagger_model9999/resume_model9999_add6000_2026-09-20.launch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_ln_mse_dagger_model9999/resume_model9999_add6000_2026-09-20.launch.log.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_mse_dagger_model9999/2026-09-17_14-03-02_smoke_oracle28/events.out.tfevents.1789624989.qdxsphfvp3lxmip.3228655.0",
+      "bytes": 88,
+      "sha256": "bddef30df28689752307f5bc8df35df621e2fddd41adee06d7f1e6450f3a0053",
+      "compressed_bytes": 98,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_mse_dagger_model9999/2026-09-17_14-03-02_smoke_oracle28/events.out.tfevents.1789624989.qdxsphfvp3lxmip.3228655.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_mse_dagger_model9999/2026-09-17_14-03-50_smoke_oracle28_env24/events.out.tfevents.1789625038.qdxsphfvp3lxmip.3229175.0",
+      "bytes": 23902,
+      "sha256": "adaa83f9d119356253b18e9bd901ceb1327c93663dd86daf77fd7072e844b27c",
+      "compressed_bytes": 6902,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_mse_dagger_model9999/2026-09-17_14-03-50_smoke_oracle28_env24/events.out.tfevents.1789625038.qdxsphfvp3lxmip.3229175.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_mse_dagger_model9999/2026-09-17_14-10-44_smoke_oracle28_metrics/events.out.tfevents.1789625452.qdxsphfvp3lxmip.3231551.0",
+      "bytes": 25372,
+      "sha256": "c2da095344c95fd56ef7ab0fbb2aa839eb60b389fc706fd5f48e45c3ad19e5b2",
+      "compressed_bytes": 7372,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_mse_dagger_model9999/2026-09-17_14-10-44_smoke_oracle28_metrics/events.out.tfevents.1789625452.qdxsphfvp3lxmip.3231551.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_mse_dagger_model9999/2026-09-17_14-18-34_privileged28_teacher1000_linear5000_env5120_iter10000_seed42/events.out.tfevents.1789625978.qdxsphfvp3lxmip.3233524.0",
+      "bytes": 147847276,
+      "sha256": "1095c091cf1f831133780cc84e89d595a88c9d046732d99418ec7ea9b9959c3e",
+      "compressed_bytes": 32524400,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_privileged_recurrent_visual_mse_dagger_model9999/2026-09-17_14-18-34_privileged28_teacher1000_linear5000_env5120_iter10000_seed42/events.out.tfevents.1789625978.qdxsphfvp3lxmip.3233524.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_pure_visual_dagger_synced_latest_blind/2026-09-09_23-37-58_smoke_synced_visual_config/events.out.tfevents.1788968288.qdxsphfvp3lxmip.1732659.0",
+      "bytes": 88,
+      "sha256": "e215ae3f245cf43bbde9814207aad6bacd9743ab13e2675038a090f4628c7175",
+      "compressed_bytes": 98,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_pure_visual_dagger_synced_latest_blind/2026-09-09_23-37-58_smoke_synced_visual_config/events.out.tfevents.1788968288.qdxsphfvp3lxmip.1732659.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_recurrent_visual_ln_mse_dagger_model9999/2026-09-12_10-36-52_ln_mse_gpu_smoke/events.out.tfevents.1789180623.qdxsphfvp3lxmip.2226655.0",
+      "bytes": 48560,
+      "sha256": "b925b660355f601e1ab3edcad5cbbed0f01277743d743f704d64ab7ddcd95719",
+      "compressed_bytes": 12888,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_recurrent_visual_ln_mse_dagger_model9999/2026-09-12_10-36-52_ln_mse_gpu_smoke/events.out.tfevents.1789180623.qdxsphfvp3lxmip.2226655.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_recurrent_visual_ln_mse_dagger_model9999/2026-09-12_10-42-07_ln_only_mse_teacher9999_env5120_iter2000_seed42/events.out.tfevents.1789181025.qdxsphfvp3lxmip.2230357.0",
+      "bytes": 49723588,
+      "sha256": "395ac5b555d86424aabad6be49542ecf249059b5acaba28d1e82a7927281590d",
+      "compressed_bytes": 11163558,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_recurrent_visual_ln_mse_dagger_model9999/2026-09-12_10-42-07_ln_only_mse_teacher9999_env5120_iter2000_seed42/events.out.tfevents.1789181025.qdxsphfvp3lxmip.2230357.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_recurrent_visual_ln_mse_dagger_model9999/2026-09-12_18-48-54_ln_only_mse_resume1999_to9999_env5120_seed42/events.out.tfevents.1789210197.qdxsphfvp3lxmip.2297346.0",
+      "bytes": 199065638,
+      "sha256": "e55e5c029fa318653e85c9a541d3dd816c67ad0f9c079aadfdfe5ab54c1d5c52",
+      "compressed_bytes": 44225045,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_recurrent_visual_ln_mse_dagger_model9999/2026-09-12_18-48-54_ln_only_mse_resume1999_to9999_env5120_seed42/events.out.tfevents.1789210197.qdxsphfvp3lxmip.2297346.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_recurrent_visual_mixed_mse_dagger_model9999/2026-09-11_00-22-52_mixed_dagger_teacher9999_env5120_iter10000_seed42/events.out.tfevents.1789057434.qdxsphfvp3lxmip.1955195.0",
+      "bytes": 204648180,
+      "sha256": "baf5f572271936bdb1f7c5c9cdad85b99d6d22339f43a05c512fbce3f316f4ab",
+      "compressed_bytes": 44964513,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_recurrent_visual_mixed_mse_dagger_model9999/2026-09-11_00-22-52_mixed_dagger_teacher9999_env5120_iter10000_seed42/events.out.tfevents.1789057434.qdxsphfvp3lxmip.1955195.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_recurrent_visual_mixed_no_warmup_mse_dagger_model9999/2026-09-11_13-42-14_mixed_no_warmup_teacher9999_env5120_iter10000_seed42/events.out.tfevents.1789105399.qdxsphfvp3lxmip.2058850.0",
+      "bytes": 174712248,
+      "sha256": "fe4b9b4d5aea3167ae6a60009fccba3fda271c51ecc1c311fd8ad2de42abf262",
+      "compressed_bytes": 38822506,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_recurrent_visual_mixed_no_warmup_mse_dagger_model9999/2026-09-11_13-42-14_mixed_no_warmup_teacher9999_env5120_iter10000_seed42/events.out.tfevents.1789105399.qdxsphfvp3lxmip.2058850.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_recurrent_visual_mse_dagger_model9999/2026-09-10_15-11-25_recurrent_visual_mse_dagger_teacher9999_env5120_iter10000_seed42/events.out.tfevents.1789024349.qdxsphfvp3lxmip.1881237.0",
+      "bytes": 102937879,
+      "sha256": "33add41c00ba531f0098232cb4c8800b29634dca5fb3618b89ae8f6ce10afb59",
+      "compressed_bytes": 23170999,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_recurrent_visual_mse_dagger_model9999/2026-09-10_15-11-25_recurrent_visual_mse_dagger_teacher9999_env5120_iter10000_seed42/events.out.tfevents.1789024349.qdxsphfvp3lxmip.1881237.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_recurrent_visual_ppo_dagger_model9999/2026-09-12_00-37-16_ppo_mse_ln_ramp_teacher9999_env5120_iter10000_seed42/events.out.tfevents.1789144698.qdxsphfvp3lxmip.2148507.0",
+      "bytes": 197082542,
+      "sha256": "e8ac36cd717654412cccb7fa4a141d847b40ab2d29608baa8c4168072cc7d9a8",
+      "compressed_bytes": 44276686,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_recurrent_visual_ppo_dagger_model9999/2026-09-12_00-37-16_ppo_mse_ln_ramp_teacher9999_env5120_iter10000_seed42/events.out.tfevents.1789144698.qdxsphfvp3lxmip.2148507.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_recurrent_visual_scheduled_mse_dagger_model9999/2026-09-17_00-17-00_normalization_audit_scheduled_5120/events.out.tfevents.1789575482.qdxsphfvp3lxmip.3113894.0",
+      "bytes": 169486608,
+      "sha256": "81c6e35e9026e57d481a4761ccfcb952920ed90d1da9bef95e73c029a872a13a",
+      "compressed_bytes": 37509728,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_recurrent_visual_scheduled_mse_dagger_model9999/2026-09-17_00-17-00_normalization_audit_scheduled_5120/events.out.tfevents.1789575482.qdxsphfvp3lxmip.3113894.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_same_input_dagger_control/2026-09-09_23-34-18_smoke_same_input_dagger/events.out.tfevents.1788968067.qdxsphfvp3lxmip.1731014.0",
+      "bytes": 14677,
+      "sha256": "8592d11847ae9901fb11112ef8e641a8d2ec5a9c826b70e7cfcc3a9d4bd4c49b",
+      "compressed_bytes": 4410,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_same_input_dagger_control/2026-09-09_23-34-18_smoke_same_input_dagger/events.out.tfevents.1788968067.qdxsphfvp3lxmip.1731014.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_same_input_dagger_control/2026-09-10_00-11-47_same_input_dagger_teacher9000_env5120_iter10000_seed42/events.out.tfevents.1788970377.qdxsphfvp3lxmip.1740731.0",
+      "bytes": 154983426,
+      "sha256": "a80104b97a1939521ecabccecd0c6b8aff172a30fa40fd04699eb2b4b7e34dcc",
+      "compressed_bytes": 33590487,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_same_input_dagger_control/2026-09-10_00-11-47_same_input_dagger_teacher9000_env5120_iter10000_seed42/events.out.tfevents.1788970377.qdxsphfvp3lxmip.1740731.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_pure_visual_dagger/2026-09-03_12-48-37_smoke_pure_visual_dagger/events.out.tfevents.1788410925.qdxsphfvp3lxmip.412690.0",
+      "bytes": 88,
+      "sha256": "29ea966ba36935bd83939b882bcbce76e4943c10b399d9518176eb8b8e07d7e8",
+      "compressed_bytes": 98,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_pure_visual_dagger/2026-09-03_12-48-37_smoke_pure_visual_dagger/events.out.tfevents.1788410925.qdxsphfvp3lxmip.412690.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_pure_visual_dagger/2026-09-03_12-49-17_smoke_pure_visual_dagger_v2/events.out.tfevents.1788410965.qdxsphfvp3lxmip.413207.0",
+      "bytes": 12441,
+      "sha256": "d4a2a3980faba8a254b28490cb05c9b85709b9c737c06ac7442143a40c3b8d3e",
+      "compressed_bytes": 3733,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_pure_visual_dagger/2026-09-03_12-49-17_smoke_pure_visual_dagger_v2/events.out.tfevents.1788410965.qdxsphfvp3lxmip.413207.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_pure_visual_dagger/2026-09-03_12-51-29_smoke_pure_final_config/events.out.tfevents.1788411097.qdxsphfvp3lxmip.414479.0",
+      "bytes": 88,
+      "sha256": "38be8e4ac0ec827d16ded70fecd8dcb317066c4d0321ebb32eb8c61328596ba8",
+      "compressed_bytes": 98,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_pure_visual_dagger/2026-09-03_12-51-29_smoke_pure_final_config/events.out.tfevents.1788411097.qdxsphfvp3lxmip.414479.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_pure_visual_dagger/2026-09-03_13-22-37_smoke_adaptive_reset_config/events.out.tfevents.1788412965.qdxsphfvp3lxmip.419009.0",
+      "bytes": 88,
+      "sha256": "acf2e9f11f00128fb305a80f026a808884df28730b41e03b1d2c44f3adb628a6",
+      "compressed_bytes": 98,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_pure_visual_dagger/2026-09-03_13-22-37_smoke_adaptive_reset_config/events.out.tfevents.1788412965.qdxsphfvp3lxmip.419009.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_pure_visual_dagger/2026-09-03_13-30-36_pure_dagger_teacher9999_4096env_10000iter/events.out.tfevents.1788413588.qdxsphfvp3lxmip.420467.0",
+      "bytes": 56320479,
+      "sha256": "6ef1abe361b121c8528e41349accc54909d3d912c0304f92834edf65378cba89",
+      "compressed_bytes": 12106496,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_pure_visual_dagger/2026-09-03_13-30-36_pure_dagger_teacher9999_4096env_10000iter/events.out.tfevents.1788413588.qdxsphfvp3lxmip.420467.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_pure_visual_dagger/2026-09-03_22-57-04_pure_dagger_valid_reset_normalized_kl_teacher9999_4096env_10000iter/events.out.tfevents.1788447497.qdxsphfvp3lxmip.496527.0",
+      "bytes": 52172403,
+      "sha256": "baba268af2649d275aaaf63bfb88ccf26887ec527da0c900115280636e486e8e",
+      "compressed_bytes": 11244771,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_pure_visual_dagger/2026-09-03_22-57-04_pure_dagger_valid_reset_normalized_kl_teacher9999_4096env_10000iter/events.out.tfevents.1788447497.qdxsphfvp3lxmip.496527.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_pure_visual_dagger/2026-09-04_10-38-59_pure_dagger_bc500_mix25_teacher9999_4096env_10000iter/events.out.tfevents.1788489616.qdxsphfvp3lxmip.587483.0",
+      "bytes": 20786566,
+      "sha256": "6e75a24e2c4a343cf7654f8f80b2937c03d4a68fe178c7569abc08c27d52e57d",
+      "compressed_bytes": 4466913,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_pure_visual_dagger/2026-09-04_10-38-59_pure_dagger_bc500_mix25_teacher9999_4096env_10000iter/events.out.tfevents.1788489616.qdxsphfvp3lxmip.587483.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-05-45_smoke_teacher_only_bc/events.out.tfevents.1788627953.qdxsphfvp3lxmip.926038.0",
+      "bytes": 77438,
+      "sha256": "f95475461a77b0696488621a5a6bec1182fcc9fe61d13f7ee22c9067640cdafa",
+      "compressed_bytes": 19087,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-05-45_smoke_teacher_only_bc/events.out.tfevents.1788627953.qdxsphfvp3lxmip.926038.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-05-45_smoke_teacher_only_bc/teacher_bc/episodes.jsonl",
+      "bytes": 45509,
+      "sha256": "f1cdf4719e99a0bc1abec32d5a5a924e99496f48a47bb96186897c760ca89196",
+      "compressed_bytes": 3690,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-05-45_smoke_teacher_only_bc/teacher_bc/episodes.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-05-45_smoke_teacher_only_bc/teacher_bc/metrics.jsonl",
+      "bytes": 35900,
+      "sha256": "1790a8b6aab746a9846768b5fbe4d03317acde8045ebff1831a8f40e32d6202f",
+      "compressed_bytes": 7502,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-05-45_smoke_teacher_only_bc/teacher_bc/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-07-25_smoke_teacher_only_bc_resume/events.out.tfevents.1788628053.qdxsphfvp3lxmip.927193.0",
+      "bytes": 24105,
+      "sha256": "f25b4c768bcf2f8624f683c9317fd6feebcd9eae635852d3112ee0087bce2a9b",
+      "compressed_bytes": 6829,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-07-25_smoke_teacher_only_bc_resume/events.out.tfevents.1788628053.qdxsphfvp3lxmip.927193.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-07-25_smoke_teacher_only_bc_resume/teacher_bc/metrics.jsonl",
+      "bytes": 10738,
+      "sha256": "8b256aef92b663a970f3cd34124ed129e179cfe6b6e798787802926df9dd0e06",
+      "compressed_bytes": 2737,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-07-25_smoke_teacher_only_bc_resume/teacher_bc/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-10-23_teacher_only_bc_teacher9999_5120env_10000iter/events.out.tfevents.1788628285.qdxsphfvp3lxmip.928796.0",
+      "bytes": 292046366,
+      "sha256": "2d67f5855725c11036bafbc83f034989d7f90dca459f2048238357af2de3cf02",
+      "compressed_bytes": 66085828,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-10-23_teacher_only_bc_teacher9999_5120env_10000iter/events.out.tfevents.1788628285.qdxsphfvp3lxmip.928796.0.gz.part000",
+        "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-10-23_teacher_only_bc_teacher9999_5120env_10000iter/events.out.tfevents.1788628285.qdxsphfvp3lxmip.928796.0.gz.part001"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-10-23_teacher_only_bc_teacher9999_5120env_10000iter/teacher_bc/episodes.jsonl",
+      "bytes": 1241448122,
+      "sha256": "0471b8629360c93fc02150e173d89f8ed4b81a65a2610b4decfe4552646ab6ae",
+      "compressed_bytes": 112368785,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-10-23_teacher_only_bc_teacher9999_5120env_10000iter/teacher_bc/episodes.jsonl.gz.part000",
+        "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-10-23_teacher_only_bc_teacher9999_5120env_10000iter/teacher_bc/episodes.jsonl.gz.part001",
+        "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-10-23_teacher_only_bc_teacher9999_5120env_10000iter/teacher_bc/episodes.jsonl.gz.part002"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-10-23_teacher_only_bc_teacher9999_5120env_10000iter/teacher_bc/metrics.jsonl",
+      "bytes": 147396084,
+      "sha256": "e646920cb860524966a3956cd1e76d14af15207735d9dee9a18bc0db29366122",
+      "compressed_bytes": 28547093,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_teacher_only_visual_bc/2026-09-06_01-10-23_teacher_only_bc_teacher9999_5120env_10000iter/teacher_bc/metrics.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/rsl_rl/cr1_zdw0824_up_down_visual_dagger/2026-09-02_17-25-07_visual_dagger_teacher9999_4096env_10000iter/events.out.tfevents.1788341303.qdxsphfvp3lxmip.252822.0",
+      "bytes": 60812646,
+      "sha256": "fcd536941bcba33d215aa547910ee950a9bb7293f978ea197f8be71ea13919dd",
+      "compressed_bytes": 13805124,
+      "parts": [
+        "logs/rsl_rl/cr1_zdw0824_up_down_visual_dagger/2026-09-02_17-25-07_visual_dagger_teacher9999_4096env_10000iter/events.out.tfevents.1788341303.qdxsphfvp3lxmip.252822.0.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/teacher_only_bc_launch/2026-09-06_01-05-35_926033.log",
+      "bytes": 435346,
+      "sha256": "0ae0aaf3ac563c6f7b439e6ccb9b325d361d50907f8357f24cedf9ae3fc440c4",
+      "compressed_bytes": 16268,
+      "parts": [
+        "logs/teacher_only_bc_launch/2026-09-06_01-05-35_926033.log.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/teacher_only_bc_launch/2026-09-06_01-07-15_927188.log",
+      "bytes": 422192,
+      "sha256": "15b7229bbefc0a2b0b1ebe25cb91dc1df84329aa735ded1c380dee5770455753",
+      "compressed_bytes": 14958,
+      "parts": [
+        "logs/teacher_only_bc_launch/2026-09-06_01-07-15_927188.log.gz.part000"
+      ]
+    },
+    {
+      "path": "logs/teacher_only_bc_launch/2026-09-06_01-10-13_928791.log",
+      "bytes": 99349840,
+      "sha256": "c202c21eb340d272b534e1cbd36ab512a321c01f7befdd86828fdb53a0f73380",
+      "compressed_bytes": 5532045,
+      "parts": [
+        "logs/teacher_only_bc_launch/2026-09-06_01-10-13_928791.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-17/17-20-27/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-17/17-20-27/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-17/17-22-21/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-17/17-22-21/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-17/17-25-54/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-17/17-25-54/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-17/17-30-15/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-17/17-30-15/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-20/17-01-35/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-20/17-01-35/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-21/11-46-38/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-21/11-46-38/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-22/14-33-40/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-22/14-33-40/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-22/16-58-05/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-22/16-58-05/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-22/16-58-24/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-22/16-58-24/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-22/17-14-56/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-22/17-14-56/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-22/17-30-12/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-22/17-30-12/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-24/11-26-14/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-24/11-26-14/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-24/11-29-29/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-24/11-29-29/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-24/11-44-26/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-24/11-44-26/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-24/14-31-54/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-24/14-31-54/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-24/14-39-03/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-24/14-39-03/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-24/17-42-35/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-24/17-42-35/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-24/17-47-00/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-24/17-47-00/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-24/17-47-33/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-24/17-47-33/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-27/17-44-50/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-27/17-44-50/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-28/10-28-19/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-28/10-28-19/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-28/14-26-38/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-28/14-26-38/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-28/14-27-21/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-28/14-27-21/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-28/14-41-45/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-28/14-41-45/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-28/17-36-35/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-28/17-36-35/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-29/11-01-07/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-29/11-01-07/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-29/16-31-58/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-29/16-31-58/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-30/15-05-28/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-30/15-05-28/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-31/10-16-25/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-31/10-16-25/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-31/13-45-51/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-31/13-45-51/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-31/13-46-29/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-31/13-46-29/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-07-31/14-01-05/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-07-31/14-01-05/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-03/10-10-17/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-03/10-10-17/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-03/17-38-01/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-03/17-38-01/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-03/17-55-35/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-03/17-55-35/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-04/10-46-08/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-04/10-46-08/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-06/10-58-59/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-06/10-58-59/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-06/16-20-18/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-06/16-20-18/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-06/16-57-42/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-06/16-57-42/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-07/11-00-16/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-07/11-00-16/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-07/13-51-15/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-07/13-51-15/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-10/10-22-22/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-10/10-22-22/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-10/11-32-44/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-10/11-32-44/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-18/10-11-45/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-18/10-11-45/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-18/14-11-38/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-18/14-11-38/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-18/14-32-31/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-18/14-32-31/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-18/14-43-34/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-18/14-43-34/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-18/14-56-04/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-18/14-56-04/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-18/15-02-49/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-18/15-02-49/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-21/11-19-29/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-21/11-19-29/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-21/11-21-24/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-21/11-21-24/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-21/13-17-47/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-21/13-17-47/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-21/13-33-52/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-21/13-33-52/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-21/18-40-58/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-21/18-40-58/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-21/18-42-24/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-21/18-42-24/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-21/18-47-04/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-21/18-47-04/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-21/18-49-33/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-21/18-49-33/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-27/16-43-22/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-27/16-43-22/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-27/16-45-07/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-27/16-45-07/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-27/17-27-32/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-27/17-27-32/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-27/17-43-31/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-27/17-43-31/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-28/10-13-59/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-28/10-13-59/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-28/15-31-17/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-28/15-31-17/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-28/18-07-29/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-28/18-07-29/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-30/00-33-44/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-30/00-33-44/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-30/10-42-03/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-30/10-42-03/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-30/10-45-43/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-30/10-45-43/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-30/10-57-43/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-30/10-57-43/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-30/11-06-32/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-30/11-06-32/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-30/11-14-22/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-30/11-14-22/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-31/11-30-53/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-31/11-30-53/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-31/15-33-13/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-31/15-33-13/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-31/15-33-49/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-31/15-33-49/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-31/22-09-35/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-31/22-09-35/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-31/22-10-16/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-31/22-10-16/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-08-31/22-17-21/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-08-31/22-17-21/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-01/19-01-42/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-01/19-01-42/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-01/19-12-16/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-01/19-12-16/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-02/15-48-04/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-02/15-48-04/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-02/17-00-43/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-02/17-00-43/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-02/17-06-36/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-02/17-06-36/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-02/17-14-11/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-02/17-14-11/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-02/17-25-06/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-02/17-25-06/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-03/10-03-28/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-03/10-03-28/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-03/10-25-48/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-03/10-25-48/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-03/11-39-59/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-03/11-39-59/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-03/12-48-36/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-03/12-48-36/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-03/12-49-16/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-03/12-49-16/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-03/12-51-28/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-03/12-51-28/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-03/13-22-37/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-03/13-22-37/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-03/13-30-35/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-03/13-30-35/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-03/22-57-04/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-03/22-57-04/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-04/10-38-59/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-04/10-38-59/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-05/11-16-55/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-05/11-16-55/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-05/11-21-14/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-05/11-21-14/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-05/11-22-18/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-05/11-22-18/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-05/11-26-01/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-05/11-26-01/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-05/11-27-48/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-05/11-27-48/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-05/11-28-54/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-05/11-28-54/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-05/11-29-52/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-05/11-29-52/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-06/01-05-44/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-06/01-05-44/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-06/01-07-24/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-06/01-07-24/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-06/01-10-22/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-06/01-10-22/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-07/17-45-24/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-07/17-45-24/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-08/11-28-29/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-08/11-28-29/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-08/14-38-03/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-08/14-38-03/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-08/14-38-42/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-08/14-38-42/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-08/14-52-41/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-08/14-52-41/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-08/22-46-25/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-08/22-46-25/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-08/22-54-16/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-08/22-54-16/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-09/13-45-15/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-09/13-45-15/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-09/13-56-36/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-09/13-56-36/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-09/23-33-41/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-09/23-33-41/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-09/23-34-17/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-09/23-34-17/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-09/23-37-58/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-09/23-37-58/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-10/00-11-46/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-10/00-11-46/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-10/13-50-21/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-10/13-50-21/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-10/14-56-59/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-10/14-56-59/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-10/15-11-23/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-10/15-11-23/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-11/00-22-51/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-11/00-22-51/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-11/13-42-14/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-11/13-42-14/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-12/00-37-15/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-12/00-37-15/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-12/10-36-51/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-12/10-36-51/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-12/10-42-06/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-12/10-42-06/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-12/18-48-54/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-12/18-48-54/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-13/16-05-38/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-13/16-05-38/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-13/16-08-30/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-13/16-08-30/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-16/22-31-00/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-16/22-31-00/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-16/22-32-08/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-16/22-32-08/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-17/00-16-59/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-17/00-16-59/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-17/14-02-27/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-17/14-02-27/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-17/14-03-00/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-17/14-03-00/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-17/14-03-49/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-17/14-03-49/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-17/14-10-43/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-17/14-10-43/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-17/14-18-33/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-17/14-18-33/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-18/10-36-33/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-18/10-36-33/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-18/10-43-11/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-18/10-43-11/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-20/23-17-20/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-20/23-17-20/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-21/10-16-50/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-21/10-16-50/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-21/10-59-43/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-21/10-59-43/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-21/14-30-32/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-21/14-30-32/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-21/14-34-06/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-21/14-34-06/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-21/15-46-27/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-21/15-46-27/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-22/12-25-18/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-22/12-25-18/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-22/23-47-46/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-22/23-47-46/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-24/11-25-10/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-24/11-25-10/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-24/15-13-06/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-24/15-13-06/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-24/15-15-04/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-24/15-15-04/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-28/09-36-41/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-28/09-36-41/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-28/09-41-50/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-28/09-41-50/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-28/09-42-34/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-28/09-42-34/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-28/09-46-36/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-28/09-46-36/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-28/10-27-49/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-28/10-27-49/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-28/10-29-01/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-28/10-29-01/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-28/10-39-58/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-28/10-39-58/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-28/10-49-55/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-28/10-49-55/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-29/10-16-08/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-29/10-16-08/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-29/13-01-06/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-29/13-01-06/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-30/10-34-49/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-30/10-34-49/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-09-30/10-41-54/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-09-30/10-41-54/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-10-08/16-33-26/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-10-08/16-33-26/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-10-10/10-40-27/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-10-10/10-40-27/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-10-12/14-58-45/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-10-12/14-58-45/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-10-12/15-05-54/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-10-12/15-05-54/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-10-13/10-40-48/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-10-13/10-40-48/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-10-13/11-03-27/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-10-13/11-03-27/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-10-15/13-22-15/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-10-15/13-22-15/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-10-15/13-26-46/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-10-15/13-26-46/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-10-16/16-10-51/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-10-16/16-10-51/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-10-16/16-11-55/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-10-16/16-11-55/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-10-16/16-21-38/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-10-16/16-21-38/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-10-16/16-23-04/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-10-16/16-23-04/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/2026-10-16/16-28-04/hydra.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/2026-10-16/16-28-04/hydra.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/contact_sequence_audit_20260929_frame0/model_7000/events.jsonl",
+      "bytes": 33723,
+      "sha256": "f74dcc29da7464fcc8e0ae4df380d6137901d50c704a4d14f01c18acb5b39766",
+      "compressed_bytes": 5816,
+      "parts": [
+        "outputs/contact_sequence_audit_20260929_frame0/model_7000/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/contact_sequence_audit_20260929_random/model_7000/events.jsonl",
+      "bytes": 6731,
+      "sha256": "d0e01fc8b8be2eea08ab695c3cc5f412928c7f815cfe73ce5c36c4cf752effc9",
+      "compressed_bytes": 1737,
+      "parts": [
+        "outputs/contact_sequence_audit_20260929_random/model_7000/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/contact_sequence_audit_20260929_random_verified/model_7000/events.jsonl",
+      "bytes": 109114,
+      "sha256": "3b41e41c283161707bbad23703d5314e6de8d91d7c665a29813ad852517db30c",
+      "compressed_bytes": 14401,
+      "parts": [
+        "outputs/contact_sequence_audit_20260929_random_verified/model_7000/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/contact_stall_audit_20261008_frame686/model_7999/events.jsonl",
+      "bytes": 21343,
+      "sha256": "c123ec168b996bd215f22fbff6693f7801fcb162166921b7f9d788959ad72633",
+      "compressed_bytes": 4215,
+      "parts": [
+        "outputs/contact_stall_audit_20261008_frame686/model_7999/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/control_delay_20260909/fast_disabled.log",
+      "bytes": 204778,
+      "sha256": "70cb57935a433374aa8380ad7b4984c2d41abb66571e9117bbe7b83dd757d152",
+      "compressed_bytes": 10142,
+      "parts": [
+        "outputs/control_delay_20260909/fast_disabled.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/control_delay_20260909/fast_enabled.log",
+      "bytes": 205814,
+      "sha256": "73f8ffb2aedd8e6a7a8e365b30c1ee57e7bab1a808db88539b117707a04872f9",
+      "compressed_bytes": 10413,
+      "parts": [
+        "outputs/control_delay_20260909/fast_enabled.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/control_delay_20260909/two_point5ms_enabled.log",
+      "bytes": 269178,
+      "sha256": "b8875788a60d8bbcfb569344ebbd7e3e5c9eff1a1325696336be0736d7a21636",
+      "compressed_bytes": 15032,
+      "parts": [
+        "outputs/control_delay_20260909/two_point5ms_enabled.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/cr1_transformer_vision_ppo_play/model_0/events.jsonl",
+      "bytes": 7317,
+      "sha256": "f568e647c639269d015f45d51b1211e781e5bcef98b44b8020b67957c37c504f",
+      "compressed_bytes": 1855,
+      "parts": [
+        "outputs/cr1_transformer_vision_ppo_play/model_0/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/cr1_transformer_vision_ppo_play/model_1/events.jsonl",
+      "bytes": 3652,
+      "sha256": "9897b83ff42467015e67b92f5222736a1fd03e91cfcef629bd74e7ba304cb5bf",
+      "compressed_bytes": 1179,
+      "parts": [
+        "outputs/cr1_transformer_vision_ppo_play/model_1/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/cr1_transformer_vision_ppo_play/model_2500/events.jsonl",
+      "bytes": 5247,
+      "sha256": "c2f5c4ef57f6c57dc9d99a60a8e7cd872097908de68a3c7fb32077e09c1c268f",
+      "compressed_bytes": 1654,
+      "parts": [
+        "outputs/cr1_transformer_vision_ppo_play/model_2500/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/cr1_transformer_vision_ppo_play/model_5000/events.jsonl",
+      "bytes": 14791,
+      "sha256": "d23fcb45ca17c3b9ac8be35b5932c4fb498fd2a790f89ad2d792c549688d093d",
+      "compressed_bytes": 2904,
+      "parts": [
+        "outputs/cr1_transformer_vision_ppo_play/model_5000/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/cr1_transformer_vision_ppo_play/model_5500/events.jsonl",
+      "bytes": 50436,
+      "sha256": "bb574abed170aef63f07a0de0ccfb2fd02385d3d019c89b79359c4c3976adc2b",
+      "compressed_bytes": 8871,
+      "parts": [
+        "outputs/cr1_transformer_vision_ppo_play/model_5500/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/cr1_transformer_vision_ppo_play/model_7000/events.jsonl",
+      "bytes": 21452,
+      "sha256": "f27a379fb0469073f279150b64d172ba3a2bfe6db293e568b4bcf9185a508e13",
+      "compressed_bytes": 4776,
+      "parts": [
+        "outputs/cr1_transformer_vision_ppo_play/model_7000/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/cr1_transformer_vision_ppo_play/model_7999/events.jsonl",
+      "bytes": 8727,
+      "sha256": "ee573feaea46ead59e92d85524c8013b8ba1092d07d8e84cb524ca3d13071564",
+      "compressed_bytes": 2252,
+      "parts": [
+        "outputs/cr1_transformer_vision_ppo_play/model_7999/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/depth_ablation_20261015/full_6000.log",
+      "bytes": 18906,
+      "sha256": "e136b044148d2a016ea075197cd303b904c625600865bd1e1ff1bb26f3e19615",
+      "compressed_bytes": 3511,
+      "parts": [
+        "outputs/depth_ablation_20261015/full_6000.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/depth_ablation_20261015/full_9999.log",
+      "bytes": 18767,
+      "sha256": "61507362faae3da13c614092cb31709481a3dacfc95876eeedce32b3e178ebb9",
+      "compressed_bytes": 3498,
+      "parts": [
+        "outputs/depth_ablation_20261015/full_9999.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/depth_ablation_20261015/smoke.log",
+      "bytes": 18401,
+      "sha256": "a65af648273fe81becc2e2c7873fa2dc07500a6f936e44c4883e75d4133930cf",
+      "compressed_bytes": 3423,
+      "parts": [
+        "outputs/depth_ablation_20261015/smoke.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/end_to_end_visual_env_check.log",
+      "bytes": 2717153,
+      "sha256": "c1e632a33e257c8af388ba7609b1db922c12e8fbbeae9c6880a049129baad7d3",
+      "compressed_bytes": 122298,
+      "parts": [
+        "outputs/end_to_end_visual_env_check.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/end_to_end_visual_env_check_final.log",
+      "bytes": 64697,
+      "sha256": "e53a060cd29540507ba776a9cd82615b2eb7b97d3f456942c7151c413571996b",
+      "compressed_bytes": 3183,
+      "parts": [
+        "outputs/end_to_end_visual_env_check_final.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/end_to_end_visual_ppo_play_smoke/model_1/events.jsonl",
+      "bytes": 10718,
+      "sha256": "4c41760394a5e5b5bbbcb8a78510361cf726a10abdfd9a01e426eb6fc6a28bb2",
+      "compressed_bytes": 2600,
+      "parts": [
+        "outputs/end_to_end_visual_ppo_play_smoke/model_1/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/end_to_end_visual_ppo_play_smoke.log",
+      "bytes": 216170,
+      "sha256": "74f80f64db149b86b5ad11fbd98ca0465c5c187f32d0d50106fe070ee6ec0520",
+      "compressed_bytes": 12130,
+      "parts": [
+        "outputs/end_to_end_visual_ppo_play_smoke.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/end_to_end_visual_ppo_smoke.log",
+      "bytes": 999673,
+      "sha256": "10cc08d8290f8f35df5f258d3bc7af78419caf80a5ce67ba5518e0eae89c755e",
+      "compressed_bytes": 25444,
+      "parts": [
+        "outputs/end_to_end_visual_ppo_smoke.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/foot_safety_9999_play/model_9999/events.jsonl",
+      "bytes": 56009,
+      "sha256": "28d0a114eb92691efd9a736593d13288ad61610be6e22bda00a3e76a4406f447",
+      "compressed_bytes": 10364,
+      "parts": [
+        "outputs/foot_safety_9999_play/model_9999/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/phase_handoff_fix_20261016/smoke_reference2x.log",
+      "bytes": 17607,
+      "sha256": "93118a4bd0efefc18d1a2fe73f21aaf9fb509fe71c758b5419541222e2866051",
+      "compressed_bytes": 3386,
+      "parts": [
+        "outputs/phase_handoff_fix_20261016/smoke_reference2x.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/phase_handoff_fix_20261016/tests_after.log",
+      "bytes": 2556,
+      "sha256": "fc2e46cbf701925428b39b68921b970ff8636760629f134917bbc1113589b159",
+      "compressed_bytes": 945,
+      "parts": [
+        "outputs/phase_handoff_fix_20261016/tests_after.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/phase_handoff_fix_20261016/tests_before.log",
+      "bytes": 10739,
+      "sha256": "3e378be58da11d950f9ca59869b5007c19ce627f81b23509a4ea95a51f950468",
+      "compressed_bytes": 3130,
+      "parts": [
+        "outputs/phase_handoff_fix_20261016/tests_before.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/phase_handoff_fix_20261016/tests_final.log",
+      "bytes": 2557,
+      "sha256": "31e4f29d1dc0e0ed9a94ecc7407447c15c76187b3c096aaadc78af5051b8eda0",
+      "compressed_bytes": 946,
+      "parts": [
+        "outputs/phase_handoff_fix_20261016/tests_final.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/phased_bodygoal_amp_7999_play/model_7999/events.jsonl",
+      "bytes": 8256,
+      "sha256": "934ccb1ba3139e225bc93c8c09351dc11664386c65453c20d809f71f90c9e4ff",
+      "compressed_bytes": 2369,
+      "parts": [
+        "outputs/phased_bodygoal_amp_7999_play/model_7999/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/play_pause_decay_20261014/model_6500/events.jsonl",
+      "bytes": 9496,
+      "sha256": "7669bae4b61320296ec9d264651c5ad3f2a9c73db65e696056009e966d5a8fb0",
+      "compressed_bytes": 2986,
+      "parts": [
+        "outputs/play_pause_decay_20261014/model_6500/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/play_pause_decay_20261015/model_9999/events.jsonl",
+      "bytes": 9426,
+      "sha256": "c641adcb8add7d6a4bcf735e9900ff051dd8b7e4ae9d12fb542fbd877df07804",
+      "compressed_bytes": 2886,
+      "parts": [
+        "outputs/play_pause_decay_20261015/model_9999/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/play_reference_compare_20261016/reference1x/model_8000/events.jsonl",
+      "bytes": 9422,
+      "sha256": "9f3040eae30ef189c47f79ba3c7bf7a8ec27e5381bc57b7d30dac35bbd250d65",
+      "compressed_bytes": 2914,
+      "parts": [
+        "outputs/play_reference_compare_20261016/reference1x/model_8000/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/play_reference_compare_20261016/reference1x/model_9999/events.jsonl",
+      "bytes": 17100,
+      "sha256": "ccba84cf04e368cc37462caadbe76432a6056949d26c213f6c8b684606c9bec3",
+      "compressed_bytes": 4216,
+      "parts": [
+        "outputs/play_reference_compare_20261016/reference1x/model_9999/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/play_reference_compare_20261016/reference2x/model_10000/events.jsonl",
+      "bytes": 9419,
+      "sha256": "9410ed7eab5887db81fcbf3057a0ec07e228f7b8d78a09c9939e331fd421fa94",
+      "compressed_bytes": 2909,
+      "parts": [
+        "outputs/play_reference_compare_20261016/reference2x/model_10000/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/play_reference_compare_20261016/reference2x/model_8000/events.jsonl",
+      "bytes": 4203,
+      "sha256": "0c8e0e7d36c5369e773d71f6123cd59e5d5b583d7e309c96a62338a624e2adff",
+      "compressed_bytes": 1559,
+      "parts": [
+        "outputs/play_reference_compare_20261016/reference2x/model_8000/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/recurrent_dagger_eval/2026-09-12_model4500/frame0_student_mean.log",
+      "bytes": 614346,
+      "sha256": "1eef5f0d23d6dac286d4e103551f2ba6abee96e997f5ba4cfde893962015de9b",
+      "compressed_bytes": 18095,
+      "parts": [
+        "outputs/recurrent_dagger_eval/2026-09-12_model4500/frame0_student_mean.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/recurrent_dagger_eval/2026-09-12_model4500/frame0_teacher.log",
+      "bytes": 614982,
+      "sha256": "9b73ba678fecbf860e351aa9489cf5155e58601118bb33ec6549ab20ab624552",
+      "compressed_bytes": 18194,
+      "parts": [
+        "outputs/recurrent_dagger_eval/2026-09-12_model4500/frame0_teacher.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/recurrent_dagger_eval/2026-09-12_model4500/frame1550_student_mean.log",
+      "bytes": 614802,
+      "sha256": "3dd756173974695aeca663130280749aa999c0a60ed579a26fa58a395ed4c1df",
+      "compressed_bytes": 18111,
+      "parts": [
+        "outputs/recurrent_dagger_eval/2026-09-12_model4500/frame1550_student_mean.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/recurrent_dagger_eval/2026-09-12_model4500/frame1550_teacher.log",
+      "bytes": 614968,
+      "sha256": "21d6138f347cbe3e16b2692e13e08d8012de86178061759e86047fa120a513bb",
+      "compressed_bytes": 18209,
+      "parts": [
+        "outputs/recurrent_dagger_eval/2026-09-12_model4500/frame1550_teacher.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/recurrent_dagger_eval/2026-09-12_model4500/smoke.log",
+      "bytes": 462635,
+      "sha256": "eeb9ffc5284da5d27b161dbf89cabb1a7d0e1f687d9d8805b3becbb0fb45af69",
+      "compressed_bytes": 16011,
+      "parts": [
+        "outputs/recurrent_dagger_eval/2026-09-12_model4500/smoke.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/reference2x_resume_20261015/smoke.log",
+      "bytes": 413577,
+      "sha256": "5b881916355d68810ba1200f6583bbe9b80966c8b610451f68d153d1e66801b2",
+      "compressed_bytes": 13894,
+      "parts": [
+        "outputs/reference2x_resume_20261015/smoke.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/reference_pause_decay_20261013/fixed373/model_5500/events.jsonl",
+      "bytes": 52677,
+      "sha256": "103a05535267c0d9befd680f428833416083338dc32fe08924f47920bd23a77c",
+      "compressed_bytes": 8934,
+      "parts": [
+        "outputs/reference_pause_decay_20261013/fixed373/model_5500/events.jsonl.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/reg2x_energy_resume_20261016/validation.log",
+      "bytes": 5116,
+      "sha256": "281b5674eadf6fa7f06fff636ba7de81a3f27c58312ecab34457eb725375b631",
+      "compressed_bytes": 1934,
+      "parts": [
+        "outputs/reg2x_energy_resume_20261016/validation.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/reg2x_energy_resume_20261016/validation_final.log",
+      "bytes": 233386,
+      "sha256": "dd78c72c96eb82468a7759f486f62a7146989549a545dc7e9d9460b4cc70e565",
+      "compressed_bytes": 9295,
+      "parts": [
+        "outputs/reg2x_energy_resume_20261016/validation_final.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/reg2x_energy_resume_20261016/validation_pass.log",
+      "bytes": 256882,
+      "sha256": "77eb6a18b6baba33b3fc3e5dda47d7efb7b2bce6c8ac32bca582641892f465b9",
+      "compressed_bytes": 12431,
+      "parts": [
+        "outputs/reg2x_energy_resume_20261016/validation_pass.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/reg_ramp_resume_20261016/validation.log",
+      "bytes": 6216,
+      "sha256": "03b9123e79972dba204ffc94237392fa808199045e1ab40ce3e36bd283e0358d",
+      "compressed_bytes": 2371,
+      "parts": [
+        "outputs/reg_ramp_resume_20261016/validation.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/reg_ramp_resume_20261016/validation_final.log",
+      "bytes": 258218,
+      "sha256": "21ef73948e0c4121f1fd00b18e3f3756a11c360d52d0815f178feb25ce1093b9",
+      "compressed_bytes": 12749,
+      "parts": [
+        "outputs/reg_ramp_resume_20261016/validation_final.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/reg_ramp_resume_20261016/validation_pass.log",
+      "bytes": 257120,
+      "sha256": "a018eeb044880b87a1ee63e574ff5ba16ed02be24ee16aa8e3478728069a876f",
+      "compressed_bytes": 12321,
+      "parts": [
+        "outputs/reg_ramp_resume_20261016/validation_pass.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/teacher_student_shadow/2026-09-07_frame0_check/clean_student/console.log",
+      "bytes": 419051,
+      "sha256": "7dd0baa49bbed7a827e60d0326c1aa55cb9fe9e9341c17807404383a59f1f964",
+      "compressed_bytes": 13372,
+      "parts": [
+        "outputs/teacher_student_shadow/2026-09-07_frame0_check/clean_student/console.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/teacher_student_shadow/2026-09-07_frame0_check/clean_teacher/console.log",
+      "bytes": 420717,
+      "sha256": "1a89a38e7bed14e0b82da96ae3a8cb4ce08244fe83b0b9f3afdae913b29af163",
+      "compressed_bytes": 13682,
+      "parts": [
+        "outputs/teacher_student_shadow/2026-09-07_frame0_check/clean_teacher/console.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/teacher_student_shadow/2026-09-07_frame0_check/normal_student/console.log",
+      "bytes": 419766,
+      "sha256": "67b25d456966f5db86ecbb7ee1da56224360d0d39e5f9b46f68be11adeeb1997",
+      "compressed_bytes": 13515,
+      "parts": [
+        "outputs/teacher_student_shadow/2026-09-07_frame0_check/normal_student/console.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/teacher_student_shadow/2026-09-07_frame0_check/normal_teacher/console.log",
+      "bytes": 421452,
+      "sha256": "6236b25262afb28db0c5c9a1202a79bcd72164cf99b2f819fcbdd90c14bab2f2",
+      "compressed_bytes": 13678,
+      "parts": [
+        "outputs/teacher_student_shadow/2026-09-07_frame0_check/normal_teacher/console.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/toe_up_audit_20261016/analysis.log",
+      "bytes": 13378,
+      "sha256": "6fd963634f57cc60c293aacca941bc5fb57f7ba5b88c26e0b614b47c3c289d15",
+      "compressed_bytes": 3398,
+      "parts": [
+        "outputs/toe_up_audit_20261016/analysis.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/toe_up_audit_20261016/reference1x.log",
+      "bytes": 17329,
+      "sha256": "fc39945403abf7247b6ed7c4f2bee49fc151710ff89816a790cc082dd28e92dd",
+      "compressed_bytes": 3217,
+      "parts": [
+        "outputs/toe_up_audit_20261016/reference1x.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/toe_up_audit_20261016/reference2x.log",
+      "bytes": 17342,
+      "sha256": "c90cb3b9c7f838d67706675bedc1cccf9473f656ff5e9c6e3133315d7f2a6ef8",
+      "compressed_bytes": 3220,
+      "parts": [
+        "outputs/toe_up_audit_20261016/reference2x.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/training_launches/2026-09-12_ln_mse_env5120_iter2000.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compressed_bytes": 20,
+      "parts": [
+        "outputs/training_launches/2026-09-12_ln_mse_env5120_iter2000.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/training_launches/2026-09-12_ln_mse_env5120_iter2000_session.log",
+      "bytes": 67741932,
+      "sha256": "f6a9ea9e68b980932f89947a2a43d6c0da165f5873934876e2a3b4430ba6f874",
+      "compressed_bytes": 3617049,
+      "parts": [
+        "outputs/training_launches/2026-09-12_ln_mse_env5120_iter2000_session.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/training_launches/2026-09-12_ln_mse_resume1999_env5120_add8000_session.log",
+      "bytes": 172434823,
+      "sha256": "d02142c9494f1eea54ee071ba18a7e4e9d9805eb03396de9c077792495b03e57",
+      "compressed_bytes": 13189236,
+      "parts": [
+        "outputs/training_launches/2026-09-12_ln_mse_resume1999_env5120_add8000_session.log.gz.part000"
+      ]
+    },
+    {
+      "path": "outputs/training_launches/2026-09-13_end_to_end_visual_reconstruction_env5120_iter10000.log",
+      "bytes": 156237103,
+      "sha256": "69e3e511b56d0cdb0e4c5870c2081fab4a61cadd74882f3d3eb25d76efee63a9",
+      "compressed_bytes": 10230279,
+      "parts": [
+        "outputs/training_launches/2026-09-13_end_to_end_visual_reconstruction_env5120_iter10000.log.gz.part000"
+      ]
+    }
+  ]
+}
